@@ -1,0 +1,658 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preset xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>02/23/2023 02:49:02</Date>
+	<AppInfo>
+		<Version>2023.2.9145</Version>
+		<Licensed>Yes</Licensed>
+		<Protections>Yes</Protections>
+		<Host>Windows 10 Pro (21H2) x64 - 10.0.19044.2604 (en-US)</Host>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 8.1 Pro (U3) x64 - 6.3.9600.20778 (en-US)</Version>
+		<GUID>{2C8F288F-64D7-4E38-B93F-62B51A7A10DA}</GUID>
+	</ImageInfo>
+	<RemoveComponents AppRemovalMode="DISM">
+		<c>accessibility 'Accessibility tools (Ease of Access)'</c>
+		<c>accessibility_cursors 'Mouse Pointers (Accessibility tools)'</c>
+		<c>accessibility_magnifier 'Screen Magnifier'</c>
+		<c>accessibility_narrator 'Narrator'</c>
+		<c>actioncenter 'Action Center'</c>
+		<c>anytimeupgrade 'Windows Anytime Upgrade'</c>
+		<c>asimov 'Telemetry Client'</c>
+		<c>assembly.net '.NET assembly cache'</c>
+		<c>audit 'Windows Audit'</c>
+		<c>autoplay</c>
+		<c>autoworkplacejoin 'Workplace Join'</c>
+		<c>azman32 'Authorization Manager - 32 bit'</c>
+		<c>biometric 'Biometric - Support'</c>
+		<c>branchcacheclient 'BranchCache Client'</c>
+		<c>briefcase</c>
+		<c>ceip 'CEIP (SQM)'</c>
+		<c>certmgr32 'Certificate Manager - 32 bit'</c>
+		<c>charmap 'Character Map'</c>
+		<c>CheckPoint.VPN 'Check Point VPN'</c>
+		<c>cloudnotifications 'Cloud Notifications'</c>
+		<c>commmc32 'COM+ (Component Services) (management console) - 32 bit'</c>
+		<c>compmgmt32 'Computer Management - 32 bit'</c>
+		<c>desktopactivitymoderator 'Desktop Activity Moderator (DAM)'</c>
+		<c>deviceexperience 'Device Experience'</c>
+		<c>devicesync 'Microsoft Sync Framework'</c>
+		<c>devmgmt32 'Device Manager - 32 bit'</c>
+		<c>directaccess 'Direct Access Connection'</c>
+		<c>diskdiagnosis 'Disk failure diagnostics'</c>
+		<c>diskmgmt32 'Disk Management - 32 bit'</c>
+		<c>diskquota 'Disk Quota'</c>
+		<c>diskquota32 'Disk Quota - 32 bit'</c>
+		<c>diskraid 'DiskRAID tool'</c>
+		<c>domainclientssvc 'IPsec Policy Agent'</c>
+		<c>driver_61883.inf</c>
+		<c>driver_agp.inf</c>
+		<c>driver_c_biometric.inf</c>
+		<c>driver_c_dot4.inf</c>
+		<c>driver_c_dot4print.inf</c>
+		<c>driver_c_fdc.inf</c>
+		<c>driver_c_floppydisk.inf</c>
+		<c>driver_c_infrared.inf</c>
+		<c>driver_c_mcx.inf</c>
+		<c>driver_c_mediumchanger.inf</c>
+		<c>driver_c_multifunction.inf</c>
+		<c>driver_c_multiportserial.inf</c>
+		<c>driver_c_sensor.inf</c>
+		<c>driver_c_sslaccel.inf</c>
+		<c>driver_digitalmediadevice.inf</c>
+		<c>driver_ehstorpwddrv.inf</c>
+		<c>driver_ehstortcgdrv.inf</c>
+		<c>driver_fdc.inf</c>
+		<c>driver_flpydisk.inf</c>
+		<c>driver_hidir.inf</c>
+		<c>driver_hidirkbd.inf</c>
+		<c>driver_hidscanner.inf</c>
+		<c>driver_idtsec.inf</c>
+		<c>driver_mchgr.inf</c>
+		<c>driver_mdm3com.inf</c>
+		<c>driver_mdm5674a.inf</c>
+		<c>driver_mdmadc.inf</c>
+		<c>driver_mdmagm64.inf</c>
+		<c>driver_mdmags64.inf</c>
+		<c>driver_mdmairte.inf</c>
+		<c>driver_mdmaiwa.inf</c>
+		<c>driver_mdmaiwa3.inf</c>
+		<c>driver_mdmaiwa4.inf</c>
+		<c>driver_mdmaiwa5.inf</c>
+		<c>driver_mdmaiwat.inf</c>
+		<c>driver_mdmar1.inf</c>
+		<c>driver_mdmarch.inf</c>
+		<c>driver_mdmarn.inf</c>
+		<c>driver_mdmati.inf</c>
+		<c>driver_mdmatm2k.inf</c>
+		<c>driver_mdmaus.inf</c>
+		<c>driver_mdmboca.inf</c>
+		<c>driver_mdmbsb.inf</c>
+		<c>driver_mdmbug3.inf</c>
+		<c>driver_mdmbw561.inf</c>
+		<c>driver_mdmc26a.inf</c>
+		<c>driver_mdmcdp.inf</c>
+		<c>driver_mdmcm28.inf</c>
+		<c>driver_mdmcodex.inf</c>
+		<c>driver_mdmcom1.inf</c>
+		<c>driver_mdmcommu.inf</c>
+		<c>driver_mdmcomp.inf</c>
+		<c>driver_mdmcpq.inf</c>
+		<c>driver_mdmcpq2.inf</c>
+		<c>driver_mdmcpv.inf</c>
+		<c>driver_mdmcrtix.inf</c>
+		<c>driver_mdmcxhv6.inf</c>
+		<c>driver_mdmcxpv6.inf</c>
+		<c>driver_mdmdcm5.inf</c>
+		<c>driver_mdmdcm6.inf</c>
+		<c>driver_mdmdf56f.inf</c>
+		<c>driver_mdmdgitn.inf</c>
+		<c>driver_mdmdp2.inf</c>
+		<c>driver_mdmdsi.inf</c>
+		<c>driver_mdmdyna.inf</c>
+		<c>driver_mdmeiger.inf</c>
+		<c>driver_mdmelsa.inf</c>
+		<c>driver_mdmeric.inf</c>
+		<c>driver_mdmeric2.inf</c>
+		<c>driver_mdmetech.inf</c>
+		<c>driver_mdmfj2.inf</c>
+		<c>driver_mdmgatew.inf</c>
+		<c>driver_mdmgcs.inf</c>
+		<c>driver_mdmgen.inf</c>
+		<c>driver_mdmgl001.inf</c>
+		<c>driver_mdmgl002.inf</c>
+		<c>driver_mdmgl003.inf</c>
+		<c>driver_mdmgl004.inf</c>
+		<c>driver_mdmgl005.inf</c>
+		<c>driver_mdmgl006.inf</c>
+		<c>driver_mdmgl007.inf</c>
+		<c>driver_mdmgl008.inf</c>
+		<c>driver_mdmgl009.inf</c>
+		<c>driver_mdmgl010.inf</c>
+		<c>driver_mdmgsm.inf</c>
+		<c>driver_mdmhaeu.inf</c>
+		<c>driver_mdmhandy.inf</c>
+		<c>driver_mdmhay2.inf</c>
+		<c>driver_mdmhayes.inf</c>
+		<c>driver_mdminfot.inf</c>
+		<c>driver_mdmiodat.inf</c>
+		<c>driver_mdmirmdm.inf</c>
+		<c>driver_mdmisdn.inf</c>
+		<c>driver_mdmjf56e.inf</c>
+		<c>driver_mdmke.inf</c>
+		<c>driver_mdmkortx.inf</c>
+		<c>driver_mdmlasat.inf</c>
+		<c>driver_mdmlasno.inf</c>
+		<c>driver_mdmlucnt.inf</c>
+		<c>driver_mdmmc288.inf</c>
+		<c>driver_mdmmcd.inf</c>
+		<c>driver_mdmmcom.inf</c>
+		<c>driver_mdmmct.inf</c>
+		<c>driver_mdmmega.inf</c>
+		<c>driver_mdmmetri.inf</c>
+		<c>driver_mdmmhrtz.inf</c>
+		<c>driver_mdmmhzel.inf</c>
+		<c>driver_mdmminij.inf</c>
+		<c>driver_mdmmod.inf</c>
+		<c>driver_mdmmot64.inf</c>
+		<c>driver_mdmmoto1.inf</c>
+		<c>driver_mdmmotou.inf</c>
+		<c>driver_mdmmts.inf</c>
+		<c>driver_mdmneuhs.inf</c>
+		<c>driver_mdmnis1u.inf</c>
+		<c>driver_mdmnis2u.inf</c>
+		<c>driver_mdmnis3t.inf</c>
+		<c>driver_mdmnis5t.inf</c>
+		<c>driver_mdmnokia.inf</c>
+		<c>driver_mdmnova.inf</c>
+		<c>driver_mdmntt1.inf</c>
+		<c>driver_mdmnttd2.inf</c>
+		<c>driver_mdmnttd6.inf</c>
+		<c>driver_mdmnttme.inf</c>
+		<c>driver_mdmnttp.inf</c>
+		<c>driver_mdmnttp2.inf</c>
+		<c>driver_mdmnttte.inf</c>
+		<c>driver_mdmolic.inf</c>
+		<c>driver_mdmomrn3.inf</c>
+		<c>driver_mdmoptn.inf</c>
+		<c>driver_mdmosi.inf</c>
+		<c>driver_mdmpace.inf</c>
+		<c>driver_mdmpenr.inf</c>
+		<c>driver_mdmpin.inf</c>
+		<c>driver_mdmpn1.inf</c>
+		<c>driver_mdmpp.inf</c>
+		<c>driver_mdmpsion.inf</c>
+		<c>driver_mdmracal.inf</c>
+		<c>driver_mdmrock.inf</c>
+		<c>driver_mdmrock3.inf</c>
+		<c>driver_mdmrock4.inf</c>
+		<c>driver_mdmrock5.inf</c>
+		<c>driver_mdmsier.inf</c>
+		<c>driver_mdmsii64.inf</c>
+		<c>driver_mdmsmart.inf</c>
+		<c>driver_mdmsonyu.inf</c>
+		<c>driver_mdmsun1.inf</c>
+		<c>driver_mdmsun2.inf</c>
+		<c>driver_mdmsupr3.inf</c>
+		<c>driver_mdmsupra.inf</c>
+		<c>driver_mdmsuprv.inf</c>
+		<c>driver_mdmtdk.inf</c>
+		<c>driver_mdmtdkj2.inf</c>
+		<c>driver_mdmtdkj3.inf</c>
+		<c>driver_mdmtdkj4.inf</c>
+		<c>driver_mdmtdkj5.inf</c>
+		<c>driver_mdmtdkj6.inf</c>
+		<c>driver_mdmtdkj7.inf</c>
+		<c>driver_mdmtexas.inf</c>
+		<c>driver_mdmti.inf</c>
+		<c>driver_mdmtkr.inf</c>
+		<c>driver_mdmtron.inf</c>
+		<c>driver_mdmusrf.inf</c>
+		<c>driver_mdmusrg.inf</c>
+		<c>driver_mdmusrgl.inf</c>
+		<c>driver_mdmusrk1.inf</c>
+		<c>driver_mdmusrsp.inf</c>
+		<c>driver_mdmvdot.inf</c>
+		<c>driver_mdmvv.inf</c>
+		<c>driver_mdmwhql0.inf</c>
+		<c>driver_mdmx5560.inf</c>
+		<c>driver_mdmzoom.inf</c>
+		<c>driver_mdmzyp.inf</c>
+		<c>driver_mdmzyxel.inf</c>
+		<c>driver_mdmzyxlg.inf</c>
+		<c>driver_mf.inf</c>
+		<c>driver_mgtdyn.inf</c>
+		<c>driver_miradisp.inf</c>
+		<c>driver_modemcsa.inf</c>
+		<c>driver_msclmd.inf</c>
+		<c>driver_rawsilo.inf</c>
+		<c>driver_scrawpdo.inf</c>
+		<c>driver_scunknown.inf</c>
+		<c>driver_sensorsalsdriver.inf</c>
+		<c>driver_sensorshidclassdriver.inf</c>
+		<c>driver_sensorsservicedriver.inf</c>
+		<c>driver_tpmvsc.inf</c>
+		<c>driver_usbcir.inf</c>
+		<c>driver_wnetvsc.inf</c>
+		<c>driver_wudfusbcciddriver.inf</c>
+		<c>dvdplay 'DVD Play'</c>
+		<c>easeofaccessthemes 'Ease Of Access Themes'</c>
+		<c>eefcontainer 'Windows Embedded Features'</c>
+		<c>enhancedstorage 'Enhanced Storage'</c>
+		<c>enterpriseclientsync 'Work Folders Client'</c>
+		<c>eosnotify 'End of Service notifier (EOSNotify)'</c>
+		<c>errorreporting 'Windows Error Reporting'</c>
+		<c>eudcedit 'Private Character Editor'</c>
+		<c>eventviewer32 'Event Viewer - 32 bit'</c>
+		<c>f5.vpn.client 'F5 VPN'</c>
+		<c>fciclient 'File Server Resource Manager'</c>
+		<c>filehistory 'File History'</c>
+		<c>filerevocationmanager 'File Revocation Manager - 32 bit'</c>
+		<c>folderredirection 'Folder Redirection'</c>
+		<c>font_malgungothic 'Malgun Gothic'</c>
+		<c>font_malgungothicbold 'Malgun Gothic Bold'</c>
+		<c>font_microsoftjhengheibold 'Microsoft JhengHei Bold &amp; Microsoft JhengHei UI Bold'</c>
+		<c>font_microsoftjhengheilight 'Microsoft JhengHei Light &amp; Microsoft JhengHei UI Light'</c>
+		<c>font_microsoftyaheibold 'Microsoft YaHei Bold &amp; Microsoft YaHei UI Bold'</c>
+		<c>font_mingliub 'MingLiU-ExtB &amp; PMingLiU-ExtB &amp; MingLiU_HKSCS-ExtB'</c>
+		<c>font_simsun 'SimSun &amp; NSimSun'</c>
+		<c>font_simsunb 'SimSun-ExtB'</c>
+		<c>font_yugothic 'YuGothic'</c>
+		<c>fontpreviewer32 'Font previewer - 32 bit'</c>
+		<c>fsmgmt32 'Shared Folders UI - 32 bit'</c>
+		<c>gameexplorer 'Game Explorer'</c>
+		<c>gettingstarted 'Tips (Get Started)'</c>
+		<c>hbaapi 'Host Bus Adapter (HBA) API'</c>
+		<c>help 'Windows Help content'</c>
+		<c>helpsupport 'Help file support (CHM)'</c>
+		<c>hwsupport_agp 'AGP'</c>
+		<c>hwsupport_floppy 'Floppy disk'</c>
+		<c>hwsupport_infrared 'Infrared devices'</c>
+		<c>hwsupport_internetprintingclient 'Internet Printing Client'</c>
+		<c>hwsupport_modem 'Modem'</c>
+		<c>hwsupport_modemsettings 'Shared modem settings (mdmgl*.inf)'</c>
+		<c>hwsupport_smartcard 'Smartcard'</c>
+		<c>hwsupport_telephony 'Telephony'</c>
+		<c>hwsupport_tv 'TV Tuner codecs and support'</c>
+		<c>hyperv 'Hyper-V'</c>
+		<c>hypervguest 'Hyper-V Integration Services'</c>
+		<c>ias 'Internet Authentication Service (IAS)'</c>
+		<c>iis 'Internet Information Server (IIS)'</c>
+		<c>indeo 'Intel Indeo Codecs'</c>
+		<c>iscsi 'iSCSI Initiator'</c>
+		<c>isoburn 'Windows Disc Image Burning Tool'</c>
+		<c>JuniperNetworks.JunosPulseVpn 'Juniper Networks Junos Pulse'</c>
+		<c>kerberos32 'Kerberos Client - 32 bit'</c>
+		<c>kerneldebug 'Kernel Debugging'</c>
+		<c>keyboardfiltershim 'Keyboard Filter AppShim'</c>
+		<c>langchineses 'Chinese Simplified'</c>
+		<c>langchineset 'Chinese Traditional'</c>
+		<c>langczech 'Czech'</c>
+		<c>langimejp 'Japanese (IME)'</c>
+		<c>langimeko 'Korean (IME)'</c>
+		<c>langimetc 'Chinese Traditional (IME)'</c>
+		<c>location 'Location Service'</c>
+		<c>lockdownmanager 'Embedded Lockdown Manager'</c>
+		<c>lockscreens 'Lock Screen backgrounds'</c>
+		<c>lusrmgr32 'Local Users and Groups Manager - 32 bit'</c>
+		<c>mail 'Windows Mail'</c>
+		<c>manifestbackup 'Manifest Backup (WinSxS\Backup)'</c>
+		<c>manualsetup 'Manual Setup'</c>
+		<c>mcupdate 'Processor Microcode Update'</c>
+		<c>mcupdatesvc 'Processor Microcode Update - Servicing'</c>
+		<c>mediastreaming 'Media Streaming'</c>
+		<c>memorydiagnostic 'Memory Diagnostic'</c>
+		<c>Microsoft.BingFinance 'MSN Money'</c>
+		<c>Microsoft.BingFoodAndDrink 'MSN Food &amp; Drink'</c>
+		<c>Microsoft.BingHealthAndFitness 'MSN Health &amp; Fitness'</c>
+		<c>Microsoft.BingMaps 'Maps'</c>
+		<c>Microsoft.BingNews 'MSN News'</c>
+		<c>Microsoft.BingSports 'MSN Sports'</c>
+		<c>Microsoft.BingTravel 'MSN Travel'</c>
+		<c>Microsoft.BingWeather 'MSN Weather'</c>
+		<c>Microsoft.HelpAndTips 'Windows Help+Tips'</c>
+		<c>Microsoft.Media.PlayReadyClient.2 'Microsoft PlayReady'</c>
+		<c>Microsoft.MoCamera 'Camera'</c>
+		<c>Microsoft.Office.OneNote 'OneNote'</c>
+		<c>Microsoft.Reader 'Reader'</c>
+		<c>Microsoft.SkypeApp 'Skype'</c>
+		<c>microsoft.windows.sechealthui 'Windows Defender'</c>
+		<c>Microsoft.WindowsAlarms 'Windows Alarms'</c>
+		<c>microsoft.windowscommunicationsapps 'Mail, Calendar, and People'</c>
+		<c>Microsoft.WindowsReadingList 'Windows Reading List'</c>
+		<c>Microsoft.WindowsScan 'Windows Scan'</c>
+		<c>Microsoft.WindowsSoundRecorder 'Windows Sound Recorder'</c>
+		<c>Microsoft.ZuneMusic 'Music'</c>
+		<c>Microsoft.ZuneVideo 'Video'</c>
+		<c>midi 'Microsoft GS Wavetable SW Synth (MIDI)'</c>
+		<c>migwiz 'Easy Transfer'</c>
+		<c>mobiledevicemanagement 'Mobile Device Management (MDM)'</c>
+		<c>mobilepc</c>
+		<c>mobilepc_location 'Location notifications'</c>
+		<c>mobilepc_networkprojection 'Network Projection'</c>
+		<c>mobilepc_sensors 'Sensors'</c>
+		<c>msmq 'Microsoft Message Queue (MSMQ)'</c>
+		<c>naturallanguage 'Natural Language'</c>
+		<c>naturallanguage32 'Natural Language - 32 bit'</c>
+		<c>ndiscap 'NDIS Packet Capturing (NDISCAP)'</c>
+		<c>ndisimplat 'Network Adapter Multiplexor Protocol'</c>
+		<c>ndu 'Network Data Usage Monitoring Driver'</c>
+		<c>netqos 'Quality of Service Packet Scheduler (QoS)'</c>
+		<c>nettopology 'Link-Layer Topology Discovery protocol (LLTD)'</c>
+		<c>networkaccessprotection 'Network Access Protection (NAP)'</c>
+		<c>offlinefiles 'Offline Files'</c>
+		<c>osk_acc 'On-Screen Keyboard (Accessibility tools)'</c>
+		<c>otherthemes 'Windows Personalization themes'</c>
+		<c>parentalcontrols 'Parental Controls'</c>
+		<c>pdfreader 'Windows Reader (PDF)'</c>
+		<c>peertopeer 'Peer Networking'</c>
+		<c>perfmon 'Performance Monitor'</c>
+		<c>perftools 'Performance CMD Tools for Tracing'</c>
+		<c>pickerhost32 'File Picker UI Host - 32 bit'</c>
+		<c>pla 'Performance Logs and Alerts'</c>
+		<c>pos 'Point of Service (POS)'</c>
+		<c>powershellise32 'PowerShell ISE - 32 bit'</c>
+		<c>printmgmt 'Print Management'</c>
+		<c>rasauto 'Remote Access Auto Connection Manager'</c>
+		<c>rascmd 'Remote Access Service Client Tools'</c>
+		<c>rdc 'Remote Differential Compression (RDC)'</c>
+		<c>rdpclient32 'Remote Desktop Client - 32 bit'</c>
+		<c>rdpserver 'Remote Desktop Server'</c>
+		<c>reliabilityanalysis 'Reliability Analysis Services'</c>
+		<c>remoteaccessservice 'Routing and Remote Access Service'</c>
+		<c>remoteactivex32 'Remote Desktop Services ActiveX Client - 32 bit'</c>
+		<c>remoteassistance 'Remote Assistance'</c>
+		<c>remotefx</c>
+		<c>remoteportredirector 'Remote Desktop Services Port Redirector'</c>
+		<c>remoteregistry 'Remote Registry'</c>
+		<c>rightsmanagement 'Rights Management support'</c>
+		<c>rotationmanager 'Auto-Rotation Manager'</c>
+		<c>rpclocator 'Remote Procedure Call (RPC) Locator'</c>
+		<c>screensavers</c>
+		<c>search 'Windows Search'</c>
+		<c>securestartup 'BitLocker Drive Encryption'</c>
+		<c>securitycenter 'Security Center'</c>
+		<c>servicesmmc32 'Services (management console) - 32 bit'</c>
+		<c>sharemediacpl 'Share Media Control Panel'</c>
+		<c>simpletcp 'Simple TCP/IP services'</c>
+		<c>smbv1 'SMB v1'</c>
+		<c>SonicWALL.MobileConnect 'SonicWALL Mobile Connect'</c>
+		<c>soundrec 'Sound Recorder'</c>
+		<c>sourcessxsdir 'Manual feature repository'</c>
+		<c>speechcommon 'Speech Recognition'</c>
+		<c>speechtts 'Speech TTS'</c>
+		<c>spellchecking 'Spell Checking'</c>
+		<c>sstackwow64 'Servicing Stack - 32 bit'</c>
+		<c>stepsrecorder 'Steps Recorder'</c>
+		<c>stickynotes 'Sticky Notes'</c>
+		<c>supportdir 'Support directory'</c>
+		<c>synccenter 'Sync Center'</c>
+		<c>systemreset 'System Reset for Windows'</c>
+		<c>systemrestore 'System Restore'</c>
+		<c>tabletextservice 'Table Text Service'</c>
+		<c>tabletpc 'Tablet PC'</c>
+		<c>taskmanager32 'Task Manager - 32 bit'</c>
+		<c>taskschdmsc32 'Task Scheduler (management console) - 32 bit'</c>
+		<c>telnetclient 'Telnet Client'</c>
+		<c>telnetserver 'Telnet Server'</c>
+		<c>tempcache 'Cache and temp files'</c>
+		<c>textprediction 'Text prediction'</c>
+		<c>tftpclient 'TFTP client'</c>
+		<c>tpmmmc32 'Trusted Platform Module (TPM) (management console) - 32 bit'</c>
+		<c>tzautoupdate 'Auto Time Zone Updater'</c>
+		<c>vwifi 'Virtual WiFi'</c>
+		<c>wallpapers 'Wallpapers (Themes)'</c>
+		<c>wcn 'Windows Connect Now (WCN)'</c>
+		<c>wfmmc32 'Windows Firewall (management console) - 32 bit'</c>
+		<c>windowstogo 'Windows To Go'</c>
+		<c>winocr 'Windows TIFF IFilter (OCR)'</c>
+		<c>winre 'Windows Recovery (WinRE)'</c>
+		<c>winrm 'Windows Remote Management (WS-Management)'</c>
+		<c>winsat 'Windows System Assessment Tool (WinSAT)'</c>
+		<c>wiredautoconfig 'Wired AutoConfig'</c>
+		<c>wordpad32 'Wordpad - 32 bit'</c>
+		<c>wpdbusenum 'Portable Device Enumerator Service'</c>
+		<c>wwanautoconfig 'WWAN AutoConfig'</c>
+		<c>zipfolder 'Zip &amp; Cab folder'</c>
+	</RemoveComponents>
+	<Compatibility protectHidden="true">
+		<ComponentFeatures>
+			<Feature enabled="no">YubiKey</Feature>
+			<Feature enabled="yes">Bluetooth</Feature>
+			<Feature enabled="yes">CapFrameX</Feature>
+			<Feature enabled="yes">Discord</Feature>
+			<Feature enabled="yes">FileSharing</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">ManualSetup</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">NetworkDiscovery</Feature>
+			<Feature enabled="no">NvidiaSetup</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="yes">Printing</Feature>
+			<Feature enabled="no">Recommended-All</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="no">Scanning</Feature>
+			<Feature enabled="no">ServicingStack</Feature>
+			<Feature enabled="no">ShellSearchSupport</Feature>
+			<Feature enabled="yes">SFC</Feature>
+			<Feature enabled="no">DefaultFonts</Feature>
+			<Feature enabled="no">SafeMode</Feature>
+			<Feature enabled="no">TeamViewer</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="no">USB</Feature>
+			<Feature enabled="no">VideoPlayback</Feature>
+			<Feature enabled="yes">VPN</Feature>
+			<Feature enabled="yes">VisualStudio</Feature>
+			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="yes">ActivationKMS</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="yes">WindowsStore</Feature>
+			<Feature enabled="no">WindowsUpdate</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="yes">Hyper-V VM</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="yes">Virtual Box VM</Machine>
+			<Machine enabled="yes">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Features>
+		<Feature name="NetFx4Extended-ASPNET45">true</Feature>
+		<Feature name="DirectPlay">true</Feature>
+		<Feature name="Printing-Foundation-InternetPrinting-Client">false</Feature>
+		<Feature name="LegacyComponents">true</Feature>
+		<Feature name="Printing-XPSServices-Features">false</Feature>
+		<Feature name="Printing-Foundation-Features">false</Feature>
+		<Feature name="FaxServicesClientPackage">false</Feature>
+		<Feature name="MicrosoftWindowsPowerShellV2">false</Feature>
+		<Feature name="MicrosoftWindowsPowerShellV2Root">false</Feature>
+		<Feature name="Xps-Foundation-Xps-Viewer">false</Feature>
+	</Features>
+	<Packages></Packages>
+	<Commands>
+		<PostUpdates>
+			<!--<Command>cmd /c echo Example from [MOUNTDIR]\Windows &amp; pause</Command>-->
+			<!--<Command>dism /image:[MOUNTDIR] /get-intl</Command>-->
+		</PostUpdates>
+	</Commands>
+	<Drivers showHidden="true"></Drivers>
+	<Unattended mode="1">
+		<OEMSetupComplete>false</OEMSetupComplete>
+		<AnswerFileLocationPanther>false</AnswerFileLocationPanther>
+		<AnswerFileLocationBoot>false</AnswerFileLocationBoot>
+		<SaveBothArch>false</SaveBothArch>
+		<EditionPrompt>false</EditionPrompt>
+		<settings pass="oobeSystem">
+			<component name="Microsoft-Windows-Shell-Setup">
+				<OOBE>
+					<HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+					<HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+					<NetworkLocation>Home</NetworkLocation>
+					<ProtectYourPC>3</ProtectYourPC>
+				</OOBE>
+			</component>
+		</settings>
+		<settings pass="specialize">
+			<component name="Microsoft-Windows-Shell-Setup">
+				<ComputerName>UtkuOS</ComputerName>
+			</component>
+		</settings>
+		<settings pass="windowsPE">
+			<component name="Microsoft-Windows-Setup">
+				<Diagnostics>
+					<OptIn>false</OptIn>
+				</Diagnostics>
+				<DynamicUpdate>
+					<Enable>false</Enable>
+					<WillShowUI>OnError</WillShowUI>
+				</DynamicUpdate>
+				<ImageInstall>
+					<OSImage>
+						<WillShowUI>OnError</WillShowUI>
+						<InstallFrom>
+							<MetaData>
+								<Key>/IMAGE/INDEX</Key>
+								<Value>1</Value>
+							</MetaData>
+						</InstallFrom>
+					</OSImage>
+				</ImageInstall>
+				<UserData>
+					<ProductKey>
+						<Key></Key>
+					</ProductKey>
+				</UserData>
+			</component>
+		</settings>
+	</Unattended>
+	<Tweaks>
+		<Settings>
+			<TweakGroup name="CrashControl">
+				<Tweak name="CrashControl\AutoReboot">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="DesktopTweaks">
+				<Tweak name="StartPage\OpenAtLogon">0</Tweak>
+				<Tweak name="NewStartPanel\{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0}">0</Tweak>
+				<Tweak name="NewStartPanel\{20D04FE0-3AEA-1069-A2D8-08002B30309D}">0</Tweak>
+				<Tweak name="NewStartPanel\{645FF040-5081-101B-9F08-00AA002F954E}">0</Tweak>
+				<Tweak name="NewStartPanel\{59031a47-3f72-44a7-89c5-5595fe6b30ee}">1</Tweak>
+				<Tweak name="Desktop\IconSize">32</Tweak>
+				<Tweak name="Mouse\MouseSpeed">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Explorer">
+				<Tweak name="Explorer\EnableAutoTray">0</Tweak>
+				<Tweak name="OperationStatusManager\EnthusiastMode">1</Tweak>
+				<Tweak name="AutoplayHandlers\DisableAutoplay">1</Tweak>
+				<Tweak name="Explorer\NoCDBurning">1</Tweak>
+				<Tweak name="Explorer\ClearRecentDocsOnExit">1</Tweak>
+				<Tweak name="ControlPanel\StartupPage">1</Tweak>
+				<Tweak name="ControlPanel\AllItemsIconView">0</Tweak>
+				<Tweak name="Advanced\FolderContentsInfoTip">0</Tweak>
+				<Tweak name="Explorer\DisableThumbnails">0</Tweak>
+				<Tweak name="Explorer\DisableThumbnailsOnNetworkFolders">0</Tweak>
+				<Tweak name="Explorer\NoRecentDocsHistory">1</Tweak>
+				<Tweak name="{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\ShellFolder\Attributes">-1332477852</Tweak>
+				<Tweak name="Explorer\ConfirmFileDelete">0</Tweak>
+				<Tweak name=".jpg\PhotoViewer.FileAssoc.Tiff">PhotoViewer.FileAssoc.Tiff</Tweak>
+				<Tweak name="Explorer\DisableSearchBoxSuggestions">1</Tweak>
+				<Tweak name="Explorer\ShowDriveLettersFirst">4</Tweak>
+				<Tweak name="Advanced\ShowInfoTip">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="PowerAndShutdown">
+				<Tweak name="Power\HiberbootEnabled">0</Tweak>
+				<Tweak name="FlyoutMenuSettings\ShowHibernateOption">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Privacy">
+				<Tweak name="Client\OptInOrOutPreference">0</Tweak>
+				<Tweak name="DataCollection\AllowTelemetry">4</Tweak>
+				<Tweak name="AppCompat\DisableInventory">1</Tweak>
+				<Tweak name="AppCompat\RequireIntegrityActivationAuthenticationLevel">0</Tweak>
+				<Tweak name="AdvertisingInfo\Enabled">0</Tweak>
+				<Tweak name="User Profile\HttpAcceptLanguageOptOut">1</Tweak>
+				<Tweak name="InputPersonalization\AllowInputPersonalization">0</Tweak>
+				<Tweak name="Settings\AcceptedPrivacyPolicy">0</Tweak>
+				<Tweak name="AppCompat\DisablePCA">1</Tweak>
+				<Tweak name="TIPC\Enabled">0</Tweak>
+				<Tweak name="FlipAhead\FPEnabled">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="System">
+				<Tweak name="EOSNotify\DiscontinueEOS">1</Tweak>
+				<Tweak name="System\HideFastUserSwitching">1</Tweak>
+				<Tweak name=".NETFramework\OnlyUseLatestCLR">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="WindowsDefender">
+				<Tweak name="State\AccountProtection_MicrosoftAccount_Disconnected">0</Tweak>
+				<Tweak name="Windows Defender\DisableAntiSpyware">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="WindowsUpdate">
+				<Tweak name="Auto Update\ElevateNonAdmins">1</Tweak>
+				<Tweak name="DriverSearching\SearchOrderConfig">2</Tweak>
+				<Tweak name="MRT\DontOfferThroughWUAU">1</Tweak>
+				<Tweak name="Auto Update\AUOptions">2</Tweak>
+			</TweakGroup>
+		</Settings>
+		<Services>
+			<TweakGroup name="services">
+				<Tweak name="bthserv\bthserv">4</Tweak>
+				<Tweak name="PcaSvc\PcaSvc">4</Tweak>
+				<Tweak name="seclogon\seclogon">4</Tweak>
+				<Tweak name="WiaRpc\WiaRpc">4</Tweak>
+				<Tweak name="SysMain\SysMain">4</Tweak>
+				<Tweak name="WbioSrvc\WbioSrvc">4</Tweak>
+				<Tweak name="stisvc\stisvc">4</Tweak>
+			</TweakGroup>
+		</Services>
+		<ExtraServices></ExtraServices>
+		<ScheduledTasks>
+			<TweakGroup name="Tree\Microsoft\Windows\Setup">
+				<Tweak name="EOSNotify\EOSNotify">remove</Tweak>
+				<Tweak name="EOSNotify2\EOSNotify2">remove</Tweak>
+			</TweakGroup>
+		</ScheduledTasks>
+	</Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageSaveTrim</Task>
+			<Task>imageFormatWim</Task>
+		</ImageTasks>
+		<AutoIsoFile>C:\Users\Administrator\Desktop\UtkuOS10-Lite-22H2.iso</AutoIsoFile>
+		<AutoIsoLabel>UtkuOS-10</AutoIsoLabel>
+		<AutoSplitSize>4000</AutoSplitSize>
+		<CleanHotfixedLeftovers>3</CleanHotfixedLeftovers>
+		<OptimizeAppX>false</OptimizeAppX>
+		<ReuseDriverCache>true</ReuseDriverCache>
+	</ApplyOptions>
+	<Execution>
+		<Remove></Remove>
+		<Change>
+			<Item type="File">
+				<Path>C:\Users\Administrator\Desktop\Win8.1_EN_Updated_x64\sources\$OEM$\$$\Setup\Updates\windows8.1-kb2990967-x64_e3f425d271aeadfe382fe4e6f3ead1363217f605.msu</Path>
+				<PathOriginal>C:\Users\Administrator\Desktop\Win8.1_EN_Updated_x64\sources\$OEM$\$$\Setup\Updates\windows8.1-kb2990967-x64_e3f425d271aeadfe382fe4e6f3ead1363217f605.msu</PathOriginal>
+				<Params></Params>
+				<ParamsOriginal></ParamsOriginal>
+				<Index>2</Index>
+				<IndexOriginal>0</IndexOriginal>
+			</Item>
+		</Change>
+		<Add>
+			<Item type="Command">
+				<Path>powercfg</Path>
+				<Params>/hibernate off</Params>
+				<Index>0</Index>
+			</Item>
+			<Item type="Command">
+				<Path>net</Path>
+				<Params>accounts /maxpwage:unlimited</Params>
+				<Index>1</Index>
+			</Item>
+		</Add>
+	</Execution>
+	<Registry>
+		<File>E:\ISO\Presets\postponeUpdates.reg</File>
+		<File>E:\ISO\Presets\utku_custom.reg</File>
+	</Registry>
+</Preset>
