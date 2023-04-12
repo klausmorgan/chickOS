@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>03/17/2023 03:26:01</Date>
+	<Date>04/08/2023 20:55:33</Date>
 	<AppInfo>
-		<Version>2023.3.9160</Version>
+		<Version>2023.4.9191</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 10 Pro (22H2) x64 - 10.0.19045.2728 (tr-TR)</Host>
+		<Host>Windows 11 Pro (22H2) x64 - 10.0.22624.1470 (tr-TR)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 10 Professional (22H2) x64 - 10.0.19045.2728 (tr-TR)</Version>
-		<GUID>{6F40EA7A-9DF7-D3CB-8D1A-2C6CD457B2A1}</GUID>
+		<Version mode="offline">Windows 10 Professional (22H2) x64 - 10.0.19045.2006 (tr-TR)</Version>
+		<GUID>{DFD752E8-26F9-402B-92D4-7614796B9684}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>1527c705-839a-4832-9118-54d4Bd6a0c89 'File Picker'</c>
@@ -36,7 +36,6 @@
 		<c>cellulartime 'Hücresel Zaman'</c>
 		<c>certmgr32 'Sertifika Yöneticisi - 32 bit'</c>
 		<c>charmap 'Karakter Haritası'</c>
-		<c>clipboardusersvc 'Pano Kullanıcı Hizmeti'</c>
 		<c>cloudnotifications 'Bulut Bildirimleri'</c>
 		<c>commmc32 'COM+ (Bileşen Hizmetleri) (Yönetim konsolu) - 32 bit'</c>
 		<c>compmgmt32 'Bilgisayar Yönetimi - 32 bit'</c>
@@ -638,6 +637,7 @@
 				<UserData>
 					<ProductKey>
 						<Key></Key>
+						<WillShowUI>OnError</WillShowUI>
 					</ProductKey>
 				</UserData>
 			</component>
@@ -855,6 +855,6 @@
 	</Execution>
 	<Registry>
 		<File>D:\.ISO\Presets\1-utku_custom.reg</File>
-		<File>D:\.ISO\Presets\2-postponeUpdates.reg</File>
+		<File>D:\.ISO\Presets\2-postpone-Updates.reg</File>
 	</Registry>
 </Preset>
