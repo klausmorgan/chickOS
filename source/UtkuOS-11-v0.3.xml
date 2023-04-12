@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>03/15/2023 02:08:43</Date>
+	<Date>04/11/2023 03:00:05</Date>
 	<AppInfo>
-		<Version>2023.3.9160</Version>
+		<Version>2023.4.9191</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 10 Pro (22H2) x64 - 10.0.19045.2673 (en-US)</Host>
+		<Host>Windows 10 Pro (22H2) x64 - 10.0.19045.2728 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 11 Professional (22H2) x64 - 10.0.22624.1391 (tr-TR)</Version>
-		<GUID>{E90334A9-F1ED-888E-C9CA-B7118C8E3C77}</GUID>
+		<Version mode="offline">Windows 11 Professional (22H2) x64 - 10.0.22621.1546 (tr-TR)</Version>
+		<GUID>{E8124F03-D113-66A8-072A-4A51388D6F26}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>1527c705-839a-4832-9118-54d4Bd6a0c89 'File Picker'</c>
@@ -36,7 +36,6 @@
 		<c>cellulartime 'Cellular Time'</c>
 		<c>certmgr32 'Certificate Manager - 32 bit'</c>
 		<c>charmap 'Character Map'</c>
-		<c>clipboardusersvc 'Clipboard User Service'</c>
 		<c>Clipchamp.Clipchamp 'Clipchamp'</c>
 		<c>clouddownload 'Windows Recovery (WinRE) - Cloud download'</c>
 		<c>cloudnotifications 'Cloud Notifications'</c>
@@ -633,6 +632,7 @@
 				<UserData>
 					<ProductKey>
 						<Key></Key>
+						<WillShowUI>OnError</WillShowUI>
 					</ProductKey>
 				</UserData>
 			</component>
@@ -824,7 +824,7 @@
 	<ApplyOptions>
 		<ImageTasks>
 			<Task>imageSaveTrim</Task>
-			<Task>imageFormatWim</Task>
+			<Task>imageFormatEsd</Task>
 		</ImageTasks>
 		<AutoIsoFile>NTLite.iso</AutoIsoFile>
 		<AutoIsoLabel>UtkuOS-10</AutoIsoLabel>
@@ -850,7 +850,7 @@
 		</Add>
 	</Execution>
 	<Registry>
-		<File>D:\.ISO\Presets\2-postponeUpdates.reg</File>
 		<File>D:\.ISO\Presets\1-utku_custom.reg</File>
+		<File>D:\.ISO\Presets\2-postpone-Updates.reg</File>
 	</Registry>
 </Preset>
