@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>04/08/2023 20:55:33</Date>
+	<Date>08/08/2023 08:04:48</Date>
 	<AppInfo>
-		<Version>2023.4.9191</Version>
+		<Version>2023.7.9371</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 11 Pro (22H2) x64 - 10.0.22624.1470 (tr-TR)</Host>
+		<Host>Windows 11 Pro (22H2) x64 - 10.0.22621.1992 (tr-TR)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 10 Professional (22H2) x64 - 10.0.19045.2006 (tr-TR)</Version>
-		<GUID>{DFD752E8-26F9-402B-92D4-7614796B9684}</GUID>
+		<Version mode="offline">Windows 10 Professional (22H2) x64 - 10.0.19045.3271 (tr-TR)</Version>
+		<GUID>{D74A1139-AB15-4A5F-6BC2-00171E7C1B1A}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
-		<c>1527c705-839a-4832-9118-54d4Bd6a0c89 'File Picker'</c>
+		<c>1527c705-839a-4832-9118-54d4bd6a0c89 'File Picker'</c>
 		<c>aarsvc 'Aracı Etkinleştirme Çalışma Zamanı'</c>
 		<c>accessibility 'Erişilebilirlik araçları (Erişim Kolaylığı)'</c>
 		<c>accessibility_cursors 'Fare İşaretçileri (Erişilebilirlik araçları)'</c>
@@ -29,17 +29,16 @@
 		<c>autoplay 'OtomatikOynatma'</c>
 		<c>azman32 'Yetkilendirme Müdürü - 32 bit'</c>
 		<c>backup 'Windows Yedekleme'</c>
-		<c>biometric 'Windows Biyometrik Hizmeti - Destek'</c>
 		<c>branchcacheclient 'BranchCache İstemcisi'</c>
 		<c>c5e2524a-ea46-4f67-841f-6a9465d9d515 'Dosya Gezgini'</c>
 		<c>ceip 'CEIP (SQM)'</c>
 		<c>cellulartime 'Hücresel Zaman'</c>
 		<c>certmgr32 'Sertifika Yöneticisi - 32 bit'</c>
 		<c>charmap 'Karakter Haritası'</c>
+		<c>clouddownload 'Windows Kurtarma - Cloud download'</c>
 		<c>cloudnotifications 'Bulut Bildirimleri'</c>
 		<c>commmc32 'COM+ (Bileşen Hizmetleri) (Yönetim konsolu) - 32 bit'</c>
 		<c>compmgmt32 'Bilgisayar Yönetimi - 32 bit'</c>
-		<c>containers 'Konteynerler'</c>
 		<c>datacenterbridging 'Veri Merkezi Köprüleme (DCB)'</c>
 		<c>desktopactivitymoderator 'Masaüstü Etkinlik Moderatörü (DAM)'</c>
 		<c>desktopimgdownldr 'Masaüstü resim indiricisi'</c>
@@ -261,7 +260,6 @@
 		<c>driver_usbcciddriver.inf</c>
 		<c>driver_usbcir.inf</c>
 		<c>driver_vca.inf</c>
-		<c>driver_wnetvsc.inf</c>
 		<c>driver_wudfusbcciddriver.inf</c>
 		<c>dvdplay 'DVD Oynatma'</c>
 		<c>easeofaccessthemes 'Erişim Kolaylığı Temaları'</c>
@@ -273,8 +271,7 @@
 		<c>errorreporting 'Windows Hata Raporlama Hizmeti'</c>
 		<c>eudcedit 'Özel Karakter Düzenleyici'</c>
 		<c>eventviewer32 'Olay Göstericisi - 32 bit'</c>
-		<c>F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE 'Klasör Önerileri iletişim kutusu ekle'</c>
-		<c>facerecognition 'Yüz Tanıma'</c>
+		<c>f46d4000-fd22-4db4-ac8e-4e1ddde828fe 'Klasör Önerileri iletişim kutusu ekle'</c>
 		<c>fciclient 'Dosya Sunucusu Kaynak Yöneticisi'</c>
 		<c>filehistory 'Dosya Geçmişi'</c>
 		<c>filerevocationmanager 'Dosya İptal Yöneticisi - 32 bit'</c>
@@ -304,11 +301,8 @@
 		<c>hwsupport_internetprintingclient 'İnternet Baskı İstemcisi'</c>
 		<c>hwsupport_modem 'Modem'</c>
 		<c>hwsupport_modemsettings 'Paylaşılan modem ayarları (mdmgl*.inf)'</c>
-		<c>hwsupport_smartcard 'Akıllıkart'</c>
 		<c>hwsupport_telephony 'Telefonculuk'</c>
 		<c>hwsupport_tv 'TV Tuner codec bileşenleri ve desteği'</c>
-		<c>hyperv 'Hyper-V'</c>
-		<c>hypervguest 'Hyper-V Guest'</c>
 		<c>ias 'İnternet Kimlik Doğrulama Hizmeti (IAS)'</c>
 		<c>iis 'İnternet Bilgi Sunucusu (IIS)'</c>
 		<c>indeo 'Intel Indeo Codec'leri'</c>
@@ -317,7 +311,6 @@
 		<c>ipt 'Kimlik Koruma Teknolojisi (Intel IPT)'</c>
 		<c>iscsi 'iSCSI Başlatıcı'</c>
 		<c>isoburn 'Windows Disk Görüntü Yazma Aracı'</c>
-		<c>isolatedusermode 'Virtualization-based security (VBS)'</c>
 		<c>kerberos32 'Kerberos Client - 32 bit'</c>
 		<c>kerneldebug 'Çekirdek Hata Ayıklama'</c>
 		<c>langchineses 'Basitleştirilmiş Çince'</c>
@@ -328,7 +321,6 @@
 		<c>langimetc 'Çin Geleneği (IME)'</c>
 		<c>lcu 'Kümülatif Güncelleme önbelleği (LCU)'</c>
 		<c>location 'Konum Servisi'</c>
-		<c>lockscreens 'Kilit Ekranı arka planları'</c>
 		<c>lpasvc 'Yerel Profil Yardımcısı Hizmeti'</c>
 		<c>lusrmgr32 'Yerel Kullanıcılar ve Gruplar Yöneticisi - 32 bit'</c>
 		<c>mail 'Windows Mail'</c>
@@ -342,54 +334,52 @@
 		<c>mediastreamingtransmitter 'Medya Akışı - Transmitter'</c>
 		<c>memorydiagnostic 'Bellek Tanılama'</c>
 		<c>messagingsvc 'Mesajlaşma Hizmeti'</c>
-		<c>Microsoft.549981C3F5F10 'Cortana'</c>
-		<c>Microsoft.Advertising.Xaml 'Microsoft Advertising SDK for XAML'</c>
-		<c>Microsoft.AsyncTextService 'AsyncTextService'</c>
-		<c>Microsoft.BingWeather 'MSN Weather'</c>
-		<c>Microsoft.BioEnrollment 'Windows Hello Kurulumu'</c>
-		<c>Microsoft.ECApp 'Gözle Denetim'</c>
-		<c>Microsoft.GetHelp 'Get Help'</c>
-		<c>Microsoft.Getstarted 'İpuçları (Başlayın)'</c>
-		<c>Microsoft.HEIFImageExtension 'HEIF Resim Uzantıları'</c>
-		<c>Microsoft.LockApp 'Windows Varsayılan Kilit Ekranı'</c>
-		<c>Microsoft.Microsoft3DViewer '3B Görüntüleyici'</c>
+		<c>microsoft.549981c3f5f10 'Cortana'</c>
+		<c>microsoft.advertising.xaml 'Microsoft Advertising SDK for XAML'</c>
+		<c>microsoft.asynctextservice 'AsyncTextService'</c>
+		<c>microsoft.bingweather 'MSN Weather'</c>
+		<c>microsoft.ecapp 'Gözle Denetim'</c>
+		<c>microsoft.gethelp 'Get Help'</c>
+		<c>microsoft.getstarted 'İpuçları (Başlayın)'</c>
+		<c>microsoft.heifimageextension 'HEIF Resim Uzantıları'</c>
+		<c>microsoft.microsoft3dviewer '3B Görüntüleyici'</c>
 		<c>microsoft.microsoftedge.stable 'Microsoft Edge (Chromium)'</c>
-		<c>Microsoft.MicrosoftEdge 'Microsoft Edge (Legacy)'</c>
-		<c>Microsoft.MicrosoftEdgeDevToolsClient 'Microsoft Edge DevTools İstemcisi'</c>
-		<c>Microsoft.MicrosoftOfficeHub 'Office'</c>
-		<c>Microsoft.MicrosoftSolitaireCollection 'Microsoft Solitaire Collection'</c>
-		<c>Microsoft.MicrosoftStickyNotes 'Microsoft Sticky Notes'</c>
-		<c>Microsoft.MixedReality.Portal 'Mixed Reality Portal'</c>
-		<c>Microsoft.MSPaint 'Paint 3D'</c>
-		<c>Microsoft.Office.OneNote 'OneNote'</c>
-		<c>Microsoft.People 'Microsoft People'</c>
-		<c>Microsoft.Services.Store.Engagement 'Microsoft Engagement Framework'</c>
-		<c>Microsoft.SkypeApp 'Skype'</c>
-		<c>Microsoft.VP9VideoExtensions 'VP9 Video Uzantıları'</c>
-		<c>Microsoft.Wallet 'Microsoft Pay'</c>
-		<c>Microsoft.WebMediaExtensions 'Web Media Extensions'</c>
-		<c>Microsoft.WebpImageExtension 'Webp Görüntü Uzantıları'</c>
-		<c>Microsoft.Windows.Apprep.ChxApp 'AkıllıEkran'</c>
-		<c>Microsoft.Windows.AssignedAccessLockApp 'Atanmış Erişim Kilidi uygulaması'</c>
-		<c>Microsoft.Windows.CallingShellApp 'Ara'</c>
-		<c>Microsoft.Windows.ContentDeliveryManager 'Content Delivery Manager'</c>
-		<c>Microsoft.Windows.NarratorQuickStart 'Ekran Okuyucusu'</c>
-		<c>Microsoft.Windows.OOBENetworkCaptivePortal 'Giriş Portalı Akışı'</c>
-		<c>Microsoft.Windows.ParentalControls 'Microsoft ailesi özellikleri'</c>
-		<c>Microsoft.Windows.PeopleExperienceHost 'Windows Kabuk Deneyimi'</c>
-		<c>Microsoft.Windows.Photos 'Microsoft Photos'</c>
-		<c>Microsoft.Windows.PinningConfirmationDialog 'PinningConfirmationDialog'</c>
-		<c>Microsoft.Windows.SecHealthUI 'Windows Defender'</c>
-		<c>Microsoft.Windows.SecureAssessmentBrowser 'Sınav Zamanı'</c>
-		<c>Microsoft.WindowsAlarms 'Windows Alarms &amp; Clock'</c>
-		<c>Microsoft.WindowsCamera 'Windows Camera'</c>
+		<c>microsoft.microsoftedge 'Microsoft Edge (Legacy)'</c>
+		<c>microsoft.microsoftedgedevtoolsclient 'Microsoft Edge DevTools İstemcisi'</c>
+		<c>microsoft.microsoftofficehub 'Office'</c>
+		<c>microsoft.microsoftsolitairecollection 'Microsoft Solitaire Collection'</c>
+		<c>microsoft.microsoftstickynotes 'Microsoft Sticky Notes'</c>
+		<c>microsoft.mixedreality.portal 'Mixed Reality Portal'</c>
+		<c>microsoft.mspaint 'Paint 3D'</c>
+		<c>microsoft.office.onenote 'OneNote'</c>
+		<c>microsoft.people 'Microsoft People'</c>
+		<c>microsoft.services.store.engagement 'Microsoft Engagement Framework'</c>
+		<c>microsoft.skypeapp 'Skype'</c>
+		<c>microsoft.vp9videoextensions 'VP9 Video Uzantıları'</c>
+		<c>microsoft.wallet 'Microsoft Pay'</c>
+		<c>microsoft.webmediaextensions 'Web Media Extensions'</c>
+		<c>microsoft.webpimageextension 'Webp Görüntü Uzantıları'</c>
+		<c>microsoft.windows.apprep.chxapp 'AkıllıEkran'</c>
+		<c>microsoft.windows.assignedaccesslockapp 'Atanmış Erişim Kilidi uygulaması'</c>
+		<c>microsoft.windows.callingshellapp 'Ara'</c>
+		<c>microsoft.windows.contentdeliverymanager 'Content Delivery Manager'</c>
+		<c>microsoft.windows.narratorquickstart 'Ekran Okuyucusu'</c>
+		<c>microsoft.windows.oobenetworkcaptiveportal 'Giriş Portalı Akışı'</c>
+		<c>microsoft.windows.parentalcontrols 'Microsoft ailesi özellikleri'</c>
+		<c>microsoft.windows.peopleexperiencehost 'Windows Kabuk Deneyimi'</c>
+		<c>microsoft.windows.photos 'Microsoft Photos'</c>
+		<c>microsoft.windows.pinningconfirmationdialog 'PinningConfirmationDialog'</c>
+		<c>microsoft.windows.sechealthui 'Windows Defender'</c>
+		<c>microsoft.windows.secureassessmentbrowser 'Sınav Zamanı'</c>
+		<c>microsoft.windowsalarms 'Windows Alarms &amp; Clock'</c>
+		<c>microsoft.windowscamera 'Windows Camera'</c>
 		<c>microsoft.windowscommunicationsapps 'Mail and Calendar'</c>
-		<c>Microsoft.WindowsFeedbackHub 'Feedback Hub'</c>
-		<c>Microsoft.WindowsMaps 'Windows Maps'</c>
-		<c>Microsoft.WindowsSoundRecorder 'Windows Voice Recorder'</c>
-		<c>Microsoft.YourPhone 'Your Phone'</c>
-		<c>Microsoft.ZuneMusic 'Groove Music'</c>
-		<c>Microsoft.ZuneVideo 'Movies &amp; TV'</c>
+		<c>microsoft.windowsfeedbackhub 'Feedback Hub'</c>
+		<c>microsoft.windowsmaps 'Windows Maps'</c>
+		<c>microsoft.windowssoundrecorder 'Windows Voice Recorder'</c>
+		<c>microsoft.yourphone 'Your Phone'</c>
+		<c>microsoft.zunemusic 'Groove Music'</c>
+		<c>microsoft.zunevideo 'Movies &amp; TV'</c>
 		<c>midi 'Microsoft GS Dalgalanabilir Yazılım Synth (MIDI)'</c>
 		<c>migwiz 'Kolay Transfer'</c>
 		<c>mixedreality 'Windows Karma Gerçeklik'</c>
@@ -465,7 +455,6 @@
 		<c>smbdirect 'SMB Direct (RDMA)'</c>
 		<c>smbv1 'SMB v1'</c>
 		<c>smsrouter 'SMS Yönlendirici Hizmeti'</c>
-		<c>snippingtool 'Ekran Alıntısı Aracı'</c>
 		<c>sourcessxsdir 'Manuel özellik deposu'</c>
 		<c>speechcommon 'Konuşma Tanıma'</c>
 		<c>speechtts 'Konuşma TTS'</c>
@@ -473,7 +462,6 @@
 		<c>srumon 'Veri Kullanımı hizmeti'</c>
 		<c>sstackwow64 'Servis Yığını - 32 bit'</c>
 		<c>stepsrecorder 'Adım Kaydedici'</c>
-		<c>storageqos 'Depolama Hizmet Kalitesi (Depolama QoS)'</c>
 		<c>supportdir 'Destek dizini'</c>
 		<c>synccenter 'Senkronizasyon Merkezi'</c>
 		<c>systemguard 'Sistem Koruması'</c>
@@ -506,7 +494,7 @@
 		<c>wificloudstore 'WiFi Senkronizasyon Sağlayıcısı'</c>
 		<c>wifinetworkmanager 'Wi-Fi Ağ Yöneticisi (Wi-Fi Sense)'</c>
 		<c>winai 'Windows AI Makine Öğrenimi'</c>
-		<c>Windows.CBSPreview 'Windows Barkod Önizlemesi'</c>
+		<c>windows.cbspreview 'Windows Barkod Önizlemesi'</c>
 		<c>windows.devicesflow32 'Cihaz Akışı - 32 bit'</c>
 		<c>windowstogo 'Windows To Go'</c>
 		<c>winocr 'Windows TIFF IFilter (OCR)'</c>
@@ -532,8 +520,9 @@
 			<Feature enabled="no">ManualSetup</Feature>
 			<Feature enabled="yes">OOBE</Feature>
 			<Feature enabled="no">VSS</Feature>
-			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="yes">Hyper-V</Feature>
 			<Feature enabled="yes">iCloud</Feature>
+			<Feature enabled="no">USBCamera</Feature>
 			<Feature enabled="yes">OfficeSupport</Feature>
 			<Feature enabled="yes">AppxSupport</Feature>
 			<Feature enabled="yes">Netflix</Feature>
@@ -552,7 +541,7 @@
 			<Feature enabled="no">USB</Feature>
 			<Feature enabled="no">VideoPlayback</Feature>
 			<Feature enabled="yes">VisualStudio</Feature>
-			<Feature enabled="no">YubiKey</Feature>
+			<Feature enabled="yes">YubiKey</Feature>
 			<Feature enabled="yes">ActivationKMS</Feature>
 			<Feature enabled="yes">Activation</Feature>
 			<Feature enabled="no">WindowsUpdate</Feature>
@@ -572,12 +561,21 @@
 	<Features>
 		<Feature name="NetFx4Extended-ASPNET45">true</Feature>
 		<Feature name="DirectPlay">true</Feature>
+		<Feature name="HostGuardian">true</Feature>
+		<Feature name="Microsoft-Hyper-V-Management-Clients">true</Feature>
+		<Feature name="Microsoft-Hyper-V-Hypervisor">true</Feature>
+		<Feature name="Microsoft-Hyper-V-Tools-All">true</Feature>
+		<Feature name="Microsoft-Hyper-V-Management-PowerShell">true</Feature>
+		<Feature name="Microsoft-Hyper-V">true</Feature>
+		<Feature name="Microsoft-Hyper-V-Services">true</Feature>
+		<Feature name="Microsoft-Hyper-V-All">true</Feature>
 		<Feature name="Printing-Foundation-InternetPrinting-Client">false</Feature>
 		<Feature name="LegacyComponents">true</Feature>
 		<Feature name="MathRecognizer~~~~0.0.1.0">false</Feature>
 		<Feature name="App.Support.QuickAssist~~~~0.0.1.0">false</Feature>
 		<Feature name="Printing-XPSServices-Features">false</Feature>
 		<Feature name="Printing-Foundation-Features">false</Feature>
+		<Feature name="VirtualMachinePlatform">true</Feature>
 		<Feature name="Print.Fax.Scan~~~~0.0.1.0">false</Feature>
 		<Feature name="Hello.Face.Migration.18967~~~~0.0.1.0">false</Feature>
 		<Feature name="Hello.Face.18967~~~~0.0.1.0">false</Feature>
@@ -647,15 +645,12 @@
 		<Settings>
 			<TweakGroup name="StartTweaks">
 				<Tweak name="Start\HideHibernate">1</Tweak>
-				<Tweak name="Start\HideSleep">1</Tweak>
 				<Tweak name="Start\AllowPinnedFolderNetwork">0</Tweak>
 				<Tweak name="Start\AllowPinnedFolderHomeGroup">0</Tweak>
 				<Tweak name="Start\HideSwitchAccount">1</Tweak>
 				<Tweak name="Start\HideFrequentlyUsedApps">1</Tweak>
-				<Tweak name="Start\HideRecentlyAddedApps">1</Tweak>
 			</TweakGroup>
 			<TweakGroup name="Explorer">
-				<Tweak name="Explorer\DisableSearchBoxSuggestions">1</Tweak>
 				<Tweak name="Explorer\DisableThumbnailsOnNetworkFolders">0</Tweak>
 				<Tweak name="Advanced\ShowInfoTip">0</Tweak>
 				<Tweak name="Advanced\FolderContentsInfoTip">0</Tweak>
@@ -815,7 +810,6 @@
 				<Tweak name="RmSvc\RmSvc">4</Tweak>
 				<Tweak name="WiaRpc\WiaRpc">4</Tweak>
 				<Tweak name="SysMain\SysMain">4</Tweak>
-				<Tweak name="WbioSrvc\WbioSrvc">4</Tweak>
 				<Tweak name="FrameServer\FrameServer">4</Tweak>
 				<Tweak name="icssvc\icssvc">4</Tweak>
 				<Tweak name="stisvc\stisvc">4</Tweak>
@@ -842,19 +836,14 @@
 		<Change></Change>
 		<Add>
 			<Item type="Command">
-				<Path>powercfg</Path>
-				<Params>/hibernate off</Params>
-				<Index>0</Index>
-			</Item>
-			<Item type="Command">
 				<Path>net</Path>
 				<Params>accounts /maxpwage:unlimited</Params>
-				<Index>1</Index>
+				<Index>0</Index>
 			</Item>
 		</Add>
 	</Execution>
 	<Registry>
-		<File>D:\.ISO\Presets\1-utku_custom.reg</File>
+		<File>D:\.ISO\Presets\1-utku_sleep.reg</File>
 		<File>D:\.ISO\Presets\2-postpone-Updates.reg</File>
 	</Registry>
 </Preset>
