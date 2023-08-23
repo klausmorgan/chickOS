@@ -15,10 +15,6 @@ reg add "HKLM\SOFTWARE\Policies\Microsoft\WindowsStore" /v "AutoDownload" /t REG
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power]
 "CustomizeDuringSetup"=dword:00000000
 
-; Disable Hibernate
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power]
-"HibernateEnabledDefault"=dword:00000000
-
 ; Choose what the power buttons do > When I press the power button > Shut down
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\4f971e89-eebd-4455-a8de-9e59040e7347\7648efa3-dd9c-4e3e-b566-50f929386280\DefaultPowerSchemeValues\381b4222-f694-41f0-9685-ff5bb260df2e]
 "ACSettingIndex"=dword:00000003
@@ -64,18 +60,6 @@ reg add "HKLM\SOFTWARE\Policies\Microsoft\WindowsStore" /v "AutoDownload" /t REG
 "ACSettingIndex"=dword:00000001
 "DCSettingIndex"=dword:00000001
 
-; Choose what the power buttons do > Turn on fast startup > Off
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power]
-"HiberbootEnabled"=dword:00000000
-
-; Choose what the power buttons do > Sleep > Off
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FlyoutMenuSettings]
-"ShowSleepOption"=dword:00000000
-
-; Choose what the power buttons do > Hibernate > Off
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FlyoutMenuSettings]
-"ShowHibernateOption"=dword:00000000
-
 ; Choose what the power buttons do > Lock > Off
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FlyoutMenuSettings]
 "ShowLockOption"=dword:00000000
@@ -113,26 +97,6 @@ reg add "HKLM\SOFTWARE\Policies\Microsoft\WindowsStore" /v "AutoDownload" /t REG
 "ACSettingIndex"=dword:00000000
 "DCSettingIndex"=dword:00000000
 
-; Power Options > Change plan settings (High performance) > Change advanced power settings > Sleep > Allow Away Mode Policy > No
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\238C9FA8-0AAD-41ED-83F4-97BE242C8F20\25DFA149-5DD1-4736-B5AB-E8A37B5B8187\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
-"ACSettingIndex"=dword:00000000
-"DCSettingIndex"=dword:00000000
-
-; Power Options > Change plan settings (Balanced) > Change advanced power settings > Sleep > Allow hybrid sleep > Off
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\238C9FA8-0AAD-41ED-83F4-97BE242C8F20\94AC6D29-73CE-41A6-809F-6363BA21B47E\DefaultPowerSchemeValues\381b4222-f694-41f0-9685-ff5bb260df2e]
-"ACSettingIndex"=dword:00000000
-"DCSettingIndex"=dword:00000000
-
-; Power Options > Change plan settings (High performance) > Change advanced power settings > Sleep > Allow hybrid sleep > Off
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\238C9FA8-0AAD-41ED-83F4-97BE242C8F20\94AC6D29-73CE-41A6-809F-6363BA21B47E\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
-"ACSettingIndex"=dword:00000000
-"DCSettingIndex"=dword:00000000
-
-; Power Options > Change plan settings (Power saver) > Change advanced power settings > Sleep > Allow hybrid sleep > Off
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\238C9FA8-0AAD-41ED-83F4-97BE242C8F20\94AC6D29-73CE-41A6-809F-6363BA21B47E\DefaultPowerSchemeValues\a1841308-3541-4fab-bc81-f71556f20b4a]
-"ACSettingIndex"=dword:00000000
-"DCSettingIndex"=dword:00000000
-
 ; Power Options > Change plan settings (Balanced) > Change advanced power settings > Sleep > Hibernate after > Never
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\238C9FA8-0AAD-41ED-83F4-97BE242C8F20\9d7815a6-7ee4-497e-8888-515a05f02364\DefaultPowerSchemeValues\381b4222-f694-41f0-9685-ff5bb260df2e]
 "ACSettingIndex"=dword:00000000
@@ -147,11 +111,6 @@ reg add "HKLM\SOFTWARE\Policies\Microsoft\WindowsStore" /v "AutoDownload" /t REG
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\238C9FA8-0AAD-41ED-83F4-97BE242C8F20\9d7815a6-7ee4-497e-8888-515a05f02364\DefaultPowerSchemeValues\a1841308-3541-4fab-bc81-f71556f20b4a]
 "ACSettingIndex"=dword:00000000
 "DCSettingIndex"=dword:00000000
-
-; Power Options > Change plan settings (High performance) > Change advanced power settings > Sleep > Allow wake timers > Enable
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\238C9FA8-0AAD-41ED-83F4-97BE242C8F20\BD3B718A-0680-4D9D-8AB2-E1D2B4AC806D\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
-"ACSettingIndex"=dword:00000001
-"DCSettingIndex"=dword:00000001
 
 ; Power Options > Change plan settings (High performance) > Change advanced power settings > USB settings > Hub Selective Suspend Timeout > 0 Millisecond
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\2a737441-1930-4402-8d77-b2bebba308a3\0853a681-27c8-4100-a2fd-82013e970683\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
@@ -338,3 +297,36 @@ Reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplicat
 Reg add "HKLM\Software\Policies\Microsoft\Windows\AppPrivacy" /v "LetAppsRunInBackground" /t REG_DWORD /d "2" /f >nul
 Reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Search" /v "BackgroundAppGlobalToggle" /t REG_DWORD /d "0" /f >nul
 
+; disable fso and gamebar
+[HKEY_CURRENT_USER\Software\Microsoft\GameBar] 
+"ShowStartupPanel"=dword:00000000 
+"GamePanelStartupTipIndex"=dword:00000003 
+"AllowAutoGameMode"=dword:00000000 
+"AutoGameModeEnabled"=dword:00000000 
+"UseNexusForGameBarEnabled"=dword:00000000
+
+; disable fso and gamebar
+[HKEY_CURRENT_USER\System\GameConfigStore] 
+"GameDVR_Enabled"=dword:00000000 
+"GameDVR_FSEBehaviorMode"=dword:00000002 
+"GameDVR_FSEBehavior"=dword:00000002 
+"GameDVR_HonorUserFSEBehaviorMode"=dword:00000001 
+"GameDVR_DXGIHonorFSEWindowsCompatible"=dword:00000001 
+"GameDVR_EFSEFeatureFlags"=dword:00000000 
+"GameDVR_DSEBehavior"=dword:00000002
+
+; disable fso and gamebar
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\GameDVR] 
+"AllowGameDVR"=dword:00000000
+
+; disable fso and gamebar
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR] 
+"AppCaptureEnabled"=dword:00000000
+
+; disable fso and gamebar
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BcastDVRUserService]
+"Start"=dword:00000004
+
+; disable fso and gamebar
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment]
+"__COMPAT_LAYER"="~ DISABLEDXMAXIMIZEDWINDOWEDMODE"
