@@ -1,5 +1,9 @@
 Windows Registry Editor Version 5.00
 
+; disable core isolation memory integrity
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity] 
+"Enabled"=dword:00000000
+
 ; Disable auto download microsoft store apps
 reg add "HKLM\SOFTWARE\Policies\Microsoft\WindowsStore" /v "AutoDownload" /t REG_DWORD /d "2" /f
 
@@ -236,10 +240,6 @@ reg add "HKLM\SOFTWARE\Policies\Microsoft\WindowsStore" /v "AutoDownload" /t REG
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Shell\USB]
 "NotifyOnUsbErrors"=dword:00000000
 
-; Taskbar > Show badges on taskbar buttons > Off
-[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
-"TaskbarBadges"=dword:00000000
-
 ; Troubleshoot > Don't run any troubleshooters
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsMitigation]
 "UserPreference"=dword:00000001
@@ -296,37 +296,3 @@ Reg add "HKLM\Software\Policies\Microsoft\Windows\DeviceGuard" /v "HVCIMATRequir
 Reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications" /v "GlobalUserDisabled" /t REG_DWORD /d "1" /f >nul
 Reg add "HKLM\Software\Policies\Microsoft\Windows\AppPrivacy" /v "LetAppsRunInBackground" /t REG_DWORD /d "2" /f >nul
 Reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Search" /v "BackgroundAppGlobalToggle" /t REG_DWORD /d "0" /f >nul
-
-; disable fso and gamebar
-[HKEY_CURRENT_USER\Software\Microsoft\GameBar] 
-"ShowStartupPanel"=dword:00000000 
-"GamePanelStartupTipIndex"=dword:00000003 
-"AllowAutoGameMode"=dword:00000000 
-"AutoGameModeEnabled"=dword:00000000 
-"UseNexusForGameBarEnabled"=dword:00000000
-
-; disable fso and gamebar
-[HKEY_CURRENT_USER\System\GameConfigStore] 
-"GameDVR_Enabled"=dword:00000000 
-"GameDVR_FSEBehaviorMode"=dword:00000002 
-"GameDVR_FSEBehavior"=dword:00000002 
-"GameDVR_HonorUserFSEBehaviorMode"=dword:00000001 
-"GameDVR_DXGIHonorFSEWindowsCompatible"=dword:00000001 
-"GameDVR_EFSEFeatureFlags"=dword:00000000 
-"GameDVR_DSEBehavior"=dword:00000002
-
-; disable fso and gamebar
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\GameDVR] 
-"AllowGameDVR"=dword:00000000
-
-; disable fso and gamebar
-[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR] 
-"AppCaptureEnabled"=dword:00000000
-
-; disable fso and gamebar
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BcastDVRUserService]
-"Start"=dword:00000004
-
-; disable fso and gamebar
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment]
-"__COMPAT_LAYER"="~ DISABLEDXMAXIMIZEDWINDOWEDMODE"
