@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>08/08/2023 08:04:48</Date>
+	<Date>09/07/2023 18:14:54</Date>
 	<AppInfo>
-		<Version>2023.7.9371</Version>
+		<Version>2023.8.9408</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 11 Pro (22H2) x64 - 10.0.22621.1992 (tr-TR)</Host>
+		<Host>Windows 11 Pro 22H2 x64 - 10.0.22621.2215 (tr-TR)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 10 Professional (22H2) x64 - 10.0.19045.3271 (tr-TR)</Version>
-		<GUID>{D74A1139-AB15-4A5F-6BC2-00171E7C1B1A}</GUID>
+		<Version mode="offline">Windows 10 Professional 22H2 x64 - 10.0.19045.3391 (tr-TR)</Version>
+		<GUID>{33897B15-90F3-5C2C-CA63-9A356AFF3887}</GUID>
 	</ImageInfo>
-	<RemoveComponents AppRemovalMode="DISM">
+	<RemoveComponents AppRemovalMode="Custom">
 		<c>1527c705-839a-4832-9118-54d4bd6a0c89 'File Picker'</c>
 		<c>aarsvc 'Aracı Etkinleştirme Çalışma Zamanı'</c>
 		<c>accessibility 'Erişilebilirlik araçları (Erişim Kolaylığı)'</c>
@@ -30,7 +30,7 @@
 		<c>azman32 'Yetkilendirme Müdürü - 32 bit'</c>
 		<c>backup 'Windows Yedekleme'</c>
 		<c>branchcacheclient 'BranchCache İstemcisi'</c>
-		<c>c5e2524a-ea46-4f67-841f-6a9465d9d515 'Dosya Gezgini'</c>
+		<c>c5e2524a-ea46-4f67-841f-6a9465d9d515 'Dosya Gezgini (Legacy)'</c>
 		<c>ceip 'CEIP (SQM)'</c>
 		<c>cellulartime 'Hücresel Zaman'</c>
 		<c>certmgr32 'Sertifika Yöneticisi - 32 bit'</c>
@@ -260,7 +260,21 @@
 		<c>driver_usbcciddriver.inf</c>
 		<c>driver_usbcir.inf</c>
 		<c>driver_vca.inf</c>
+		<c>driver_wdmvsc.inf</c>
+		<c>driver_wfcvsc.inf</c>
+		<c>driver_wgencounter.inf</c>
+		<c>driver_whvcrash.inf</c>
+		<c>driver_whyperkbd.inf</c>
+		<c>driver_wnetvsc.inf</c>
+		<c>driver_ws3cap.inf</c>
+		<c>driver_wstorvsc.inf</c>
 		<c>driver_wudfusbcciddriver.inf</c>
+		<c>driver_wvmbushid.inf</c>
+		<c>driver_wvmbusvideo.inf</c>
+		<c>driver_wvmgid.inf</c>
+		<c>driver_wvmic.inf</c>
+		<c>driver_wvmic_ext.inf</c>
+		<c>driver_wvpci.inf</c>
 		<c>dvdplay 'DVD Oynatma'</c>
 		<c>easeofaccessthemes 'Erişim Kolaylığı Temaları'</c>
 		<c>embeddedexperience 'Cihaz Kilitleme (Yerleşik Deneyim)'</c>
@@ -272,10 +286,12 @@
 		<c>eudcedit 'Özel Karakter Düzenleyici'</c>
 		<c>eventviewer32 'Olay Göstericisi - 32 bit'</c>
 		<c>f46d4000-fd22-4db4-ac8e-4e1ddde828fe 'Klasör Önerileri iletişim kutusu ekle'</c>
+		<c>facerecognition 'Yüz Tanıma'</c>
 		<c>fciclient 'Dosya Sunucusu Kaynak Yöneticisi'</c>
 		<c>filehistory 'Dosya Geçmişi'</c>
 		<c>filerevocationmanager 'Dosya İptal Yöneticisi - 32 bit'</c>
 		<c>folderredirection 'Klasör Yeniden Yönlendirme'</c>
+		<c>font_malgungothic 'Malgun Gothic'</c>
 		<c>font_malgungothicbold 'Malgun Gothic Bold'</c>
 		<c>font_microsoftjhengheibold 'Microsoft JhengHei Bold &amp; Microsoft JhengHei UI Bold'</c>
 		<c>font_microsoftjhengheilight 'Microsoft JhengHei Light &amp; Microsoft JhengHei UI Light'</c>
@@ -303,6 +319,7 @@
 		<c>hwsupport_modemsettings 'Paylaşılan modem ayarları (mdmgl*.inf)'</c>
 		<c>hwsupport_telephony 'Telefonculuk'</c>
 		<c>hwsupport_tv 'TV Tuner codec bileşenleri ve desteği'</c>
+		<c>hypervguest 'Hyper-V Guest'</c>
 		<c>ias 'İnternet Kimlik Doğrulama Hizmeti (IAS)'</c>
 		<c>iis 'İnternet Bilgi Sunucusu (IIS)'</c>
 		<c>indeo 'Intel Indeo Codec'leri'</c>
@@ -335,7 +352,6 @@
 		<c>memorydiagnostic 'Bellek Tanılama'</c>
 		<c>messagingsvc 'Mesajlaşma Hizmeti'</c>
 		<c>microsoft.549981c3f5f10 'Cortana'</c>
-		<c>microsoft.advertising.xaml 'Microsoft Advertising SDK for XAML'</c>
 		<c>microsoft.asynctextservice 'AsyncTextService'</c>
 		<c>microsoft.bingweather 'MSN Weather'</c>
 		<c>microsoft.ecapp 'Gözle Denetim'</c>
@@ -350,10 +366,8 @@
 		<c>microsoft.microsoftsolitairecollection 'Microsoft Solitaire Collection'</c>
 		<c>microsoft.microsoftstickynotes 'Microsoft Sticky Notes'</c>
 		<c>microsoft.mixedreality.portal 'Mixed Reality Portal'</c>
-		<c>microsoft.mspaint 'Paint 3D'</c>
 		<c>microsoft.office.onenote 'OneNote'</c>
 		<c>microsoft.people 'Microsoft People'</c>
-		<c>microsoft.services.store.engagement 'Microsoft Engagement Framework'</c>
 		<c>microsoft.skypeapp 'Skype'</c>
 		<c>microsoft.vp9videoextensions 'VP9 Video Uzantıları'</c>
 		<c>microsoft.wallet 'Microsoft Pay'</c>
@@ -520,7 +534,7 @@
 			<Feature enabled="no">ManualSetup</Feature>
 			<Feature enabled="yes">OOBE</Feature>
 			<Feature enabled="no">VSS</Feature>
-			<Feature enabled="yes">Hyper-V</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
 			<Feature enabled="yes">iCloud</Feature>
 			<Feature enabled="no">USBCamera</Feature>
 			<Feature enabled="yes">OfficeSupport</Feature>
@@ -559,26 +573,14 @@
 		</MachineDrivers>
 	</Compatibility>
 	<Features>
+		<Feature name="NetFX3~~~~">true</Feature>
 		<Feature name="NetFx4Extended-ASPNET45">true</Feature>
 		<Feature name="DirectPlay">true</Feature>
-		<Feature name="HostGuardian">true</Feature>
-		<Feature name="Microsoft-Hyper-V-Management-Clients">true</Feature>
-		<Feature name="Microsoft-Hyper-V-Hypervisor">true</Feature>
-		<Feature name="Microsoft-Hyper-V-Tools-All">true</Feature>
-		<Feature name="Microsoft-Hyper-V-Management-PowerShell">true</Feature>
-		<Feature name="Microsoft-Hyper-V">true</Feature>
-		<Feature name="Microsoft-Hyper-V-Services">true</Feature>
-		<Feature name="Microsoft-Hyper-V-All">true</Feature>
 		<Feature name="Printing-Foundation-InternetPrinting-Client">false</Feature>
 		<Feature name="LegacyComponents">true</Feature>
 		<Feature name="MathRecognizer~~~~0.0.1.0">false</Feature>
-		<Feature name="App.Support.QuickAssist~~~~0.0.1.0">false</Feature>
 		<Feature name="Printing-XPSServices-Features">false</Feature>
 		<Feature name="Printing-Foundation-Features">false</Feature>
-		<Feature name="VirtualMachinePlatform">true</Feature>
-		<Feature name="Print.Fax.Scan~~~~0.0.1.0">false</Feature>
-		<Feature name="Hello.Face.Migration.18967~~~~0.0.1.0">false</Feature>
-		<Feature name="Hello.Face.18967~~~~0.0.1.0">false</Feature>
 		<Feature name="MicrosoftWindowsPowerShellV2">false</Feature>
 		<Feature name="MicrosoftWindowsPowerShellV2Root">false</Feature>
 	</Features>
@@ -613,9 +615,6 @@
 		</settings>
 		<settings pass="windowsPE">
 			<component name="Microsoft-Windows-Setup">
-				<Diagnostics>
-					<OptIn>false</OptIn>
-				</Diagnostics>
 				<DynamicUpdate>
 					<Enable>false</Enable>
 					<WillShowUI>OnError</WillShowUI>
@@ -645,15 +644,19 @@
 		<Settings>
 			<TweakGroup name="StartTweaks">
 				<Tweak name="Start\HideHibernate">1</Tweak>
+				<Tweak name="Start\AllowPinnedFolderSettings">1</Tweak>
 				<Tweak name="Start\AllowPinnedFolderNetwork">0</Tweak>
+				<Tweak name="Start\AllowPinnedFolderFileExplorer">0</Tweak>
 				<Tweak name="Start\AllowPinnedFolderHomeGroup">0</Tweak>
+				<Tweak name="Start\AllowPinnedFolderPictures">1</Tweak>
+				<Tweak name="Start\AllowPinnedFolderVideos">1</Tweak>
+				<Tweak name="Start\AllowPinnedFolderDownloads">1</Tweak>
 				<Tweak name="Start\HideSwitchAccount">1</Tweak>
+				<Tweak name="Start\HideAppList">0</Tweak>
 				<Tweak name="Start\HideFrequentlyUsedApps">1</Tweak>
+				<Tweak name="Explorer\HideRecentlyAddedApps">1</Tweak>
 			</TweakGroup>
 			<TweakGroup name="Explorer">
-				<Tweak name="Explorer\DisableThumbnailsOnNetworkFolders">0</Tweak>
-				<Tweak name="Advanced\ShowInfoTip">0</Tweak>
-				<Tweak name="Advanced\FolderContentsInfoTip">0</Tweak>
 				<Tweak name="Advanced\DontUsePowerShellOnWinX">0</Tweak>
 				<Tweak name="Explorer\NoCDBurning">1</Tweak>
 				<Tweak name="Advanced\LaunchTo">1</Tweak>
@@ -744,10 +747,7 @@
 				<Tweak name="CrashControl\AutoReboot">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="DesktopTweaks">
-				<Tweak name="Explorer\AltTabSettings">1</Tweak>
-				<Tweak name="Search\SearchboxTaskbarMode">2</Tweak>
 				<Tweak name="Start\HideRecentJumplists">1</Tweak>
-				<Tweak name="Explorer\DisableNotificationCenter">1</Tweak>
 				<Tweak name="PushNotifications\NoCloudApplicationNotification">1</Tweak>
 				<Tweak name="People\PeopleBand">0</Tweak>
 				<Tweak name="Desktop\IconSize">32</Tweak>
@@ -757,23 +757,23 @@
 				<Tweak name="NewStartPanel\{59031a47-3f72-44a7-89c5-5595fe6b30ee}">1</Tweak>
 				<Tweak name="Explorer\HideSCAMeetNow">1</Tweak>
 				<Tweak name="Feeds\ShellFeedsTaskbarViewMode">2</Tweak>
-				<Tweak name="Personalize\AppsUseLightTheme">1</Tweak>
-				<Tweak name="Personalize\SystemUsesLightTheme">0</Tweak>
 				<Tweak name="Mouse\MouseSpeed">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="System">
+				<Tweak name="Windows\DisableATMFD">1</Tweak>
 				<Tweak name="ReserveManager\ShippedWithReserves">0</Tweak>
 				<Tweak name="System\DisableAutomaticRestartSignOn">1</Tweak>
 				<Tweak name="StoragePolicy\01">0</Tweak>
 				<Tweak name="StoragePolicy\04">0</Tweak>
 				<Tweak name="StoragePolicy\256">0</Tweak>
 				<Tweak name="StoragePolicy\512">0</Tweak>
+				<Tweak name="UserGpuPreferences\DirectXUserGlobalSettings">VRROptimizeEnable=0</Tweak>
+				<Tweak name="DiskQuota\Enable">0</Tweak>
 				<Tweak name="GraphicsDrivers\HwSchMode">2</Tweak>
 				<Tweak name="System\HideFastUserSwitching">1</Tweak>
 				<Tweak name="OneDrive\DisableFileSyncNGSC">1</Tweak>
 				<Tweak name="GameConfigStore\GameDVR_FSEBehavior">2</Tweak>
 				<Tweak name="DeviceGuard\EnableVirtualizationBasedSecurity">0</Tweak>
-				<Tweak name=".NETFramework\OnlyUseLatestCLR">1</Tweak>
 				<Tweak name="Winlogon\RestartApps">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="WindowsDefender">
@@ -788,10 +788,10 @@
 				<Tweak name="Device Metadata\PreventDeviceMetadataFromNetwork">1</Tweak>
 				<Tweak name="WindowsUpdate\DisableWUfBSafeguards">1</Tweak>
 				<Tweak name="7971f918-a847-4430-9279-4a52d1efe18d\RegisterWithAU">0</Tweak>
-				<Tweak name="WindowsUpdate\ExcludeWUDriversInQualityUpdate">1</Tweak>
+				<Tweak name="Settings\RestartNotificationsAllowed2">0</Tweak>
+				<Tweak name="WindowsUpdate\TargetReleaseVersionInfo">22H2</Tweak>
 				<Tweak name="Preferences\ModelDownloadAllowed">0</Tweak>
 				<Tweak name="MRT\DontOfferThroughWUAU">1</Tweak>
-				<Tweak name="DriverSearching\SearchOrderConfig">0</Tweak>
 				<Tweak name="DeliveryOptimization\DODownloadMode">99</Tweak>
 				<Tweak name="AU\AUOptions">2</Tweak>
 			</TweakGroup>
@@ -801,7 +801,6 @@
 				<Tweak name="bthserv\bthserv">4</Tweak>
 				<Tweak name="BluetoothUserService\BluetoothUserService">4</Tweak>
 				<Tweak name="BTAGService\BTAGService">4</Tweak>
-				<Tweak name="TabletInputService\TabletInputService">4</Tweak>
 				<Tweak name="SharedAccess\SharedAccess">4</Tweak>
 				<Tweak name="EntAppSvc\EntAppSvc">4</Tweak>
 				<Tweak name="edgeupdate\edgeupdate">4</Tweak>
@@ -823,8 +822,10 @@
 		<ImageTasks>
 			<Task>imageSaveTrim</Task>
 			<Task>imageFormatWim</Task>
+			<Task>imageOptionsCreateIso</Task>
+			<Task>imageOptionsSkipPrompt</Task>
 		</ImageTasks>
-		<AutoIsoFile>NTLite.iso</AutoIsoFile>
+		<AutoIsoFile>C:\Users\Klaus\Desktop\utkuos10.iso</AutoIsoFile>
 		<AutoIsoLabel>UtkuOS-10</AutoIsoLabel>
 		<AutoSplitSize>4000</AutoSplitSize>
 		<CleanHotfixedLeftovers>3</CleanHotfixedLeftovers>
