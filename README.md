@@ -1,14 +1,9 @@
 # UtkuOS 8.1 - 10 - 11
 
-If you are looking for debloated windows you are in the right place :)
+https://www.tnctr.com/topic/1223095-windows-10-pro-%E3%80%A1190453448-%E3%80%A1lite%E3%80%A1-16092023/
+https://www.tnctr.com/topic/1224954-windows-11-pro-%E3%80%A1226212283-%E3%80%A1lite%E3%80%A1-16092023/
 
-Download: https://bit.ly/3lfAXg4
-Discord: https://discord.gg/Z2SuyaqYfA
 
-Credits: 
+https://bit.ly/3lfAXg4
+https://discord.gg/Z2SuyaqYfA
 
-FoxOS for REG KEYS Related to 7Zip and Mouse-Keyboard DataQueueSize
-
-Hellbovine for REG KEYS Related to Power Options
-
-AtlasOS for REG KEYS Related to disable and/or optimize DMA, Process Mitigations, DEP, FSO, Gamebar, File System Mitigations, Spectre and Meltdown
