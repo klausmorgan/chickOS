@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>09/06/2023 04:46:55</Date>
+	<Date>09/19/2023 01:04:47</Date>
 	<AppInfo>
-		<Version>2023.8.9408</Version>
+		<Version>2023.9.9419</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
 		<Host>Windows 11 Pro 22H2 x64 - 10.0.22621.2215 (tr-TR)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 11 Professional 22H2 x64 - 10.0.22621.2215 (tr-TR)</Version>
-		<GUID>{694EB3E7-4FEA-4C04-E192-BA31FF24BA17}</GUID>
+		<Version mode="offline">Windows 11 Professional 22H2 x64 - 10.0.22621.2283 (tr-TR)</Version>
+		<GUID>{DB6BA41D-7850-460D-8552-29789D5BBEC5}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="Custom">
 		<c>1527c705-839a-4832-9118-54d4bd6a0c89 'File Picker'</c>
@@ -816,9 +816,6 @@
 		</Settings>
 		<Services>
 			<TweakGroup name="services">
-				<Tweak name="bthserv\bthserv">4</Tweak>
-				<Tweak name="BluetoothUserService\BluetoothUserService">4</Tweak>
-				<Tweak name="BTAGService\BTAGService">4</Tweak>
 				<Tweak name="SharedAccess\SharedAccess">4</Tweak>
 				<Tweak name="EntAppSvc\EntAppSvc">4</Tweak>
 				<Tweak name="edgeupdate\edgeupdate">4</Tweak>
