@@ -1,0 +1,185 @@
+Windows Registry Editor Version 5.00
+
+; Set default power scheme
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\User\Default\PowerSchemes]
+"ActivePowerScheme"="8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c"
+
+; Set default power scheme
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\User\PowerSchemes]
+"ActivePowerScheme"="8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c"
+
+; Don't allow windows to change power plan automatically
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power]
+"CustomizeDuringSetup"=dword:00000000
+
+; Choose what the power buttons do > When I press the power button > Shut down
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\4f971e89-eebd-4455-a8de-9e59040e7347\7648efa3-dd9c-4e3e-b566-50f929386280\DefaultPowerSchemeValues\381b4222-f694-41f0-9685-ff5bb260df2e]
+"ACSettingIndex"=dword:00000003
+"DCSettingIndex"=dword:00000003
+
+; Choose what the power buttons do > When I press the power button > Shut down
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\4f971e89-eebd-4455-a8de-9e59040e7347\7648efa3-dd9c-4e3e-b566-50f929386280\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
+"ACSettingIndex"=dword:00000003
+"DCSettingIndex"=dword:00000003
+
+; Choose what the power buttons do > When I press the power button > Shut down
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\4f971e89-eebd-4455-a8de-9e59040e7347\7648efa3-dd9c-4e3e-b566-50f929386280\DefaultPowerSchemeValues\a1841308-3541-4fab-bc81-f71556f20b4a]
+"ACSettingIndex"=dword:00000003
+"DCSettingIndex"=dword:00000003
+
+; Choose what the power buttons do > When I press the sleep button > Sleep
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\4f971e89-eebd-4455-a8de-9e59040e7347\96996bc0-ad50-47ec-923b-6f41874dd9eb\DefaultPowerSchemeValues\381b4222-f694-41f0-9685-ff5bb260df2e]
+"ACSettingIndex"=dword:00000001
+"DCSettingIndex"=dword:00000001
+
+; Choose what the power buttons do > When I press the sleep button > Sleep
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\4f971e89-eebd-4455-a8de-9e59040e7347\96996bc0-ad50-47ec-923b-6f41874dd9eb\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
+"ACSettingIndex"=dword:00000001
+"DCSettingIndex"=dword:00000001
+
+; Choose what the power buttons do > When I press the sleep button > Sleep
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\4f971e89-eebd-4455-a8de-9e59040e7347\96996bc0-ad50-47ec-923b-6f41874dd9eb\DefaultPowerSchemeValues\a1841308-3541-4fab-bc81-f71556f20b4a]
+"ACSettingIndex"=dword:00000001
+"DCSettingIndex"=dword:00000001
+
+; Choose what the power buttons do > When I close the lid > Sleep
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\4f971e89-eebd-4455-a8de-9e59040e7347\5ca83367-6e45-459f-a27b-476b1d01c936\DefaultPowerSchemeValues\381b4222-f694-41f0-9685-ff5bb260df2e]
+"ACSettingIndex"=dword:00000001
+"DCSettingIndex"=dword:00000001
+
+; Choose what the power buttons do > When I close the lid > Sleep
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\4f971e89-eebd-4455-a8de-9e59040e7347\5ca83367-6e45-459f-a27b-476b1d01c936\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
+"ACSettingIndex"=dword:00000001
+"DCSettingIndex"=dword:00000001
+
+; Choose what the power buttons do > When I close the lid > Sleep
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\4f971e89-eebd-4455-a8de-9e59040e7347\5ca83367-6e45-459f-a27b-476b1d01c936\DefaultPowerSchemeValues\a1841308-3541-4fab-bc81-f71556f20b4a]
+"ACSettingIndex"=dword:00000001
+"DCSettingIndex"=dword:00000001
+
+; Choose what the power buttons do > Lock > Off
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FlyoutMenuSettings]
+"ShowLockOption"=dword:00000000
+
+; Power Options > Preferred plans > High performance
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\User\Default\PowerSchemes]
+"ActivePowerScheme"="8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c"
+
+; Power Options > Preferred plans > High performance
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\User\PowerSchemes]
+"ActivePowerScheme"="8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c"
+
+; Power Options > Change plan settings (High performance) > Change advanced power settings > High performance > Require a password on wakeup > No
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\0E796BDB-100D-47D6-A2D5-F7D2DAA51F51\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
+"ACSettingIndex"=dword:00000000
+"DCSettingIndex"=dword:00000000
+
+; Power Options > Change plan settings (High performance) > Change advanced power settings > Hard disk > AHCI Link Power Management - HIPM/DIPM > Active
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\0012ee47-9041-4b5d-9b77-535fba8b1442\0b2d69d7-a2a1-449c-9680-f91c70521c60\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
+"ACSettingIndex"=dword:00000000
+"DCSettingIndex"=dword:00000000
+
+; Power Options > Change plan settings (High performance) > Change advanced power settings > Hard disk > Turn off hard disk after > Never
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\0012ee47-9041-4b5d-9b77-535fba8b1442\6738e2c4-e8a5-4a42-b16a-e040e769756e\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
+"ACSettingIndex"=dword:00000000
+"DCSettingIndex"=dword:00000000
+
+; Power Options > Change plan settings (High performance) > Change advanced power settings > Hard disk > NVMe NOPPME > On
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\0012ee47-9041-4b5d-9b77-535fba8b1442\fc7372b6-ab2d-43ee-8797-15e9841f2cca\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
+"ACSettingIndex"=dword:00000001
+"DCSettingIndex"=dword:00000001
+
+; Power Options > Change plan settings (High performance) > Change advanced power settings > Hard disk > Primary NVMe Power State Transition Latency Tolerance > 0 milliseconds
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\0012ee47-9041-4b5d-9b77-535fba8b1442\fc95af4d-40e7-4b6d-835a-56d131dbc80e\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
+"ACSettingIndex"=dword:00000000
+"DCSettingIndex"=dword:00000000
+
+; Power Options > Change plan settings (Balanced) > Change advanced power settings > Sleep > Hibernate after > Never
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\238C9FA8-0AAD-41ED-83F4-97BE242C8F20\9d7815a6-7ee4-497e-8888-515a05f02364\DefaultPowerSchemeValues\381b4222-f694-41f0-9685-ff5bb260df2e]
+"ACSettingIndex"=dword:00000000
+"DCSettingIndex"=dword:00000000
+
+; Power Options > Change plan settings (High performance) > Change advanced power settings > Sleep > Hibernate after > Never
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\238C9FA8-0AAD-41ED-83F4-97BE242C8F20\9d7815a6-7ee4-497e-8888-515a05f02364\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
+"ACSettingIndex"=dword:00000000
+"DCSettingIndex"=dword:00000000
+
+; Power Options > Change plan settings (Power saver) > Change advanced power settings > Sleep > Hibernate after > Never
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\238C9FA8-0AAD-41ED-83F4-97BE242C8F20\9d7815a6-7ee4-497e-8888-515a05f02364\DefaultPowerSchemeValues\a1841308-3541-4fab-bc81-f71556f20b4a]
+"ACSettingIndex"=dword:00000000
+"DCSettingIndex"=dword:00000000
+
+; Power Options > Change plan settings (High performance) > Change advanced power settings > USB settings > Hub Selective Suspend Timeout > 0 Millisecond
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\2a737441-1930-4402-8d77-b2bebba308a3\0853a681-27c8-4100-a2fd-82013e970683\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
+"ACSettingIndex"=dword:00000000
+"DCSettingIndex"=dword:00000000
+
+; Power Options > Change plan settings (High performance) > Change advanced power settings > USB settings > USB selective suspend setting > Disabled
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\2a737441-1930-4402-8d77-b2bebba308a3\48e6b7a6-50f5-4782-a5d4-53bb8f07e226\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
+"ACSettingIndex"=dword:00000000
+"DCSettingIndex"=dword:00000000
+
+; Power Options > Change plan settings (High performance) > Change advanced power settings > USB settings > USB 3 Link Power Mangement > Off
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\2a737441-1930-4402-8d77-b2bebba308a3\d4e98f31-5ffe-4ce1-be31-1b38b384c009\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
+"ACSettingIndex"=dword:00000000
+"DCSettingIndex"=dword:00000000
+
+; Power Options > Change plan settings (High performance) > Change advanced power settings > Idle Resiliency > Execution Required power request timeout > 71582788 Minutes
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\2E601130-5351-4d9d-8E04-252966BAD054\3166BC41-7E98-4e03-B34E-EC0F5F2B218E\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
+"ACSettingIndex"=dword:ffffffff
+"DCSettingIndex"=dword:ffffffff
+
+; Power Options > Change plan settings (High performance) > Change advanced power settings > Display > Dim display after > 0 Minutes
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\7516b95f-f776-4464-8c53-06167f40cc99\17aaa29b-8b43-4b94-aafe-35f64daaf1ee\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
+"ACSettingIndex"=dword:00000000
+"DCSettingIndex"=dword:00000000
+
+; Power Options > Change plan settings (High performance) > Change advanced power settings > Display > Turn off display after > Never
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\7516b95f-f776-4464-8c53-06167f40cc99\3c0bc021-c8a8-4e07-a973-6b14cbcb2b7e\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
+"ACSettingIndex"=dword:00000000
+"DCSettingIndex"=dword:00000000
+
+; Power Options > Change plan settings (High performance) > Change advanced power settings > Display > Advanced Color quality bias > Advanced Color visual quality bias
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\7516b95f-f776-4464-8c53-06167f40cc99\684C3E69-A4F7-4014-8754-D45179A56167\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
+"ACSettingIndex"=dword:00000001
+"DCSettingIndex"=dword:00000001
+
+; Power Options > Change plan settings (High performance) > Change advanced power settings > Display > Console lock display off timeout > 0 Minutes
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\7516b95f-f776-4464-8c53-06167f40cc99\8EC4B3A5-6868-48c2-BE75-4F3044BE88A7\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
+"ACSettingIndex"=dword:00000000
+"DCSettingIndex"=dword:00000000
+
+; Power Options > Change plan settings (High performance) > Change advanced power settings > Presence Aware Power Behavior > Standby Reserve Time > 0 Minutes
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\8619B916-E004-4dd8-9B66-DAE86F806698\468FE7E5-1158-46EC-88BC-5B96C9E44FD0\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
+"ACSettingIndex"=dword:00000000
+"DCSettingIndex"=dword:00000000
+
+; Power Options > Change plan settings (High performance) > Change advanced power settings > Presence Aware Power Behavior > Non-sensor Input Presence Timeout > 0 Minutes
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\8619B916-E004-4dd8-9B66-DAE86F806698\5ADBBFBC-074E-4da1-BA38-DB8B36B2C8F3\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
+"ACSettingIndex"=dword:00000000
+"DCSettingIndex"=dword:00000000
+
+; Power Options > Change plan settings (High performance) > Change advanced power settings > Multimedia settings > Video playback quality bias > Video playback performance bias
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\9596FB26-9850-41fd-AC3E-F7C3C00AFD4B\10778347-1370-4ee0-8bbd-33bdacaade49\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
+"ACSettingIndex"=dword:00000001
+"DCSettingIndex"=dword:00000001
+
+; Power Options > Change plan settings (High performance) > Change advanced power settings > Energy Saver settings > Display brightness weight > 100%
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\DE830923-A562-41AF-A086-E3A2C6BAD2DA\13D09884-F74E-474A-A852-B6BDE8AD03A8\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
+"ACSettingIndex"=dword:00000064
+"DCSettingIndex"=dword:00000064
+
+; Power Options > Change plan settings (Balanced) > Change advanced power settings > Battery > Critical battery action > Shut down
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\e73a048d-bf27-4f12-9731-8b2076e8891f\637ea02f-bbcb-4015-8e2c-a1c7b9c0b546\DefaultPowerSchemeValues\381b4222-f694-41f0-9685-ff5bb260df2e]
+"ACSettingIndex"=dword:00000003
+"DCSettingIndex"=dword:00000003
+
+; Power Options > Change plan settings (High performance) > Change advanced power settings > Battery > Critical battery action > Shut down
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\e73a048d-bf27-4f12-9731-8b2076e8891f\637ea02f-bbcb-4015-8e2c-a1c7b9c0b546\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
+"ACSettingIndex"=dword:00000003
+"DCSettingIndex"=dword:00000003
+
+; Power Options > Change plan settings (Power saver) > Change advanced power settings > Battery > Critical battery action > Shut down
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\e73a048d-bf27-4f12-9731-8b2076e8891f\637ea02f-bbcb-4015-8e2c-a1c7b9c0b546\DefaultPowerSchemeValues\a1841308-3541-4fab-bc81-f71556f20b4a]
+"ACSettingIndex"=dword:00000003
+"DCSettingIndex"=dword:00000003

@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings]
+"Pauseupdatesexpirytime"="2099-11-11T16:38:59Z"
+"Pausefeatureupdatesendtime"="2099-11-11T11:11:11Z"
+"Pausequalityupdatesendtime"="2099-11-11T11:11:11Z"
