@@ -1,5 +1,8 @@
 Windows Registry Editor Version 5.00
 
+; Disable auto download microsoft store apps
+reg add "HKLM\SOFTWARE\Policies\Microsoft\WindowsStore" /v "AutoDownload" /t REG_DWORD /d "2" /f
+
 ; Display > Advanced scaling settings > Fix scaling for apps > Off
 [HKEY_CURRENT_USER\Control Panel\Desktop]
 "EnablePerProcessSystemDPI"=dword:00000000s
