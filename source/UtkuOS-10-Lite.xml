@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>10/15/2023 21:54:20</Date>
+	<Date>10/18/2023 16:56:11</Date>
 	<AppInfo>
 		<Version>2023.10.9447</Version>
 		<Licensed>Yes</Licensed>
@@ -595,7 +595,6 @@
 		<c>microsoft.windowsmaps 'Windows Maps'</c>
 		<c>microsoft.windowssoundrecorder 'Windows Voice Recorder'</c>
 		<c>microsoft.xboxapp 'Xbox'</c>
-		<c>microsoft.xboxgamingoverlay 'Xbox Game Bar'</c>
 		<c>microsoft.yourphone 'Your Phone'</c>
 		<c>midi 'Microsoft GS Dalgalanabilir Yazılım Synth (MIDI)'</c>
 		<c>migwiz 'Kolay Transfer'</c>
@@ -1032,7 +1031,11 @@
 		</Settings>
 		<Services></Services>
 		<ExtraServices></ExtraServices>
-		<ScheduledTasks></ScheduledTasks>
+		<ScheduledTasks>
+			<TweakGroup name="Tree\Microsoft\Windows\International">
+				<Tweak name="Synchronize Language Settings\Synchronize Language Settings">remove</Tweak>
+			</TweakGroup>
+		</ScheduledTasks>
 	</Tweaks>
 	<ApplyOptions>
 		<ImageTasks>
