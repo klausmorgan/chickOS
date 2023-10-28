@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>10/18/2023 16:56:11</Date>
+	<Date>10/28/2023 20:07:03</Date>
 	<AppInfo>
-		<Version>2023.10.9447</Version>
+		<Version>2023.10.9466</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 11 Pro 22H2 x64 - 10.0.22621.2428 (tr-TR)</Host>
+		<Host>Windows 11 Pro 23H2 x64 - 10.0.22631.2506 (tr-TR)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 10 Professional 22H2 x64 - 10.0.19045.3570 (tr-TR)</Version>
-		<GUID>{C943CCC0-7464-4D02-B84B-10BABA123AFA}</GUID>
+		<Version mode="offline">Windows 10 Professional 22H2 x64 - 10.0.19045.3636 (tr-TR)</Version>
+		<GUID>{F6B68DE7-03BF-F44A-7969-53F17DCA4D25}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>1527c705-839a-4832-9118-54d4bd6a0c89 'File Picker'</c>
@@ -25,7 +25,6 @@
 		<c>audit 'Windows Denetimi'</c>
 		<c>autoplay 'OtomatikOynatma'</c>
 		<c>azman32 'Yetkilendirme Müdürü - 32 bit'</c>
-		<c>backgroundmediaplayer32 'Background Media Player - 32 bit'</c>
 		<c>backup 'Windows Yedekleme'</c>
 		<c>branchcacheclient 'BranchCache İstemcisi'</c>
 		<c>c5e2524a-ea46-4f67-841f-6a9465d9d515 'Dosya Gezgini (Legacy)'</c>
@@ -33,12 +32,10 @@
 		<c>ceip 'CEIP (SQM)'</c>
 		<c>cellulartime 'Hücresel Zaman'</c>
 		<c>certmgr32 'Sertifika Yöneticisi - 32 bit'</c>
-		<c>charmap 'Karakter Haritası'</c>
 		<c>clouddownload 'Windows Kurtarma - Cloud download'</c>
 		<c>cloudnotifications 'Bulut Bildirimleri'</c>
 		<c>commmc32 'COM+ (Bileşen Hizmetleri) (Yönetim konsolu) - 32 bit'</c>
 		<c>compmgmt32 'Bilgisayar Yönetimi - 32 bit'</c>
-		<c>datacenterbridging 'Veri Merkezi Köprüleme (DCB)'</c>
 		<c>desktopactivitymoderator 'Masaüstü Etkinlik Moderatörü (DAM)'</c>
 		<c>desktopimgdownldr 'Masaüstü resim indiricisi'</c>
 		<c>deviceexperience 'Cihaz Deneyimi'</c>
@@ -117,16 +114,6 @@
 		<c>driver_mdmgatew.inf</c>
 		<c>driver_mdmgcs.inf</c>
 		<c>driver_mdmgen.inf</c>
-		<c>driver_mdmgl001.inf</c>
-		<c>driver_mdmgl002.inf</c>
-		<c>driver_mdmgl003.inf</c>
-		<c>driver_mdmgl004.inf</c>
-		<c>driver_mdmgl005.inf</c>
-		<c>driver_mdmgl006.inf</c>
-		<c>driver_mdmgl007.inf</c>
-		<c>driver_mdmgl008.inf</c>
-		<c>driver_mdmgl009.inf</c>
-		<c>driver_mdmgl010.inf</c>
 		<c>driver_mdmgsm.inf</c>
 		<c>driver_mdmhaeu.inf</c>
 		<c>driver_mdmhandy.inf</c>
@@ -219,7 +206,6 @@
 		<c>driver_mdmzyxel.inf</c>
 		<c>driver_mdmzyxlg.inf</c>
 		<c>driver_mgtdyn.inf</c>
-		<c>driver_modemcsa.inf</c>
 		<c>driver_msclmd.inf</c>
 		<c>driver_rdpbus.inf</c>
 		<c>driver_rdvgwddmdx11.inf</c>
@@ -271,7 +257,6 @@
 		<c>font_yugothicmedium 'Yu Gothic Medium &amp; Yu Gothic UI Regular'</c>
 		<c>fontpreviewer32 'Font previewer - 32 bit'</c>
 		<c>fsmgmt32 'Paylaşılan Klasörler UI - 32 bit'</c>
-		<c>gameexplorer 'Oyun Gezgini'</c>
 		<c>graphicsperfsvc 'Grafik performansı izleme hizmeti'</c>
 		<c>guardedhost 'Korunan Ana Bilgisayar'</c>
 		<c>hbaapi 'Ana Bilgisayar Veriyolu Adaptörü (HBA) API'</c>
@@ -281,8 +266,6 @@
 		<c>hwsupport_floppy 'Disket'</c>
 		<c>hwsupport_infrared 'Kızılötesi cihazlar'</c>
 		<c>hwsupport_internetprintingclient 'İnternet Baskı İstemcisi'</c>
-		<c>hwsupport_modem 'Modem'</c>
-		<c>hwsupport_modemsettings 'Paylaşılan modem ayarları (mdmgl*.inf)'</c>
 		<c>hwsupport_smartcard 'Akıllıkart'</c>
 		<c>hwsupport_telephony 'Telefonculuk'</c>
 		<c>hwsupport_tv 'TV Tuner codec bileşenleri ve desteği'</c>
@@ -553,7 +536,6 @@
 		<c>manifestbackup 'Belirgin Yedekleme (WinSxS\Backup)'</c>
 		<c>manualsetup 'Elle kurulum'</c>
 		<c>mapcontrol 'Harita Kontrolü'</c>
-		<c>memorydiagnostic 'Bellek Tanılama'</c>
 		<c>messagingsvc 'Mesajlaşma Hizmeti'</c>
 		<c>microsoft.549981c3f5f10 'Cortana'</c>
 		<c>microsoft.asynctextservice 'AsyncTextService'</c>
@@ -611,20 +593,15 @@
 		<c>ndiscap 'NDIS Paket Yakalama (NDISCAP)'</c>
 		<c>ndisimplat 'Ağ Bağdaştırıcısı Çoklayıcı Protokolü'</c>
 		<c>ndu 'Ağ Veri Kullanımı İzleme Sürücüsü'</c>
-		<c>netqos 'Hizmet Paketi Planlayıcısının Kalitesi (QoS)'</c>
-		<c>nettopology 'Bağlantı-Katmanı Topolojisi Keşfi protokolü (LLTD)'</c>
 		<c>nfc 'Ödemeler ve NFC/SE Yöneticisi'</c>
 		<c>nfsclient 'NFS Yönetim Araçları'</c>
 		<c>offlinefiles 'Çevrimdışı Dosyalar'</c>
 		<c>onedrive</c>
-		<c>osk_acc 'Ekran Klavyesi (Erişilebilirlik araçları)'</c>
-		<c>otherthemes 'Diğer Temalar'</c>
 		<c>paint</c>
 		<c>paint32 'Paint - 32 bit'</c>
 		<c>payments</c>
 		<c>peertopeer 'Eş Ağ İletişimi'</c>
 		<c>performancerecorder 'Windows Performans Kaydedici'</c>
-		<c>perftools 'İzleme için Performans CMD Araçları'</c>
 		<c>phonesvc 'Telefon Hizmeti'</c>
 		<c>photocodec32 'Fotoğraf codec bileşeni - 32 bit'</c>
 		<c>photoviewer32 'Fotoğraf görüntüleyici - 32 bit'</c>
@@ -637,7 +614,6 @@
 		<c>printmgmt 'Baskı Yönetimi'</c>
 		<c>printtopdf 'PDF olarak yazdır'</c>
 		<c>printworkflow 'İş Akışı Hizmetini Yazdır'</c>
-		<c>projfs 'Projected File System (ProjFS)'</c>
 		<c>pushnotificationssvc 'Windows Push Bildirimleri Sistem Hizmeti (Sistem)'</c>
 		<c>pushtoinstall 'Windows PushToInstall Service'</c>
 		<c>rasauto 'Uzaktan Erişim Otomatik Bağlantı Yöneticisi'</c>
@@ -670,7 +646,6 @@
 		<c>sharedexperiences 'Shared Experiences'</c>
 		<c>sharedpc 'Paylaşılan PC modu'</c>
 		<c>sharehost32 'Share Host - 32 bit'</c>
-		<c>sharemediacpl 'Medya Kontrol Panelini Paylaşın'</c>
 		<c>sihclient 'Sunucu Tarafından Başlatılan İyileştirme İstemcisi'</c>
 		<c>simpletcp 'Basit TCP/IP hizmetleri'</c>
 		<c>skypeortc 'Skype ORTC'</c>
@@ -679,8 +654,6 @@
 		<c>smsrouter 'SMS Yönlendirici Hizmeti'</c>
 		<c>sorting 'Doğal Lisan - Sorting'</c>
 		<c>sourcessxsdir 'Manuel özellik deposu'</c>
-		<c>speechcommon 'Konuşma Tanıma'</c>
-		<c>speechtts 'Konuşma TTS'</c>
 		<c>spellchecking 'Yazım Denetimi'</c>
 		<c>srumon 'Veri Kullanımı hizmeti'</c>
 		<c>sstackwow64 'Servis Yığını - 32 bit'</c>
@@ -688,7 +661,6 @@
 		<c>supportdir 'Destek dizini'</c>
 		<c>synccenter 'Senkronizasyon Merkezi'</c>
 		<c>systemguard 'Sistem Koruması'</c>
-		<c>systemreset 'Windows için Sistem Sıfırlama'</c>
 		<c>tabletextservice 'Masa Metin Hizmeti'</c>
 		<c>tabletpc 'Tablet Bilgisayar'</c>
 		<c>targetedcontent32 'Hedeflenen İçerik Hizmeti - 32 bit'</c>
@@ -709,7 +681,6 @@
 		<c>vwifi 'Sanal WiFi'</c>
 		<c>waasassessment 'WaaS Değerlendirmesi'</c>
 		<c>wallet 'Cüzdan Hizmeti'</c>
-		<c>wallpapers 'Duvar Kağıtları (Temalar)'</c>
 		<c>warpjitsvc 'DirectX WARP JIT Hizmeti'</c>
 		<c>wcn 'Windows Şimdi Bağlan (WCN)'</c>
 		<c>wfmmc32 'Windows Firewall (Yönetim konsolu) - 32 bit'</c>
@@ -720,10 +691,7 @@
 		<c>windows.devicesflow32 'Cihaz Akışı - 32 bit'</c>
 		<c>windowstogo 'Windows To Go'</c>
 		<c>winocr 'Windows TIFF IFilter (OCR)'</c>
-		<c>winre 'Windows Kurtarma'</c>
 		<c>winrm 'WWindows Uzaktan Yönetim (WS-Yönetimi)'</c>
-		<c>winsat 'Windows Sistem Değerlendirme Aracı (WinSAT)'</c>
-		<c>wiredautoconfig 'Kablolu Otomatik Yapılandırma'</c>
 		<c>wordpad</c>
 		<c>wordpad32 'Wordpad - 32 bit'</c>
 		<c>wpdbusenum 'Taşınabilir Aygıt Numaralandırıcı Hizmeti'</c>
@@ -1019,10 +987,7 @@
 			<TweakGroup name="WindowsUpdate">
 				<Tweak name="Settings\HideMCTLink">1</Tweak>
 				<Tweak name="Device Metadata\PreventDeviceMetadataFromNetwork">1</Tweak>
-				<Tweak name="WindowsUpdate\DisableWUfBSafeguards">1</Tweak>
 				<Tweak name="7971f918-a847-4430-9279-4a52d1efe18d\RegisterWithAU">0</Tweak>
-				<Tweak name="Settings\RestartNotificationsAllowed2">0</Tweak>
-				<Tweak name="WindowsUpdate\TargetReleaseVersionInfo">22H2</Tweak>
 				<Tweak name="Preferences\ModelDownloadAllowed">0</Tweak>
 				<Tweak name="MRT\DontOfferThroughWUAU">1</Tweak>
 				<Tweak name="DeliveryOptimization\DODownloadMode">99</Tweak>
