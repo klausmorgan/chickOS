@@ -1,11 +1,11 @@
 Windows Registry Editor Version 5.00
 
+; Disable Auto Driver Update
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching]
+"SearchOrderConfig"=dword:00000000
+
 ; Disable auto download microsoft store apps
 reg add "HKLM\SOFTWARE\Policies\Microsoft\WindowsStore" /v "AutoDownload" /t REG_DWORD /d "2" /f
-
-; Display > Advanced scaling settings > Fix scaling for apps > Off
-[HKEY_CURRENT_USER\Control Panel\Desktop]
-"EnablePerProcessSystemDPI"=dword:00000000s
 
 ; Advanced system settings > Advanced > Startup and Recovery (Settings) > Write debugging information > (none)
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CrashControl]
@@ -27,20 +27,6 @@ reg add "HKLM\SOFTWARE\Policies\Microsoft\WindowsStore" /v "AutoDownload" /t REG
 ; USB > Notify me if there are issues connecting to USB devices > Off
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Shell\USB]
 "NotifyOnUsbErrors"=dword:00000000
-
-; Troubleshoot > Don't run any troubleshooters
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsMitigation]
-"UserPreference"=dword:00000001
-
-; set default photo viewer
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations]
-".tif"="PhotoViewer.FileAssoc.Tiff"
-".tiff"="PhotoViewer.FileAssoc.Tiff"
-".png"="PhotoViewer.FileAssoc.Tiff"
-".bmp"="PhotoViewer.FileAssoc.Tiff"
-".jpeg"="PhotoViewer.FileAssoc.Tiff"
-".jpg"="PhotoViewer.FileAssoc.Tiff"
-".ico"="PhotoViewer.FileAssoc.Tiff"
 
 ; Adjust for best performance of programs
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\PriorityControl]
@@ -89,11 +75,9 @@ Reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Search" /v "BackgroundAp
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers]
 "HwSchMode"=dword:00000002
 
-; Network throttling
 ; System responsiveness
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
-"NetworkThrottlingIndex"=dword:ffffffff
-"SystemResponsiveness"=dword:00000000
+"SystemResponsiveness"=dword:00000001
 
 ; Disable Search history
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\SearchSettings]
@@ -153,4 +137,3 @@ Reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Search" /v "BackgroundAp
 [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\PowerShell\1\ShellIds\Microsoft.PowerShell]
 "Path"="C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe"
 "ExecutionPolicy"="RemoteSigned"
-
