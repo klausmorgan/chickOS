@@ -1,4 +1,4 @@
-# chickOS 8.1 - 10 - 11
+# chickOS 10 - 11
 
 chickOS 10 Forum Konusu - > https://bit.ly/3ZVJPY3
 
