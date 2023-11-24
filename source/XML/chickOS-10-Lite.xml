@@ -621,7 +621,7 @@
 		</settings>
 		<settings pass="specialize">
 			<component name="Microsoft-Windows-Shell-Setup">
-				<ComputerName>UtkuOS</ComputerName>
+				<ComputerName>chickOS</ComputerName>
 			</component>
 		</settings>
 		<settings pass="windowsPE">
@@ -854,8 +854,8 @@
 			<Task>imageOptionsCreateIso</Task>
 			<Task>imageOptionsSkipPrompt</Task>
 		</ImageTasks>
-		<AutoIsoFile>C:\Users\Klaus\Desktop\UtkuOS10-Lite.iso</AutoIsoFile>
-		<AutoIsoLabel>UtkuOS-10</AutoIsoLabel>
+		<AutoIsoFile>C:\Users\Klaus\Desktop\chickOS10-Lite.iso</AutoIsoFile>
+		<AutoIsoLabel>chickOS-10</AutoIsoLabel>
 		<AutoSplitSize>4000</AutoSplitSize>
 		<CleanHotfixedLeftovers>3</CleanHotfixedLeftovers>
 		<OptimizeAppX>true</OptimizeAppX>
@@ -873,10 +873,10 @@
 		</Add>
 	</Execution>
 	<Registry>
-		<File>D:\.ISO\Presets\Mix.reg</File>
-		<File>D:\.ISO\Presets\Postpone.reg</File>
-		<File>D:\.ISO\Presets\Power.reg</File>
-		<File>D:\.ISO\Presets\Security.reg</File>
-		<File>D:\.ISO\Presets\Tweak Services.reg</File>
+		<File>D:\.chickOS\2-Presets\Mix.reg</File>
+		<File>D:\.chickOS\2-Presets\Postpone.reg</File>
+		<File>D:\.chickOS\2-Presets\Power.reg</File>
+		<File>D:\.chickOS\2-Presets\Security.reg</File>
+		<File>D:\.chickOS\2-Presets\Tweak Services.reg</File>
 	</Registry>
 </Preset>
