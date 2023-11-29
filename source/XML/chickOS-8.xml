@@ -1,99 +1,300 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>10/14/2023 18:26:43</Date>
+	<Date>11/29/2023 17:26:11</Date>
 	<AppInfo>
-		<Version>2023.10.9447</Version>
+		<Version>2023.11.9514</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 11 Pro 22H2 x64 - 10.0.22621.2428 (tr-TR)</Host>
+		<Host>Windows 11 Pro 23H2 x64 - 10.0.22631.2715 (tr-TR)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 8.1 Pro U3 x64 - 6.3.9600.20778 (tr-TR)</Version>
-		<GUID>{ECB8B047-FB0E-429E-9C88-EDF5F1970A0D}</GUID>
+		<Version mode="offline">Windows 8.1 U3 x64 - 6.3.9600.20778 (tr-TR)</Version>
+		<GUID>{791CE13D-23A7-46C8-878E-E64943C358D6}</GUID>
 	</ImageInfo>
-	<RemoveComponents AppRemovalMode="DISM">
-		<c>accessibility 'Erişilebilirlik araçları (Erişim Kolaylığı)'</c>
-		<c>accessibility_cursors 'Fare İşaretçileri (Erişilebilirlik araçları)'</c>
-		<c>accessibility_magnifier 'Screen Magnifier'</c>
-		<c>accessibility_narrator 'Narrator'</c>
-		<c>anytimeupgrade 'Windows Her Zaman Yükseltme'</c>
+	<RemoveComponents AppRemovalMode="Custom">
+		<c>aclui32 'Erişim Kontrol Listesi (ACL) UI - 32 bit'</c>
+		<c>actioncenter 'Hareket Merkezi'</c>
+		<c>activedirectory 'Active Directory'</c>
+		<c>adamclient 'Active Directory Hafif Dizin Hizmetleri (AD LDS)'</c>
+		<c>alg 'Uygulama Katmanı Ağ Geçidi Hizmeti'</c>
+		<c>anytimeupgrade 'Windows Her An Yükseltme'</c>
+		<c>appid 'Uygulama Kimlik Hizmeti'</c>
 		<c>asimov 'Telemetri İstemcisi'</c>
 		<c>assembly.net '.NET derleme önbelleği'</c>
 		<c>audit 'Windows Denetimi'</c>
-		<c>autoplay 'OtomatikOynatma'</c>
-		<c>autoworkplacejoin 'İşyeri Birleştirme'</c>
-		<c>azman32 'Yetkilendirme Müdürü - 32 bit'</c>
-		<c>biometric 'Windows Biyometrik Hizmeti - Destek'</c>
-		<c>branchcacheclient 'BranchCache İstemcisi'</c>
-		<c>briefcase 'İş çantası'</c>
+		<c>auditpol 'Windows Denetimi (Araçlar)'</c>
+		<c>autoplay 'Otomatik Oynat'</c>
+		<c>autoworkplacejoin 'Workplace Join'</c>
+		<c>azman 'Yetkilendirme Yöneticisi'</c>
+		<c>azman32 'Yetkilendirme Yöneticisi - 32 bit'</c>
+		<c>backgroundtransfer 'Ağ Arka Plan Aktarımı'</c>
+		<c>biometric 'Biyometrik - Destek'</c>
+		<c>biometricservice 'Biyometrik - Hizmet'</c>
+		<c>briefcase 'Evrak Çantası'</c>
+		<c>cdosys 'Windows için Collaboration Data Objects (CDOSYS)'</c>
 		<c>ceip 'CEIP (SQM)'</c>
 		<c>certmgr32 'Sertifika Yöneticisi - 32 bit'</c>
+		<c>charmap 'Karakter Haritası'</c>
 		<c>checkpoint.vpn 'Check Point VPN'</c>
 		<c>cloudnotifications 'Bulut Bildirimleri'</c>
-		<c>commmc32 'COM+ (Bileşen Hizmetleri) (Yönetim konsolu) - 32 bit'</c>
+		<c>commmc 'COM+ (Bileşen Hizmetleri) (yönetim konsolu)'</c>
+		<c>commmc32 'COM+ (Bileşen Hizmetleri) (yönetim konsolu) - 32 bit'</c>
+		<c>compluseventsystem 'COM+ Olay Sistemi'</c>
+		<c>complussysapp 'COM+ System Application'</c>
 		<c>compmgmt32 'Bilgisayar Yönetimi - 32 bit'</c>
 		<c>desktopactivitymoderator 'Masaüstü Etkinlik Moderatörü (DAM)'</c>
+		<c>desktoptile 'Masaüstü Döşemesi'</c>
+		<c>devicecenter 'Aygıt Merkezi (Aygıtlar ve Yazıcılar)'</c>
 		<c>deviceexperience 'Cihaz Deneyimi'</c>
-		<c>devicesync 'Microsoft Sync Çerçevesi'</c>
+		<c>devicesetupmanager 'Aygıt Kurulum Yöneticisi'</c>
+		<c>devicesync 'Microsoft Sync Framework'</c>
 		<c>devmgmt32 'Aygıt Yöneticisi - 32 bit'</c>
-		<c>diagnostics 'Teşhis ve Sorun Giderme'</c>
-		<c>diskdiagnosis 'Disk hatası teşhisi'</c>
+		<c>diagnostics 'Tanılama ve Sorun Giderme'</c>
+		<c>directaccess 'Doğrudan Erişim Bağlantısı'</c>
+		<c>diskdiagnosis 'Disk arıza tanılama'</c>
 		<c>diskmgmt32 'Disk Yönetimi - 32 bit'</c>
-		<c>diskraid 'DiskRAID tool'</c>
-		<c>domainclientssvc 'IPsec Politika Aracısı'</c>
+		<c>diskquota32 'Disk Kotası - 32 bit'</c>
+		<c>diskraid 'DiskRAID aracı'</c>
+		<c>displayswitch 'Görüntü Anahtarı'</c>
+		<c>domainclientssvc 'IPsec İlke Aracısı'</c>
+		<c>driver_c_biometric.inf</c>
+		<c>driver_c_dot4.inf</c>
+		<c>driver_c_dot4print.inf</c>
+		<c>driver_c_fdc.inf</c>
+		<c>driver_c_floppydisk.inf</c>
+		<c>driver_c_infrared.inf</c>
 		<c>driver_c_mcx.inf</c>
-		<c>driver_mcx2.inf</c>
+		<c>driver_c_mediumchanger.inf</c>
+		<c>driver_c_multifunction.inf</c>
+		<c>driver_c_multiportserial.inf</c>
+		<c>driver_c_smartcard.inf</c>
+		<c>driver_c_smartcardfilter.inf</c>
+		<c>driver_c_smartcardreader.inf</c>
+		<c>driver_fdc.inf</c>
+		<c>driver_flpydisk.inf</c>
+		<c>driver_hidir.inf</c>
+		<c>driver_hidirkbd.inf</c>
+		<c>driver_locationprovider.inf</c>
+		<c>driver_mdm3com.inf</c>
+		<c>driver_mdm5674a.inf</c>
+		<c>driver_mdmadc.inf</c>
+		<c>driver_mdmagm64.inf</c>
+		<c>driver_mdmags64.inf</c>
+		<c>driver_mdmairte.inf</c>
+		<c>driver_mdmaiwa.inf</c>
+		<c>driver_mdmaiwa3.inf</c>
+		<c>driver_mdmaiwa4.inf</c>
+		<c>driver_mdmaiwa5.inf</c>
+		<c>driver_mdmaiwat.inf</c>
+		<c>driver_mdmar1.inf</c>
+		<c>driver_mdmarch.inf</c>
+		<c>driver_mdmarn.inf</c>
+		<c>driver_mdmati.inf</c>
+		<c>driver_mdmatm2k.inf</c>
+		<c>driver_mdmaus.inf</c>
+		<c>driver_mdmboca.inf</c>
+		<c>driver_mdmbsb.inf</c>
+		<c>driver_mdmbug3.inf</c>
+		<c>driver_mdmbw561.inf</c>
+		<c>driver_mdmc26a.inf</c>
+		<c>driver_mdmcdp.inf</c>
+		<c>driver_mdmcm28.inf</c>
+		<c>driver_mdmcodex.inf</c>
+		<c>driver_mdmcom1.inf</c>
+		<c>driver_mdmcommu.inf</c>
+		<c>driver_mdmcomp.inf</c>
+		<c>driver_mdmcpq.inf</c>
+		<c>driver_mdmcpq2.inf</c>
+		<c>driver_mdmcpv.inf</c>
+		<c>driver_mdmcrtix.inf</c>
+		<c>driver_mdmcxhv6.inf</c>
+		<c>driver_mdmcxpv6.inf</c>
+		<c>driver_mdmdcm5.inf</c>
+		<c>driver_mdmdcm6.inf</c>
+		<c>driver_mdmdf56f.inf</c>
+		<c>driver_mdmdgitn.inf</c>
+		<c>driver_mdmdp2.inf</c>
+		<c>driver_mdmdsi.inf</c>
+		<c>driver_mdmdyna.inf</c>
+		<c>driver_mdmeiger.inf</c>
+		<c>driver_mdmelsa.inf</c>
+		<c>driver_mdmeric.inf</c>
+		<c>driver_mdmeric2.inf</c>
+		<c>driver_mdmetech.inf</c>
+		<c>driver_mdmfj2.inf</c>
+		<c>driver_mdmgatew.inf</c>
+		<c>driver_mdmgcs.inf</c>
+		<c>driver_mdmgen.inf</c>
+		<c>driver_mdmgl001.inf</c>
+		<c>driver_mdmgl002.inf</c>
+		<c>driver_mdmgl003.inf</c>
+		<c>driver_mdmgl004.inf</c>
+		<c>driver_mdmgl005.inf</c>
+		<c>driver_mdmgl006.inf</c>
+		<c>driver_mdmgl007.inf</c>
+		<c>driver_mdmgl008.inf</c>
+		<c>driver_mdmgl009.inf</c>
+		<c>driver_mdmgl010.inf</c>
+		<c>driver_mdmgsm.inf</c>
+		<c>driver_mdmhaeu.inf</c>
+		<c>driver_mdmhandy.inf</c>
+		<c>driver_mdmhay2.inf</c>
+		<c>driver_mdmhayes.inf</c>
+		<c>driver_mdminfot.inf</c>
+		<c>driver_mdmiodat.inf</c>
+		<c>driver_mdmirmdm.inf</c>
+		<c>driver_mdmisdn.inf</c>
+		<c>driver_mdmjf56e.inf</c>
+		<c>driver_mdmke.inf</c>
+		<c>driver_mdmkortx.inf</c>
+		<c>driver_mdmlasat.inf</c>
+		<c>driver_mdmlasno.inf</c>
+		<c>driver_mdmlucnt.inf</c>
+		<c>driver_mdmmc288.inf</c>
+		<c>driver_mdmmcd.inf</c>
+		<c>driver_mdmmcom.inf</c>
+		<c>driver_mdmmct.inf</c>
+		<c>driver_mdmmega.inf</c>
+		<c>driver_mdmmetri.inf</c>
+		<c>driver_mdmmhrtz.inf</c>
+		<c>driver_mdmmhzel.inf</c>
+		<c>driver_mdmminij.inf</c>
+		<c>driver_mdmmod.inf</c>
+		<c>driver_mdmmot64.inf</c>
+		<c>driver_mdmmoto1.inf</c>
+		<c>driver_mdmmotou.inf</c>
+		<c>driver_mdmmts.inf</c>
+		<c>driver_mdmneuhs.inf</c>
+		<c>driver_mdmnis1u.inf</c>
+		<c>driver_mdmnis2u.inf</c>
+		<c>driver_mdmnis3t.inf</c>
+		<c>driver_mdmnis5t.inf</c>
+		<c>driver_mdmnokia.inf</c>
+		<c>driver_mdmnova.inf</c>
+		<c>driver_mdmntt1.inf</c>
+		<c>driver_mdmnttd2.inf</c>
+		<c>driver_mdmnttd6.inf</c>
+		<c>driver_mdmnttme.inf</c>
+		<c>driver_mdmnttp.inf</c>
+		<c>driver_mdmnttp2.inf</c>
+		<c>driver_mdmnttte.inf</c>
+		<c>driver_mdmolic.inf</c>
+		<c>driver_mdmomrn3.inf</c>
+		<c>driver_mdmoptn.inf</c>
+		<c>driver_mdmosi.inf</c>
+		<c>driver_mdmpace.inf</c>
+		<c>driver_mdmpenr.inf</c>
+		<c>driver_mdmpin.inf</c>
+		<c>driver_mdmpn1.inf</c>
+		<c>driver_mdmpp.inf</c>
+		<c>driver_mdmpsion.inf</c>
+		<c>driver_mdmracal.inf</c>
+		<c>driver_mdmrock.inf</c>
+		<c>driver_mdmrock3.inf</c>
+		<c>driver_mdmrock4.inf</c>
+		<c>driver_mdmrock5.inf</c>
+		<c>driver_mdmsier.inf</c>
+		<c>driver_mdmsii64.inf</c>
+		<c>driver_mdmsmart.inf</c>
+		<c>driver_mdmsonyu.inf</c>
+		<c>driver_mdmsun1.inf</c>
+		<c>driver_mdmsun2.inf</c>
+		<c>driver_mdmsupr3.inf</c>
+		<c>driver_mdmsupra.inf</c>
+		<c>driver_mdmsuprv.inf</c>
+		<c>driver_mdmtdk.inf</c>
+		<c>driver_mdmtdkj2.inf</c>
+		<c>driver_mdmtdkj3.inf</c>
+		<c>driver_mdmtdkj4.inf</c>
+		<c>driver_mdmtdkj5.inf</c>
+		<c>driver_mdmtdkj6.inf</c>
+		<c>driver_mdmtdkj7.inf</c>
+		<c>driver_mdmtexas.inf</c>
+		<c>driver_mdmti.inf</c>
+		<c>driver_mdmtkr.inf</c>
+		<c>driver_mdmtron.inf</c>
+		<c>driver_mdmusrf.inf</c>
+		<c>driver_mdmusrg.inf</c>
+		<c>driver_mdmusrgl.inf</c>
+		<c>driver_mdmusrk1.inf</c>
+		<c>driver_mdmusrsp.inf</c>
+		<c>driver_mdmvdot.inf</c>
+		<c>driver_mdmvv.inf</c>
+		<c>driver_mdmwhql0.inf</c>
+		<c>driver_mdmx5560.inf</c>
+		<c>driver_mdmzoom.inf</c>
+		<c>driver_mdmzyp.inf</c>
+		<c>driver_mdmzyxel.inf</c>
+		<c>driver_mdmzyxlg.inf</c>
+		<c>driver_msclmd.inf</c>
+		<c>driver_multiprt.inf</c>
+		<c>driver_rdpbus.inf</c>
+		<c>driver_scrawpdo.inf</c>
+		<c>driver_scunknown.inf</c>
+		<c>driver_sensorsalsdriver.inf</c>
+		<c>driver_sensorshidclassdriver.inf</c>
+		<c>driver_sensorsservicedriver.inf</c>
+		<c>driver_tpmvsc.inf</c>
+		<c>driver_usbcir.inf</c>
+		<c>driver_volsnap.inf</c>
+		<c>driver_wdmvsc.inf</c>
+		<c>driver_wfcvsc.inf</c>
+		<c>driver_wgencounter.inf</c>
+		<c>driver_whyperkbd.inf</c>
+		<c>driver_wnetvsc.inf</c>
+		<c>driver_ws3cap.inf</c>
+		<c>driver_wstorflt.inf</c>
+		<c>driver_wstorvsc.inf</c>
+		<c>driver_wudfusbcciddriver.inf</c>
+		<c>driver_wvmbushid.inf</c>
+		<c>driver_wvmbusvideo.inf</c>
+		<c>driver_wvmic2.inf</c>
+		<c>driver_wvpci.inf</c>
 		<c>dvdplay 'DVD Oynatma'</c>
-		<c>easeofaccessthemes 'Erişim Kolaylığı Temaları'</c>
+		<c>eaphost 'Genişletilebilir Kimlik Doğrulama Protokolü (EAP)'</c>
 		<c>eefcontainer 'Windows Gömülü Özellikler'</c>
-		<c>enhancedstorage 'Gelişmiş Depolama'</c>
-		<c>enterpriseclientsync 'Çalışma Klasörleri İstemcisi'</c>
-		<c>eosnotify 'Hizmet Sonu bildirimi (EOSNotify)'</c>
-		<c>errorreporting 'Windows Hata Raporlama Hizmeti'</c>
+		<c>efsfeature 'Dosya Şifreleme Sistemi (EFS) - Özellik'</c>
+		<c>encprovider 'Windows Şifreleme Sağlayıcısı Ana Bilgisayar Hizmeti'</c>
+		<c>enhancedstorage 'Geliştirilmiş Depolama'</c>
+		<c>enterpriseclientsync 'Çalışma Klasörleri İstemci'</c>
+		<c>eosnotify 'Hizmet Sonu Bildiricisi (EOSNotify)'</c>
+		<c>errorreporting 'Windows Hata Raporlama'</c>
 		<c>eudcedit 'Özel Karakter Düzenleyici'</c>
-		<c>eventviewer32 'Olay Göstericisi - 32 bit'</c>
+		<c>eventviewer32 'Olay Görüntüleyicisi - 32 bit'</c>
 		<c>f5.vpn.client 'F5 VPN'</c>
-		<c>fciclient 'Dosya Sunucusu Kaynak Yöneticisi'</c>
+		<c>fdphost 'Ağ Bulma'</c>
 		<c>filehistory 'Dosya Geçmişi'</c>
-		<c>filemanager 'Dosya Yöneticisi (OneDrive &amp; Photos)'</c>
-		<c>filerevocationmanager 'Dosya İptal Yöneticisi - 32 bit'</c>
-		<c>firstlogonanim 'İlk oturum açma-animasyonu'</c>
+		<c>filemanager 'Dosya Yöneticisi (OneDrive &amp; Fotoğraflar)'</c>
+		<c>filerevocationmanager 'File Revocation Manager - 32 bit'</c>
+		<c>filetrace 'Dosya İzleme MiniFilter'</c>
 		<c>folderredirection 'Klasör Yeniden Yönlendirme'</c>
-		<c>font_batang 'Batang &amp; BatangChe &amp; Gungsuh &amp; GungsuhChe'</c>
-		<c>font_gulim 'Gulim &amp; GulimChe &amp; Dotum &amp; DotumChe'</c>
-		<c>font_microsoftjhengheibold 'Microsoft JhengHei Bold &amp; Microsoft JhengHei UI Bold'</c>
-		<c>font_microsoftjhengheilight 'Microsoft JhengHei Light &amp; Microsoft JhengHei UI Light'</c>
-		<c>font_microsoftyaheibold 'Microsoft YaHei Bold &amp; Microsoft YaHei UI Bold'</c>
-		<c>font_mingliu 'MingLiU &amp; PMingLiU &amp; MingLiU_HKSCS'</c>
-		<c>font_mingliub 'MingLiU-ExtB &amp; PMingLiU-ExtB &amp; MingLiU_HKSCS-ExtB'</c>
-		<c>font_simsun 'SimSun &amp; NSimSun'</c>
-		<c>font_simsunb 'SimSun-ExtB'</c>
-		<c>font_yugothic 'YuGothic'</c>
-		<c>font_yumin 'Yumin'</c>
-		<c>fontpreviewer32 'Font previewer - 32 bit'</c>
-		<c>fsmgmt32 'Paylaşılan Klasörler UI - 32 bit'</c>
-		<c>gettingstarted 'İpuçları (Başlayın)'</c>
-		<c>hbaapi 'Ana Bilgisayar Veriyolu Adaptörü (HBA) API'</c>
+		<c>fontpreviewer32 'Yazı tipi önizleyici - 32 bit'</c>
+		<c>fsmgmt 'Paylaşılan Klasörler Kullanıcı Arayüzü'</c>
+		<c>fsmgmt32 'Paylaşılan Klasörler Kullanıcı Arayüzü - 32 bit'</c>
+		<c>gameexplorer 'Oyun Gezgini'</c>
+		<c>hbaapi 'Ana Bilgisayar Veri Yolu Bağdaştırıcısı (HBA) API'si'</c>
 		<c>help 'Windows Yardım içeriği'</c>
 		<c>helpsupport 'Yardım dosyası desteği (CHM)'</c>
-		<c>homegroup 'EvGrubu'</c>
+		<c>homegroup 'Ev Grubu'</c>
 		<c>hwsupport_agp 'AGP'</c>
-		<c>hwsupport_fax 'Fax'</c>
+		<c>hwsupport_fax 'Faks'</c>
 		<c>hwsupport_floppy 'Disket'</c>
 		<c>hwsupport_infrared 'Kızılötesi cihazlar'</c>
-		<c>hwsupport_internetprintingclient 'İnternet Baskı İstemcisi'</c>
+		<c>hwsupport_internetprintingclient 'İnternet Yazdırma İstemcisi'</c>
 		<c>hwsupport_modemsettings 'Paylaşılan modem ayarları (mdmgl*.inf)'</c>
-		<c>hwsupport_smartcard 'Akıllıkart'</c>
-		<c>hwsupport_telephony 'Telefonculuk'</c>
+		<c>hwsupport_smartcard 'Akıllı Kart'</c>
+		<c>hwsupport_telephony 'Telefon'</c>
+		<c>hwsupport_tv 'TV Tuner kodekleri ve desteği'</c>
 		<c>hyperv 'Hyper-V'</c>
-		<c>hypervguest 'Hyper-V Guest'</c>
+		<c>hypervguest 'Hyper-V Entegrasyon Hizmetleri'</c>
 		<c>ias 'İnternet Kimlik Doğrulama Hizmeti (IAS)'</c>
 		<c>iis 'İnternet Bilgi Sunucusu (IIS)'</c>
+		<c>indeo 'Intel Indeo Kodekleri'</c>
 		<c>iscsi 'iSCSI Başlatıcı'</c>
-		<c>isoburn 'Windows Disk Görüntü Yazma Aracı'</c>
+		<c>isoburn 'Windows Disk Görüntüsü Yazma Aracı'</c>
 		<c>junipernetworks.junospulsevpn 'Juniper Networks Junos Pulse'</c>
+		<c>kerberos32 'Kerberos İstemcisi - 32 bit'</c>
 		<c>kerneldebug 'Çekirdek Hata Ayıklama'</c>
-		<c>keyboardfiltershim 'Klavye Filtresi UygulamasıShim'</c>
 		<c>kl-00000401 'Arapça (101)'</c>
 		<c>kl-00000402 'Bulgarca (Daktilo)'</c>
 		<c>kl-00000404 'Çince (Geleneksel) - ABD'</c>
@@ -294,10 +495,10 @@
 		<c>kl-00100c00 'Sora'</c>
 		<c>kl-00110c00 'Java dili'</c>
 		<c>kl-00120c00 'Futhark alfabesi'</c>
-		<c>langarabic 'Arabic'</c>
-		<c>langbulgarian 'Bulgarian'</c>
-		<c>langchineses 'Basitleştirilmiş Çince'</c>
-		<c>langchineset 'Çin Geleneği'</c>
+		<c>langarabic 'Arapça'</c>
+		<c>langbulgarian 'Bulgarca'</c>
+		<c>langchineses 'Chinese Simplified'</c>
+		<c>langchineset 'Chinese Traditional'</c>
 		<c>langcroatian 'Croatian'</c>
 		<c>langczech 'Czech'</c>
 		<c>langdanish 'Danish'</c>
@@ -314,7 +515,7 @@
 		<c>langime 'Giriş Yöntemi Düzenleyicisi (IME)'</c>
 		<c>langimejp 'Japanese (IME)'</c>
 		<c>langimeko 'Korean (IME)'</c>
-		<c>langimetc 'Çin Geleneği (IME)'</c>
+		<c>langimetc 'Chinese Traditional (IME)'</c>
 		<c>langitalian 'Italian'</c>
 		<c>langjapanese 'Japanese'</c>
 		<c>langkorean 'Korean'</c>
@@ -324,6 +525,7 @@
 		<c>langpolish 'Polish'</c>
 		<c>langportuguesebr 'Portuguese (Brazilian)'</c>
 		<c>langportuguesept 'Portuguese'</c>
+		<c>langpseudolocale 'Pseudo-locale'</c>
 		<c>langromanian 'Romanian'</c>
 		<c>langrussian 'Russian'</c>
 		<c>langserbian 'Serbian'</c>
@@ -333,14 +535,19 @@
 		<c>langswedish 'Swedish'</c>
 		<c>langthai 'Thai'</c>
 		<c>langukrainian 'Ukrainian'</c>
-		<c>legacycomponents 'Legacy bileşenleri'</c>
-		<c>location 'Konum Servisi'</c>
-		<c>lockdownmanager 'Gömülü Kilitleme Yöneticisi'</c>
+		<c>location 'Konum Hizmeti'</c>
+		<c>lockdownmanager 'Yerleşik Kilitleme Yöneticisi'</c>
+		<c>lockscreens 'Kilit Ekranı arka planları'</c>
 		<c>lusrmgr32 'Yerel Kullanıcılar ve Gruplar Yöneticisi - 32 bit'</c>
-		<c>manifestbackup 'Belirgin Yedekleme (WinSxS\Backup)'</c>
-		<c>manualsetup 'Elle kurulum'</c>
+		<c>mail 'Windows Posta'</c>
+		<c>mailcommdll 'Windows Posta İletişim Kitaplığı'</c>
+		<c>manifestbackup 'Manifest Backup (WinSxS\Backup)'</c>
+		<c>manualsetup 'Manuel Kurulum'</c>
 		<c>mediacenter 'Medya Merkezi'</c>
-		<c>mediaplayernetworksharing 'WMP Ağ Paylaşımı Hizmeti'</c>
+		<c>mediacodec32 'Windows Medya Kodekleri - 32 bit'</c>
+		<c>mediafoundation32 'Medya Vakfı - 32 bit'</c>
+		<c>mediaplayernetworksharing 'WMP Ağ Paylaşım Hizmeti'</c>
+		<c>mediastreaming 'Medya Akışı'</c>
 		<c>mediaviewer 'Medya Görüntüleyici'</c>
 		<c>microsoft.bingfinance 'MSN Money'</c>
 		<c>microsoft.bingfoodanddrink 'MSN Food &amp; Drink'</c>
@@ -350,6 +557,7 @@
 		<c>microsoft.bingsports 'MSN Sports'</c>
 		<c>microsoft.bingtravel 'MSN Travel'</c>
 		<c>microsoft.bingweather 'MSN Weather'</c>
+		<c>microsoft.getstarted 'İpuçları (Başlarken)'</c>
 		<c>microsoft.helpandtips 'Windows Help+Tips'</c>
 		<c>microsoft.media.playreadyclient.2 'Microsoft PlayReady'</c>
 		<c>microsoft.mocamera 'Kamera'</c>
@@ -358,119 +566,165 @@
 		<c>microsoft.skypeapp 'Skype'</c>
 		<c>microsoft.windows.sechealthui 'Windows Defender'</c>
 		<c>microsoft.windowsalarms 'Windows Alarms'</c>
+		<c>microsoft.windowscalculator 'Windows Calculator'</c>
 		<c>microsoft.windowscommunicationsapps 'Mail, Calendar, and People'</c>
 		<c>microsoft.windowsreadinglist 'Windows Reading List'</c>
 		<c>microsoft.windowsscan 'Windows Scan'</c>
 		<c>microsoft.windowssoundrecorder 'Windows Sound Recorder'</c>
+		<c>microsoft.windowsstore 'Windows Mağazası'</c>
+		<c>microsoft.winjs.2.0 'JavaScript için Microsoft Windows Kitaplığı'</c>
 		<c>microsoft.xboxlivegames 'Games'</c>
 		<c>microsoft.zunemusic 'Music'</c>
 		<c>microsoft.zunevideo 'Video'</c>
-		<c>midi 'Microsoft GS Dalgalanabilir Yazılım Synth (MIDI)'</c>
-		<c>mobiledevicemanagement 'Mobil Cihaz Yönetimi (MDM)'</c>
+		<c>midi 'Microsoft GS Wavetable SW Synth (MIDI)'</c>
+		<c>migwiz 'Kolay Aktarım'</c>
+		<c>mmc32 'Microsoft Yönetim Konsolu (MMC) - 32 bit'</c>
+		<c>mobiledevicemanagement 'Mobil Aygıt Yönetimi (MDM)'</c>
 		<c>mobilepc 'MobilPC'</c>
 		<c>mobilepc_location 'Konum bildirimleri'</c>
 		<c>mobilepc_networkprojection 'Ağ Projeksiyonu'</c>
 		<c>mobilepc_sensors 'Sensörler'</c>
-		<c>msmq 'Microsoft İleti Sırası (MSMQ)'</c>
-		<c>naturallanguage 'Doğal Lisan'</c>
-		<c>naturallanguage32 'Doğal Lisan - 32 bit'</c>
+		<c>mpeg2splitter 'MPEG-2 Ayırıcı'</c>
+		<c>msdtc 'Dağıtılmış İşlem Koordinatörü (DTC)'</c>
+		<c>msmq 'Microsoft Mesaj Kuyruğu (MSMQ)'</c>
+		<c>naturallanguage 'Natural Language'</c>
+		<c>naturallanguage32 'Natural Language - 32 bit'</c>
+		<c>ncdauto 'Ağa Bağlı Aygıtların Otomatik Kurulumu'</c>
 		<c>ndiscap 'NDIS Paket Yakalama (NDISCAP)'</c>
 		<c>ndisimplat 'Ağ Bağdaştırıcısı Çoklayıcı Protokolü'</c>
 		<c>ndu 'Ağ Veri Kullanımı İzleme Sürücüsü'</c>
-		<c>netqos 'Hizmet Paketi Planlayıcısının Kalitesi (QoS)'</c>
-		<c>nettopology 'Bağlantı-Katmanı Topolojisi Keşfi protokolü (LLTD)'</c>
+		<c>netbios 'TCP aktarımı üzerinden NetBIOS'</c>
+		<c>netcenter 'Ağ ve Paylaşım Merkezi'</c>
 		<c>networkaccessprotection 'Ağ Erişim Koruması (NAP)'</c>
-		<c>ntvdm 'NTVDM 16 bit alt sistemi'</c>
-		<c>offlinefiles 'Çevrimdışı Dosyalar'</c>
-		<c>osk_acc 'Ekran Klavyesi (Erişilebilirlik araçları)'</c>
+		<c>offlinefiles 'Çevrimdışı Dosyalar.'</c>
+		<c>optionalfeatures 'İsteğe Bağlı Özellikler'</c>
+		<c>otherthemes 'Windows Kişiselleştirme temaları'</c>
 		<c>paint32 'Paint - 32 bit'</c>
-		<c>parentalcontrols 'Ebeveyn Denetimleri'</c>
+		<c>parentalcontrols 'Ebeveyn Kontrolleri'</c>
 		<c>pdfreader 'Windows Okuyucu (PDF)'</c>
-		<c>peertopeer 'Eş Ağ İletişimi'</c>
-		<c>perfmon 'Performans Ekranı'</c>
-		<c>perftools 'İzleme için Performans CMD Araçları'</c>
-		<c>pickerhost32 'Dosya Seçici Kullanıcı Arayüzü Ana Bilgisayarı - 32 bit'</c>
-		<c>pla 'Performans Günlükleri ve Uyarıları'</c>
+		<c>peertopeer 'Peer Networking'</c>
+		<c>perfmon 'Performans Monitörü'</c>
+		<c>perftools 'Performans Takibi için CMD Araçları'</c>
+		<c>photocodec32 'Fotoğraf kodeki - 32 bit'</c>
+		<c>pickerhost32 'Dosya Seçici UI Ana Bilgisayarı - 32 bit'</c>
+		<c>pla 'Performans Günlükleri ve Uyarılar'</c>
 		<c>pos 'Hizmet Noktası (POS)'</c>
-		<c>printmgmt 'Baskı Yönetimi'</c>
+		<c>powershell32 'PowerShell - 32 bit'</c>
+		<c>powershelldsc 'İstenilen Durum Yapılandırması (DSC)'</c>
+		<c>powershellise32 'PowerShell ISE - 32 bit'</c>
+		<c>proximity 'Yakınlık'</c>
 		<c>rasauto 'Uzaktan Erişim Otomatik Bağlantı Yöneticisi'</c>
+		<c>rascmak 'RAS Bağlantı Yöneticisi Yönetim Kiti (CMAK)'</c>
 		<c>rascmd 'Uzaktan Erişim Hizmeti İstemci Araçları'</c>
-		<c>rdc 'Uzaktan Diferansiyel Sıkıştırma (RDC)'</c>
+		<c>rasmans 'Uzaktan Erişim Bağlantı Yöneticisi'</c>
+		<c>rdc 'Uzak Diferansiyel Sıkıştırma (RDC)'</c>
+		<c>rdpclient 'Uzak Masaüstü İstemcisi'</c>
 		<c>rdpclient32 'Uzak Masaüstü İstemcisi - 32 bit'</c>
 		<c>rdpserver 'Uzak Masaüstü Sunucusu'</c>
-		<c>reliabilityanalysis 'Güvenilirlik Analiz Hizmetleri'</c>
+		<c>regedit32 'Kayıt Defteri Editörü - 32 bit'</c>
+		<c>reliabilityanalysis 'Güvenilirlik Analizi Hizmetleri'</c>
 		<c>remoteaccessservice 'Yönlendirme ve Uzaktan Erişim Hizmeti'</c>
+		<c>remoteaccesssupport 'Yönlendirme ve Uzaktan Erişim desteği'</c>
+		<c>remoteactivex 'Uzak Masaüstü Hizmetleri ActiveX İstemcisi'</c>
 		<c>remoteactivex32 'Uzak Masaüstü Hizmetleri ActiveX İstemcisi - 32 bit'</c>
 		<c>remoteassistance 'Uzaktan Yardım'</c>
 		<c>remotefx</c>
-		<c>remoteportredirector 'Uzak Masaüstü Hizmetleri Bağlantı Noktası Yeniden Yönlendiricisi'</c>
+		<c>remoteportredirector 'Uzak Masaüstü Hizmetleri Port Yönlendiricisi'</c>
 		<c>remoteregistry 'Uzak Kayıt Defteri'</c>
 		<c>rightsmanagement 'Hak Yönetimi desteği'</c>
-		<c>rotationmanager 'Otomatik-Rotasyon Yöneticisi'</c>
+		<c>rotationmanager 'Otomatik Döndürme Yöneticisi'</c>
 		<c>rpclocator 'Uzaktan Yordam Çağrısı (RPC) Bulucu'</c>
-		<c>screensavers 'Ekran koruyucular'</c>
-		<c>search 'Windows Arama'</c>
-		<c>securestartup 'Bitlocker Sürücü Şifreleme'</c>
+		<c>screensavers 'Ekran Koruyucuları'</c>
+		<c>search 'Windows Search'</c>
+		<c>secedit 'Yerel Güvenlik İlkesi Düzenleyicisi'</c>
+		<c>securestartup 'BitLocker Sürücü Şifreleme'</c>
 		<c>securitycenter 'Güvenlik Merkezi'</c>
-		<c>servicesmmc32 'Hizmetler (Yönetim konsolu) - 32 bit'</c>
-		<c>sharemediacpl 'Medya Kontrol Panelini Paylaşın'</c>
+		<c>sendmail 'Send To Mail and Desktop'</c>
+		<c>sens 'Sistem Olay Bildirim Hizmeti (SENS)'</c>
+		<c>servicesmmc32 'Hizmetler (yönetim konsolu) - 32 bit'</c>
+		<c>settingsync 'Ayar Senkronizasyonu'</c>
+		<c>sharedaccess 'İnternet Bağlantı Paylaşımı (ICS)'</c>
+		<c>sharemediacpl 'Medya Kontrol Panelini Paylaş'</c>
 		<c>simpletcp 'Basit TCP/IP hizmetleri'</c>
+		<c>smbv1 'SMB v1'</c>
+		<c>smbwitnessclientapi 'SMB Witness İstemci API'si'</c>
 		<c>sonicwall.mobileconnect 'SonicWALL Mobile Connect'</c>
-		<c>sorting 'Doğal Lisan - Sorting'</c>
+		<c>sorting 'Natural Language - Sıralama'</c>
 		<c>soundrec 'Ses Kaydedici'</c>
 		<c>sourcessxsdir 'Manuel özellik deposu'</c>
+		<c>speechapi 'Konuşma API'si'</c>
 		<c>speechcommon 'Konuşma Tanıma'</c>
 		<c>speechtts 'Konuşma TTS'</c>
 		<c>spellchecking 'Yazım Denetimi'</c>
+		<c>sstackwow64 'Hizmet Yığını - 32 bit'</c>
 		<c>stepsrecorder 'Adım Kaydedici'</c>
 		<c>stickynotes 'Yapışkan Notlar'</c>
-		<c>supportdir 'Destek dizini'</c>
+		<c>supportdir 'Support dizini'</c>
+		<c>symboliclinks 'Eski sembolik bağlantılar'</c>
 		<c>synccenter 'Senkronizasyon Merkezi'</c>
+		<c>sysprep 'Sistem Hazırlama aracı (Sysprep)'</c>
 		<c>systemreset 'Windows için Sistem Sıfırlama'</c>
-		<c>tabletextservice 'Masa Metin Hizmeti'</c>
+		<c>systemrestore 'Sistem Geri Yükleme'</c>
+		<c>tabletextservice 'Tablo Metin Hizmeti'</c>
 		<c>tabletpc 'Tablet Bilgisayar'</c>
-		<c>taskmanager32 'Task Manager - 32 bit'</c>
-		<c>taskschdmsc32 'Görev Zamanlayıcısı (Yönetim konsolu) - 32 bit'</c>
+		<c>taskmanager32 'Görev Yöneticisi - 32 bit'</c>
+		<c>taskschdmsc32 'Görev Zamanlayıcısı (yönetim konsolu) - 32 bit'</c>
+		<c>telnetclient 'Telnet İstemcisi'</c>
 		<c>telnetserver 'Telnet Sunucusu'</c>
 		<c>tempcache 'Önbellek ve geçici dosyalar'</c>
 		<c>textprediction 'Metin tahmini'</c>
 		<c>tftpclient 'TFTP istemcisi'</c>
-		<c>tpmmmc32 'Güvenilir Platform Modülü (TPM) (Yönetim konsolu) - 32 bit'</c>
+		<c>tpmmmc32 'Güvenilir Platform Modülü (TPM) (yönetim konsolu) - 32 bit'</c>
+		<c>tpmvsc 'Sanal Akıllı Kart'</c>
+		<c>trkwks 'Dağıtılmış Bağlantı İzleme İstemcisi'</c>
 		<c>tzautoupdate 'Otomatik Saat Dilimi Güncelleyici'</c>
-		<c>virtualpc 'Sanal PC lisansı (legacy)'</c>
+		<c>ui0detect 'Etkileşimli Hizmetler Tespiti'</c>
+		<c>upnp 'UPnP Aygıt Ana Bilgisayarı'</c>
+		<c>virtualpc 'Sanal PC lisanslama (eski)'</c>
+		<c>vpn 'Sanal Özel Ağ (VPN) desteği'</c>
+		<c>vss 'Birim Gölge Kopya'</c>
 		<c>vwifi 'Sanal WiFi'</c>
+		<c>wallpapers 'Duvar Kağıtları (Temalar)'</c>
 		<c>wcn 'Windows Şimdi Bağlan (WCN)'</c>
-		<c>webclient</c>
-		<c>wfmmc32 'Windows Firewall (Yönetim konsolu) - 32 bit'</c>
+		<c>webcamexperience 'Web Kamerası Deneyimi'</c>
+		<c>webclient 'Web İstemcisi'</c>
+		<c>wfmmc32 'Windows Güvenlik Duvarı (yönetim konsolu) - 32 bit'</c>
+		<c>windows.immersivecontrolpanel 'Bilgisayar ayarları'</c>
 		<c>windowstogo 'Windows To Go'</c>
+		<c>windowsupdate 'Windows Update'</c>
 		<c>winocr 'Windows TIFF IFilter (OCR)'</c>
-		<c>winrm 'WWindows Uzaktan Yönetim (WS-Yönetimi)'</c>
-		<c>wiredautoconfig 'Kablolu Otomatik Yapılandırma'</c>
-		<c>wordpad</c>
+		<c>winre 'Windows Kurtarma (WinRE)'</c>
+		<c>winrm 'Windows Uzaktan Yönetimi (WS-Management)'</c>
+		<c>winsat 'Windows Sistem Değerlendirme Aracı (WinSAT)'</c>
+		<c>winsxs 'Windows Bileşen Deposu (WinSxS)'</c>
+		<c>wmicommandlineutility 'Windows Yönetim Araçları - Komut satırı yardımcı programı (WMIC)'</c>
+		<c>wmitools 'Windows Management Instrumentation Aletleri'</c>
 		<c>wordpad32 'Wordpad - 32 bit'</c>
-		<c>wpdbusenum 'Taşınabilir Aygıt Numaralandırıcı Hizmeti'</c>
+		<c>wpdbusenum 'Taşınabilir Cihaz Numaralandırıcı Hizmeti'</c>
+		<c>wwahost32 'Windows Web Uygulaması (WWA) Ana Bilgisayarı - 32 bit'</c>
 		<c>wwanautoconfig 'WWAN Otomatik Yapılandırma'</c>
-		<c>zipfolder 'Zip &amp; Cab klasörü'</c>
+		<c>zipfolder 'Zip &amp; Cab folder'</c>
 	</RemoveComponents>
 	<Compatibility protectHidden="true">
 		<ComponentFeatures>
 			<Feature enabled="no">NetworkDiscovery</Feature>
-			<Feature enabled="yes">Printing</Feature>
-			<Feature enabled="no">Bluetooth</Feature>
+			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="no">YubiKey</Feature>
+			<Feature enabled="yes">Bluetooth</Feature>
 			<Feature enabled="no">CapFrameX</Feature>
 			<Feature enabled="yes">Discord</Feature>
 			<Feature enabled="no">Recommended-Tablet</Feature>
-			<Feature enabled="yes">FileSharing</Feature>
-			<Feature enabled="no">ManualSetup</Feature>
-			<Feature enabled="no">OOBE</Feature>
-			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="no">FileSharing</Feature>
+			<Feature enabled="no">ServicingStack</Feature>
 			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">Kaspersky</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="no">ManualSetup</Feature>
 			<Feature enabled="yes">OfficeSupport</Feature>
-			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="no">AppxSupport</Feature>
 			<Feature enabled="yes">NvidiaSetup</Feature>
 			<Feature enabled="no">SamsungSwitch</Feature>
 			<Feature enabled="no">VPN</Feature>
-			<Feature enabled="yes">ServicingStack</Feature>
 			<Feature enabled="yes">ShellSearchSupport</Feature>
 			<Feature enabled="yes">SFC</Feature>
 			<Feature enabled="yes">DefaultFonts</Feature>
@@ -480,13 +734,14 @@
 			<Feature enabled="yes">USB</Feature>
 			<Feature enabled="yes">VideoPlayback</Feature>
 			<Feature enabled="yes">VisualStudio</Feature>
-			<Feature enabled="no">YubiKey</Feature>
 			<Feature enabled="yes">ActivationKMS</Feature>
 			<Feature enabled="yes">Activation</Feature>
-			<Feature enabled="yes">WindowsUpdate</Feature>
 			<Feature enabled="no">SafeMode</Feature>
-			<Feature enabled="yes">WindowsStore</Feature>
+			<Feature enabled="yes">WinSetup</Feature>
+			<Feature enabled="no">WindowsStore</Feature>
+			<Feature enabled="no">WindowsUpdate</Feature>
 			<Feature enabled="yes">WLAN</Feature>
+			<Feature enabled="yes">Printing</Feature>
 			<Feature enabled="no">Recommended-All</Feature>
 		</ComponentFeatures>
 		<MachineDrivers>
@@ -499,11 +754,9 @@
 	</Compatibility>
 	<Features>
 		<Feature name="NetFx3">true</Feature>
-		<Feature name="NetFx4Extended-ASPNET45">true</Feature>
 		<Feature name="WCF-HTTP-Activation">true</Feature>
 		<Feature name="Printing-XPSServices-Features">false</Feature>
 		<Feature name="WCF-NonHTTP-Activation">true</Feature>
-		<Feature name="WCF-TCP-PortSharing45">false</Feature>
 		<Feature name="Xps-Foundation-Xps-Viewer">false</Feature>
 	</Features>
 	<Packages></Packages>
@@ -515,18 +768,26 @@
 	</Commands>
 	<Drivers showHidden="true"></Drivers>
 	<Unattended mode="1">
-		<OEMSetupComplete>false</OEMSetupComplete>
 		<AnswerFileLocationPanther>false</AnswerFileLocationPanther>
 		<AnswerFileLocationBoot>false</AnswerFileLocationBoot>
 		<SaveBothArch>false</SaveBothArch>
 		<EditionPrompt>false</EditionPrompt>
 		<settings pass="oobeSystem">
+			<component name="Microsoft-Windows-International-Core">
+				<InputLocale>041f:0000041f</InputLocale>
+				<SystemLocale>tr-TR</SystemLocale>
+				<UILanguage>tr-TR</UILanguage>
+				<UILanguageFallback>tr-TR</UILanguageFallback>
+				<UserLocale>tr-TR</UserLocale>
+			</component>
 			<component name="Microsoft-Windows-Shell-Setup">
+				<TimeZone>Türkiye Standart Saati</TimeZone>
 				<OOBE>
 					<HideEULAPage>true</HideEULAPage>
 					<HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+					<HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
 					<NetworkLocation>Home</NetworkLocation>
-					<ProtectYourPC>2</ProtectYourPC>
+					<ProtectYourPC>3</ProtectYourPC>
 				</OOBE>
 			</component>
 		</settings>
@@ -536,7 +797,20 @@
 			</component>
 		</settings>
 		<settings pass="windowsPE">
+			<component name="Microsoft-Windows-International-Core-WinPE">
+				<InputLocale>041f:0000041f</InputLocale>
+				<SystemLocale>tr-TR</SystemLocale>
+				<UILanguage>tr-TR</UILanguage>
+				<UILanguageFallback>tr-TR</UILanguageFallback>
+				<UserLocale>tr-TR</UserLocale>
+				<SetupUILanguage>
+					<UILanguage>tr-TR</UILanguage>
+				</SetupUILanguage>
+			</component>
 			<component name="Microsoft-Windows-Setup">
+				<Diagnostics>
+					<OptIn>false</OptIn>
+				</Diagnostics>
 				<DynamicUpdate>
 					<Enable>false</Enable>
 					<WillShowUI>OnError</WillShowUI>
@@ -553,8 +827,10 @@
 					</OSImage>
 				</ImageInstall>
 				<UserData>
+					<AcceptEula>true</AcceptEula>
 					<ProductKey>
 						<Key></Key>
+						<WillShowUI>Never</WillShowUI>
 					</ProductKey>
 				</UserData>
 			</component>
@@ -562,42 +838,46 @@
 	</Unattended>
 	<Tweaks>
 		<Settings>
+			<TweakGroup name="Network">
+				<Tweak name="NewNetworkWindowOff\NewNetworkWindowOff">1</Tweak>
+			</TweakGroup>
 			<TweakGroup name="Explorer">
 				<Tweak name="OperationStatusManager\EnthusiastMode">1</Tweak>
 				<Tweak name="Explorer\ConfirmFileDelete">0</Tweak>
-				<Tweak name="{323CA680-C24D-4099-B94D-446DD2D7249E}\System.IsPinnedToNameSpaceTree">0</Tweak>
 				<Tweak name="{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\ShellFolder\Attributes">-1332477852</Tweak>
-				<Tweak name="Explorer\EnableAutoTray">0</Tweak>
+				<Tweak name="{323CA680-C24D-4099-B94D-446DD2D7249E}\System.IsPinnedToNameSpaceTree">0</Tweak>
+				<Tweak name="Advanced\FolderContentsInfoTip">1</Tweak>
+				<Tweak name="AutoplayHandlers\DisableAutoplay">1</Tweak>
 				<Tweak name="Explorer\NoRecentDocsHistory">1</Tweak>
 				<Tweak name="Explorer\ShowDriveLettersFirst">4</Tweak>
+				<Tweak name="Explorer\EnableAutoTray">0</Tweak>
 				<Tweak name=".jpg\PhotoViewer.FileAssoc.Tiff">PhotoViewer.FileAssoc.Tiff</Tweak>
 				<Tweak name="Explorer\ClearRecentDocsOnExit">1</Tweak>
-				<Tweak name="Explorer\NoThumbnailCache">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="Privacy">
-				<Tweak name="Explorer\DisableSearchBoxSuggestions">1</Tweak>
-				<Tweak name="1.7\EnableAutocorrection">0</Tweak>
+				<Tweak name="SearchSettings\IsDeviceSearchHistoryEnabled">0</Tweak>
 				<Tweak name="Client\OptInOrOutPreference">0</Tweak>
 				<Tweak name="TIPC\Enabled">0</Tweak>
 				<Tweak name="Settings\AcceptedPrivacyPolicy">0</Tweak>
-				<Tweak name="User Profile\HttpAcceptLanguageOptOut">1</Tweak>
+				<Tweak name="SmartGlass\UserAuthPolicy">0</Tweak>
+				<Tweak name="SmartGlass\BluetoothPolicy">0</Tweak>
 				<Tweak name="FlipAhead\FPEnabled">0</Tweak>
-				<Tweak name="SearchSettings\IsDeviceSearchHistoryEnabled">0</Tweak>
 				<Tweak name="AppSettings\Skype-UserConsentAccepted">0</Tweak>
-				<Tweak name="DataCollection\AllowTelemetry">4</Tweak>
+				<Tweak name="Explorer\DisableSearchBoxSuggestions">1</Tweak>
+				<Tweak name="DataCollection\AllowTelemetry">0</Tweak>
 				<Tweak name="AppCompat\DisableInventory">1</Tweak>
 				<Tweak name="AdvertisingInfo\Enabled">0</Tweak>
+				<Tweak name="User Profile\HttpAcceptLanguageOptOut">1</Tweak>
 				<Tweak name="TrainedDataStore\HarvestContacts">0</Tweak>
-				<Tweak name="InputPersonalization\RestrictImplicitInkCollection">1</Tweak>
 				<Tweak name="InputPersonalization\RestrictImplicitTextCollection">1</Tweak>
+				<Tweak name="InputPersonalization\RestrictImplicitInkCollection">1</Tweak>
+				<Tweak name="1.7\EnableSpellchecking">0</Tweak>
+				<Tweak name="1.7\EnableAutocorrection">0</Tweak>
 				<Tweak name="InputPersonalization\AllowInputPersonalization">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="PowerAndShutdown">
 				<Tweak name="Power\HiberbootEnabled">0</Tweak>
 				<Tweak name="FlyoutMenuSettings\ShowHibernateOption">0</Tweak>
-			</TweakGroup>
-			<TweakGroup name="CrashControl">
-				<Tweak name="CrashControl\AutoReboot">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="DesktopTweaks">
 				<Tweak name="Desktop\IconSize">32</Tweak>
@@ -610,23 +890,54 @@
 			</TweakGroup>
 			<TweakGroup name="System">
 				<Tweak name="Windows\DisableATMFD">1</Tweak>
+				<Tweak name="DiskQuota\Enable">0</Tweak>
 				<Tweak name="EOSNotify\DiscontinueEOS">1</Tweak>
-				<Tweak name="3\1806">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="WindowsDefender">
 				<Tweak name="State\AccountProtection_MicrosoftAccount_Disconnected">0</Tweak>
 				<Tweak name="Windows Defender\DisableAntiSpyware">1</Tweak>
 			</TweakGroup>
 			<TweakGroup name="WindowsUpdate">
+				<Tweak name="Device Metadata\PreventDeviceMetadataFromNetwork">1</Tweak>
+				<Tweak name="Auto Update\ElevateNonAdmins">0</Tweak>
 				<Tweak name="MRT\DontOfferThroughWUAU">1</Tweak>
+				<Tweak name="DriverSearching\SearchOrderConfig">0</Tweak>
+				<Tweak name="Auto Update\AUOptions">1</Tweak>
+				<Tweak name="WindowsStore\AutoDownload">0</Tweak>
+				<Tweak name="Auto Update\IncludeRecommendedUpdates">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="CrashControl">
+				<Tweak name="CrashControl\AutoReboot">0</Tweak>
 			</TweakGroup>
 		</Settings>
 		<Services></Services>
 		<ExtraServices></ExtraServices>
 		<ScheduledTasks>
+			<TweakGroup name="Tree\Microsoft\Windows\AppxDeploymentClient">
+				<Tweak name="Pre-staged app cleanup\Pre-staged app cleanup">remove</Tweak>
+			</TweakGroup>
 			<TweakGroup name="Tree\Microsoft\Windows\Setup">
 				<Tweak name="EOSNotify\EOSNotify">remove</Tweak>
 				<Tweak name="EOSNotify2\EOSNotify2">remove</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Tree\Microsoft\Windows\TaskScheduler">
+				<Tweak name="Idle Maintenance\Idle Maintenance">remove</Tweak>
+				<Tweak name="Maintenance Configurator\Maintenance Configurator">remove</Tweak>
+				<Tweak name="Manual Maintenance\Manual Maintenance">remove</Tweak>
+				<Tweak name="Regular Maintenance\Regular Maintenance">remove</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Tree\Microsoft\Windows\WindowsUpdate">
+				<Tweak name="AUFirmwareInstall\AUFirmwareInstall">remove</Tweak>
+				<Tweak name="AUScheduledInstall\AUScheduledInstall">remove</Tweak>
+				<Tweak name="AUSessionConnect\AUSessionConnect">remove</Tweak>
+				<Tweak name="Scheduled Start With Network\Scheduled Start With Network">remove</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Tree\Microsoft\Windows\WS">
+				<Tweak name="Badge Update\Badge Update">remove</Tweak>
+				<Tweak name="License Validation\License Validation">remove</Tweak>
+				<Tweak name="Sync Licenses\Sync Licenses">remove</Tweak>
+				<Tweak name="WSRefreshBannedAppsListTask\WSRefreshBannedAppsListTask">remove</Tweak>
+				<Tweak name="WSTask\WSTask">remove</Tweak>
 			</TweakGroup>
 		</ScheduledTasks>
 	</Tweaks>
@@ -637,10 +948,10 @@
 			<Task>imageOptionsCreateIso</Task>
 			<Task>imageOptionsSkipPrompt</Task>
 		</ImageTasks>
-		<AutoIsoFile>C:\Users\Klaus\Desktop\chickOS-8.1.iso</AutoIsoFile>
-		<AutoIsoLabel>chickOS-8.1</AutoIsoLabel>
+		<AutoIsoFile>C:\Users\Klaus\Desktop\chickOS-81_TR_9600.20778.iso</AutoIsoFile>
+		<AutoIsoLabel>chickOS-81</AutoIsoLabel>
 		<AutoSplitSize>4000</AutoSplitSize>
-		<CleanHotfixedLeftovers>0</CleanHotfixedLeftovers>
+		<CleanHotfixedLeftovers>3</CleanHotfixedLeftovers>
 		<OptimizeAppX>false</OptimizeAppX>
 		<ReuseDriverCache>true</ReuseDriverCache>
 	</ApplyOptions>
@@ -656,10 +967,10 @@
 		</Add>
 	</Execution>
 	<Registry>
-		<File>D:\.ISO\Presets\Mix.reg</File>
-		<File>D:\.ISO\Presets\Postpone.reg</File>
-		<File>D:\.ISO\Presets\Power.reg</File>
-		<File>D:\.ISO\Presets\Security.reg</File>
-		<File>D:\.ISO\Presets\Tweak Services.reg</File>
+		<File>D:\.chickOS\2-Presets\Mix.reg</File>
+		<File>D:\.chickOS\2-Presets\Postpone.reg</File>
+		<File>D:\.chickOS\2-Presets\Power.reg</File>
+		<File>D:\.chickOS\2-Presets\Security.reg</File>
+		<File>D:\.chickOS\2-Presets\Tweak Services.reg</File>
 	</Registry>
 </Preset>
