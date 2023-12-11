@@ -575,7 +575,6 @@
 	</Compatibility>
 	<Features>
 		<Feature name="NetFX3~~~~">true</Feature>
-		<Feature name="NetFx4Extended-ASPNET45">true</Feature>
 		<Feature name="DirectPlay">true</Feature>
 		<Feature name="Printing-Foundation-InternetPrinting-Client">false</Feature>
 		<Feature name="LegacyComponents">true</Feature>
@@ -873,10 +872,10 @@
 		</Add>
 	</Execution>
 	<Registry>
-		<File>D:\.chickOS\2-Presets\Mix.reg</File>
-		<File>D:\.chickOS\2-Presets\Postpone.reg</File>
-		<File>D:\.chickOS\2-Presets\Power.reg</File>
-		<File>D:\.chickOS\2-Presets\Security.reg</File>
-		<File>D:\.chickOS\2-Presets\Tweak Services.reg</File>
+		<File>D:\chickOS\2-Presets\Mix.reg</File>
+		<File>D:\chickOS\2-Presets\Postpone.reg</File>
+		<File>D:\chickOS\2-Presets\Power.reg</File>
+		<File>D:\chickOS\2-Presets\Security.reg</File>
+		<File>D:\chickOS\2-Presets\Tweak Services.reg</File>
 	</Registry>
 </Preset>
