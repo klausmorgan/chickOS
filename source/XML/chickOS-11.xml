@@ -603,7 +603,6 @@
 	<Features>
 		<Feature name="NetFX3~~~~">true</Feature>
 		<Feature name="Windows.Kernel.LA57~~~~0.0.1.0">false</Feature>
-		<Feature name="NetFx4Extended-ASPNET45">true</Feature>
 		<Feature name="DirectPlay">true</Feature>
 		<Feature name="Hello.Face.20134~~~~0.0.1.0">false</Feature>
 		<Feature name="Printing-Foundation-InternetPrinting-Client">false</Feature>
@@ -913,11 +912,11 @@
 		</Add>
 	</Execution>
 	<Registry>
-		<File>D:\.chickOS\2-Presets\Bypass.reg</File>
-		<File>D:\.chickOS\2-Presets\Mix.reg</File>
-		<File>D:\.chickOS\2-Presets\Postpone.reg</File>
-		<File>D:\.chickOS\2-Presets\Power.reg</File>
-		<File>D:\.chickOS\2-Presets\Security.reg</File>
-		<File>D:\.chickOS\2-Presets\Tweak Services.reg</File>
+		<File>D:\chickOS\2-Presets\Bypass.reg</File>
+		<File>D:\chickOS\2-Presets\Mix.reg</File>
+		<File>D:\chickOS\2-Presets\Postpone.reg</File>
+		<File>D:\chickOS\2-Presets\Power.reg</File>
+		<File>D:\chickOS\2-Presets\Security.reg</File>
+		<File>D:\chickOS\2-Presets\Tweak Services.reg</File>
 	</Registry>
 </Preset>
