@@ -124,7 +124,7 @@ echo ================================================================
 echo =   16- Ekstra Hizmetler Ac (Default)                          =
 echo =   17- Ekstra Hizmetler Kapat                                 =
 echo =   Toolbox bazi indirmeler icin bu hizmetlere ihtiyac duyar   =
-echo =   Ayrica Gece isigi, Bluetooth, Yazici, Pano,                =
+echo =   Ayrica Gece isigi, Bluetooth, Yazici, Pano, Pin            =
 echo =   Bildirimler, Store, Ag Dosya Paylasimi, Wi-Fi,             =
 echo =   Ekran Goruntusu ve Olay gunlugu lazimsa kapatmayin         =
 echo ================================================================
@@ -362,7 +362,8 @@ cls
 color 0A
 echo Kayit Defteri Girdisi Ekleniyor...
 reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /ve /t REG_SZ /d "" /f
-echo Sistemi Yeniden Baslatiniz.
+taskkill /f /im explorer.exe
+explorer.exe
 echo Menuye donmek icin bir tusa basin.
 pause >nul
 goto ayarlar
@@ -374,7 +375,8 @@ cls
 color 0A
 echo Kayit Defteri Girdisi Kaldiriliyor...
 reg delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f
-echo Sistemi Yeniden Baslatiniz...
+taskkill /f /im explorer.exe
+explorer.exe
 echo Menuye donmek icin bir tusa basin.
 pause >nul
 goto ayarlar
@@ -1323,7 +1325,7 @@ goto hizmetler
 cls
 color 0A
 echo Varsayilan tarayicinizdan chickOS discord daveti aciliyor...
-start "" "https://discord.gg/Z2SuyaqYfA"
+start "" "https://discord.gg/gayZTErQzM"
 echo Menuye donmek icin bir tusa basin.
 pause >nul
 goto menu
