@@ -4,7 +4,6 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\User\Default\PowerSchemes]
 "ActivePowerScheme"="8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c"
 
-; Set default power scheme
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\User\PowerSchemes]
 "ActivePowerScheme"="8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c"
 
@@ -17,12 +16,10 @@ Windows Registry Editor Version 5.00
 "ACSettingIndex"=dword:00000003
 "DCSettingIndex"=dword:00000003
 
-; Choose what the power buttons do > When I press the power button > Shut down
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\4f971e89-eebd-4455-a8de-9e59040e7347\7648efa3-dd9c-4e3e-b566-50f929386280\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
 "ACSettingIndex"=dword:00000003
 "DCSettingIndex"=dword:00000003
 
-; Choose what the power buttons do > When I press the power button > Shut down
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\4f971e89-eebd-4455-a8de-9e59040e7347\7648efa3-dd9c-4e3e-b566-50f929386280\DefaultPowerSchemeValues\a1841308-3541-4fab-bc81-f71556f20b4a]
 "ACSettingIndex"=dword:00000003
 "DCSettingIndex"=dword:00000003
@@ -32,12 +29,10 @@ Windows Registry Editor Version 5.00
 "ACSettingIndex"=dword:00000001
 "DCSettingIndex"=dword:00000001
 
-; Choose what the power buttons do > When I press the sleep button > Sleep
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\4f971e89-eebd-4455-a8de-9e59040e7347\96996bc0-ad50-47ec-923b-6f41874dd9eb\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
 "ACSettingIndex"=dword:00000001
 "DCSettingIndex"=dword:00000001
 
-; Choose what the power buttons do > When I press the sleep button > Sleep
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\4f971e89-eebd-4455-a8de-9e59040e7347\96996bc0-ad50-47ec-923b-6f41874dd9eb\DefaultPowerSchemeValues\a1841308-3541-4fab-bc81-f71556f20b4a]
 "ACSettingIndex"=dword:00000001
 "DCSettingIndex"=dword:00000001
@@ -47,12 +42,10 @@ Windows Registry Editor Version 5.00
 "ACSettingIndex"=dword:00000001
 "DCSettingIndex"=dword:00000001
 
-; Choose what the power buttons do > When I close the lid > Sleep
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\4f971e89-eebd-4455-a8de-9e59040e7347\5ca83367-6e45-459f-a27b-476b1d01c936\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
 "ACSettingIndex"=dword:00000001
 "DCSettingIndex"=dword:00000001
 
-; Choose what the power buttons do > When I close the lid > Sleep
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\4f971e89-eebd-4455-a8de-9e59040e7347\5ca83367-6e45-459f-a27b-476b1d01c936\DefaultPowerSchemeValues\a1841308-3541-4fab-bc81-f71556f20b4a]
 "ACSettingIndex"=dword:00000001
 "DCSettingIndex"=dword:00000001
@@ -65,7 +58,6 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\User\Default\PowerSchemes]
 "ActivePowerScheme"="8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c"
 
-; Power Options > Preferred plans > High performance
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\User\PowerSchemes]
 "ActivePowerScheme"="8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c"
 
@@ -76,11 +68,6 @@ Windows Registry Editor Version 5.00
 
 ; Power Options > Change plan settings (High performance) > Change advanced power settings > Hard disk > AHCI Link Power Management - HIPM/DIPM > Active
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\0012ee47-9041-4b5d-9b77-535fba8b1442\0b2d69d7-a2a1-449c-9680-f91c70521c60\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
-"ACSettingIndex"=dword:00000000
-"DCSettingIndex"=dword:00000000
-
-; Power Options > Change plan settings (High performance) > Change advanced power settings > Hard disk > Turn off hard disk after > Never
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\0012ee47-9041-4b5d-9b77-535fba8b1442\6738e2c4-e8a5-4a42-b16a-e040e769756e\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
 "ACSettingIndex"=dword:00000000
 "DCSettingIndex"=dword:00000000
 
