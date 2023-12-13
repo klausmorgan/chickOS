@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>11/29/2023 17:26:11</Date>
+	<Date>12/13/2023 23:58:26</Date>
 	<AppInfo>
-		<Version>2023.11.9514</Version>
+		<Version>2023.11.9515</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 11 Pro 23H2 x64 - 10.0.22631.2715 (tr-TR)</Host>
+		<Host>Windows 11 Pro 23H2 x64 - 10.0.22631.2792 (tr-TR)</Host>
 	</AppInfo>
 	<ImageInfo>
 		<Version mode="offline">Windows 8.1 U3 x64 - 6.3.9600.20778 (tr-TR)</Version>
@@ -14,11 +14,7 @@
 	<RemoveComponents AppRemovalMode="Custom">
 		<c>aclui32 'Erişim Kontrol Listesi (ACL) UI - 32 bit'</c>
 		<c>actioncenter 'Hareket Merkezi'</c>
-		<c>activedirectory 'Active Directory'</c>
-		<c>adamclient 'Active Directory Hafif Dizin Hizmetleri (AD LDS)'</c>
-		<c>alg 'Uygulama Katmanı Ağ Geçidi Hizmeti'</c>
 		<c>anytimeupgrade 'Windows Her An Yükseltme'</c>
-		<c>appid 'Uygulama Kimlik Hizmeti'</c>
 		<c>asimov 'Telemetri İstemcisi'</c>
 		<c>assembly.net '.NET derleme önbelleği'</c>
 		<c>audit 'Windows Denetimi'</c>
@@ -44,18 +40,14 @@
 		<c>compmgmt32 'Bilgisayar Yönetimi - 32 bit'</c>
 		<c>desktopactivitymoderator 'Masaüstü Etkinlik Moderatörü (DAM)'</c>
 		<c>desktoptile 'Masaüstü Döşemesi'</c>
-		<c>devicecenter 'Aygıt Merkezi (Aygıtlar ve Yazıcılar)'</c>
 		<c>deviceexperience 'Cihaz Deneyimi'</c>
 		<c>devicesetupmanager 'Aygıt Kurulum Yöneticisi'</c>
 		<c>devicesync 'Microsoft Sync Framework'</c>
 		<c>devmgmt32 'Aygıt Yöneticisi - 32 bit'</c>
-		<c>diagnostics 'Tanılama ve Sorun Giderme'</c>
-		<c>directaccess 'Doğrudan Erişim Bağlantısı'</c>
 		<c>diskdiagnosis 'Disk arıza tanılama'</c>
 		<c>diskmgmt32 'Disk Yönetimi - 32 bit'</c>
 		<c>diskquota32 'Disk Kotası - 32 bit'</c>
 		<c>diskraid 'DiskRAID aracı'</c>
-		<c>displayswitch 'Görüntü Anahtarı'</c>
 		<c>domainclientssvc 'IPsec İlke Aracısı'</c>
 		<c>driver_c_biometric.inf</c>
 		<c>driver_c_dot4.inf</c>
@@ -75,6 +67,7 @@
 		<c>driver_hidir.inf</c>
 		<c>driver_hidirkbd.inf</c>
 		<c>driver_locationprovider.inf</c>
+		<c>driver_mcx2.inf</c>
 		<c>driver_mdm3com.inf</c>
 		<c>driver_mdm5674a.inf</c>
 		<c>driver_mdmadc.inf</c>
@@ -251,7 +244,6 @@
 		<c>driver_wvmic2.inf</c>
 		<c>driver_wvpci.inf</c>
 		<c>dvdplay 'DVD Oynatma'</c>
-		<c>eaphost 'Genişletilebilir Kimlik Doğrulama Protokolü (EAP)'</c>
 		<c>eefcontainer 'Windows Gömülü Özellikler'</c>
 		<c>efsfeature 'Dosya Şifreleme Sistemi (EFS) - Özellik'</c>
 		<c>encprovider 'Windows Şifreleme Sağlayıcısı Ana Bilgisayar Hizmeti'</c>
@@ -262,7 +254,6 @@
 		<c>eudcedit 'Özel Karakter Düzenleyici'</c>
 		<c>eventviewer32 'Olay Görüntüleyicisi - 32 bit'</c>
 		<c>f5.vpn.client 'F5 VPN'</c>
-		<c>fdphost 'Ağ Bulma'</c>
 		<c>filehistory 'Dosya Geçmişi'</c>
 		<c>filemanager 'Dosya Yöneticisi (OneDrive &amp; Fotoğraflar)'</c>
 		<c>filerevocationmanager 'File Revocation Manager - 32 bit'</c>
@@ -285,256 +276,18 @@
 		<c>hwsupport_smartcard 'Akıllı Kart'</c>
 		<c>hwsupport_telephony 'Telefon'</c>
 		<c>hwsupport_tv 'TV Tuner kodekleri ve desteği'</c>
-		<c>hyperv 'Hyper-V'</c>
 		<c>hypervguest 'Hyper-V Entegrasyon Hizmetleri'</c>
 		<c>ias 'İnternet Kimlik Doğrulama Hizmeti (IAS)'</c>
 		<c>iis 'İnternet Bilgi Sunucusu (IIS)'</c>
-		<c>indeo 'Intel Indeo Kodekleri'</c>
 		<c>iscsi 'iSCSI Başlatıcı'</c>
 		<c>isoburn 'Windows Disk Görüntüsü Yazma Aracı'</c>
 		<c>junipernetworks.junospulsevpn 'Juniper Networks Junos Pulse'</c>
 		<c>kerberos32 'Kerberos İstemcisi - 32 bit'</c>
 		<c>kerneldebug 'Çekirdek Hata Ayıklama'</c>
-		<c>kl-00000401 'Arapça (101)'</c>
-		<c>kl-00000402 'Bulgarca (Daktilo)'</c>
-		<c>kl-00000404 'Çince (Geleneksel) - ABD'</c>
-		<c>kl-00000405 'Çekce'</c>
-		<c>kl-00000406 'Danca'</c>
-		<c>kl-00000407 'Almanca'</c>
-		<c>kl-00000408 'Yunanca'</c>
-		<c>kl-0000040a 'İspanyolca'</c>
-		<c>kl-0000040b 'Fince'</c>
-		<c>kl-0000040c 'Fransızca'</c>
-		<c>kl-0000040d 'İbranice'</c>
-		<c>kl-0000040e 'Macarca'</c>
-		<c>kl-0000040f 'İzlandaca'</c>
-		<c>kl-00000410 'İtalyanca'</c>
-		<c>kl-00000411 'Japonca'</c>
-		<c>kl-00000412 'Kore dili'</c>
-		<c>kl-00000413 'Hollandaca'</c>
-		<c>kl-00000414 'Norveçce'</c>
-		<c>kl-00000415 'Lehçe (Programcılar)'</c>
-		<c>kl-00000416 'Portekizce (Brezilya ABNT)'</c>
-		<c>kl-00000418 'Rumence (Eski)'</c>
-		<c>kl-00000419 'Rusça'</c>
-		<c>kl-0000041a 'Hırvatça'</c>
-		<c>kl-0000041b 'Slovakça'</c>
-		<c>kl-0000041c 'Arnavutça'</c>
-		<c>kl-0000041d 'İsveçce'</c>
-		<c>kl-0000041e 'Tay Kedmanee'</c>
-		<c>kl-00000420 'Urduca'</c>
-		<c>kl-00000422 'Ukraynaca'</c>
-		<c>kl-00000423 'Beyaz Rusça'</c>
-		<c>kl-00000424 'Slovence'</c>
-		<c>kl-00000425 'Estonya Dili'</c>
-		<c>kl-00000426 'Leton Dili'</c>
-		<c>kl-00000427 'Litvanya IBM'i'</c>
-		<c>kl-00000428 'Tacik Dili'</c>
-		<c>kl-00000429 'Farsça'</c>
-		<c>kl-0000042a 'Vietnam Dili'</c>
-		<c>kl-0000042b 'Ermenice Doğu (Eski)'</c>
-		<c>kl-0000042c 'Azerbaycan dili (Latin)'</c>
-		<c>kl-0000042e 'Sorb Dili Standart (Eski)'</c>
-		<c>kl-0000042f 'Makedonca (Makedonya EYC)'</c>
-		<c>kl-00000432 'Setsvana dili'</c>
-		<c>kl-00000437 'Gürcüce (Eski)'</c>
-		<c>kl-00000438 'Faero Dili'</c>
-		<c>kl-00000439 'Devanagari - INSCRIPT'</c>
-		<c>kl-0000043a 'Malta dili 47 tuşlu'</c>
-		<c>kl-0000043b 'Sami ile Norveççe'</c>
-		<c>kl-0000043f 'Kazakca'</c>
-		<c>kl-00000440 'Kırgızca Kiril'</c>
-		<c>kl-00000442 'Türkmence'</c>
-		<c>kl-00000444 'Tatarca (Eski)'</c>
-		<c>kl-00000445 'Bangla'</c>
-		<c>kl-00000446 'Punjabi'</c>
-		<c>kl-00000447 'Gucerat Dili'</c>
-		<c>kl-00000448 'Odia'</c>
-		<c>kl-00000449 'Tamil'</c>
-		<c>kl-0000044a 'Telugu'</c>
-		<c>kl-0000044b 'Kannada'</c>
-		<c>kl-0000044c 'Malayalam dili'</c>
-		<c>kl-0000044d 'Assam Dili - INSCRIPT'</c>
-		<c>kl-0000044e 'Marathi'</c>
-		<c>kl-00000450 'Moğolca Kiril'</c>
-		<c>kl-00000451 'Tibet Dili (ÇHC)'</c>
-		<c>kl-00000452 'Birleşik Krallık Genişletilmiş'</c>
-		<c>kl-00000453 'Khmer dili'</c>
-		<c>kl-00000454 'Lao dili'</c>
-		<c>kl-0000045a 'Süryanice'</c>
-		<c>kl-0000045b 'Sinhali dili'</c>
-		<c>kl-0000045c 'Çeroki Ulusu'</c>
-		<c>kl-00000461 'Nepal dili'</c>
-		<c>kl-00000463 'Peştuca (Afganistan)'</c>
-		<c>kl-00000465 'Divehi Fonetik'</c>
-		<c>kl-00000468 'Hausa Dili'</c>
-		<c>kl-0000046a 'Yoruba'</c>
-		<c>kl-0000046c 'Kuzey Sotho Dili'</c>
-		<c>kl-0000046d 'Başkırtça'</c>
-		<c>kl-0000046e 'Lüksemburg Dili'</c>
-		<c>kl-0000046f 'Grönland dili'</c>
-		<c>kl-00000470 'İgbo Dili'</c>
-		<c>kl-00000474 'Guarani dili'</c>
-		<c>kl-00000475 'Hawaii dili'</c>
-		<c>kl-00000480 'Uygurca (Eski)'</c>
-		<c>kl-00000481 'Maori dili'</c>
-		<c>kl-00000485 'Sakaca'</c>
-		<c>kl-00000488 'Volof dili'</c>
-		<c>kl-00000492 'Merkezi Kürtçe'</c>
-		<c>kl-00000804 'Çince (Basitleştirilmiş) - ABD'</c>
-		<c>kl-00000807 'Almanca (İsviçre)'</c>
-		<c>kl-00000809 'Birleşik Krallık'</c>
-		<c>kl-0000080a 'Latin Amerika Dili'</c>
-		<c>kl-0000080c 'Belçika Fransızcası'</c>
-		<c>kl-00000813 'Belçikaca (Nokta)'</c>
-		<c>kl-00000816 'Portekizce'</c>
-		<c>kl-0000081a 'Sırpça (Latin)'</c>
-		<c>kl-0000082c 'Azerbaycan dili Kiril'</c>
-		<c>kl-0000083b 'Sami ile İsveççe'</c>
-		<c>kl-00000843 'Özbekce Kiril'</c>
-		<c>kl-00000850 'Moğolca (Moğolca Yazı)'</c>
-		<c>kl-0000085d 'Inuit Dili - Latin'</c>
-		<c>kl-0000085f 'Orta Atlas Tamazigti'</c>
-		<c>kl-00000c04 'Çince (Geleneksel, Hong Kong Çin ÖİB) - ABD'</c>
-		<c>kl-00000c0c 'Kanada Fransızcası (Eski)'</c>
-		<c>kl-00000c1a 'Sırpça (Kiril)'</c>
-		<c>kl-00001004 'Çince (Basitleştirilmiş, Singapur) - ABD'</c>
-		<c>kl-00001009 'Kanada Fransızcası'</c>
-		<c>kl-0000100c 'İsviçre Fransızcası'</c>
-		<c>kl-0000105f 'Tifinag (Temel)'</c>
-		<c>kl-00001404 'Çince (Geleneksel, Makau Çin ÖİB) - ABD'</c>
-		<c>kl-00001809 'İrlandaca'</c>
-		<c>kl-0000201a 'Boşnakça (Kiril)'</c>
-		<c>kl-00004009 'İngilizce (Hindistan)'</c>
-		<c>kl-00010401 'Arapça (102)'</c>
-		<c>kl-00010402 'Bulgarca (Latin)'</c>
-		<c>kl-00010405 'Çekce (Qwerty)'</c>
-		<c>kl-00010407 'Almanca (IBM)'</c>
-		<c>kl-00010408 'Yunanca (220)'</c>
-		<c>kl-00010409 'Amerika Birleşik Devletleri-Dvorak'</c>
-		<c>kl-0001040a 'İspanyolca Çeşit'</c>
-		<c>kl-0001040e 'Macarca 101-tuş'</c>
-		<c>kl-00010410 'İtalyanca (142)'</c>
-		<c>kl-00010415 'Lehçe (214)'</c>
-		<c>kl-00010416 'Portekizce (Brezilya ABNT2)'</c>
-		<c>kl-00010418 'Rumence (Standart)'</c>
-		<c>kl-00010419 'Rusça (Daktilo)'</c>
-		<c>kl-0001041b 'Slovakça (Qwerty)'</c>
-		<c>kl-0001041e 'Tay Pattachote'</c>
-		<c>kl-0001041f 'Türkçe F'</c>
-		<c>kl-00010426 'Leton Dili (QWERTY)'</c>
-		<c>kl-00010427 'Litvanca'</c>
-		<c>kl-0001042b 'Ermenice Batı (Eski)'</c>
-		<c>kl-0001042c 'Azerbaycan dili (Standart)'</c>
-		<c>kl-0001042e 'Sorb Dili Genişletilmiş'</c>
-		<c>kl-0001042f 'Makedonca (Makedonya EYC) - Standart'</c>
-		<c>kl-00010437 'Gürcüce (QWERTY)'</c>
-		<c>kl-00010439 'Hindi Geleneksel'</c>
-		<c>kl-0001043a 'Malta dili 48 tuşlu'</c>
-		<c>kl-0001043b 'Sami Genişletilmiş Norveç'</c>
-		<c>kl-00010444 'Tatarca'</c>
-		<c>kl-00010445 'Bangla - INSCRIPT (Eski)'</c>
-		<c>kl-00010451 'Tibet dili (ÇHC) - Güncelleştirilmiş'</c>
-		<c>kl-00010453 'Khmer dili (NIDA)'</c>
-		<c>kl-0001045a 'Süryanice Fonetik'</c>
-		<c>kl-0001045b 'Sinhali Dili - Wij 9'</c>
-		<c>kl-0001045c 'Fonetik Çeroki dili'</c>
-		<c>kl-0001045d 'Inuit Dili - Naqittaut'</c>
-		<c>kl-00010465 'Divehi Daktilo'</c>
-		<c>kl-00010480 'Uygurca'</c>
-		<c>kl-0001080c 'Belçikaca'</c>
-		<c>kl-0001083b 'Sami ile Fince'</c>
-		<c>kl-00010850 'Geleneksel Moğolca (Standart)'</c>
-		<c>kl-00010c00 'Myanmar dili'</c>
-		<c>kl-00011009 'Kanada Çok Dil Standardı'</c>
-		<c>kl-0001105f 'Tifinag (Genişletilmiş)'</c>
-		<c>kl-00011809 'İskoçya Gaelcesi'</c>
-		<c>kl-00020401 'Arapça (102) AZERTY'</c>
-		<c>kl-00020402 'Bulgarca (Fonetik)'</c>
-		<c>kl-00020405 'Czech Programmers'</c>
-		<c>kl-00020408 'Yunanca (319)'</c>
-		<c>kl-00020409 'Amerika Birleşik Devletleri-Uluslararası'</c>
-		<c>kl-0002040d 'İbranice (Standart)'</c>
-		<c>kl-00020418 'Rumence (Programcılar)'</c>
-		<c>kl-00020419 'Rusça - Anımsatıcı'</c>
-		<c>kl-0002041e 'Tay Kedmanee (non-ShiftLock)'</c>
-		<c>kl-00020422 'Ukrayna Dili (Gelişmiş)'</c>
-		<c>kl-00020426 'Letonca (Standart)'</c>
-		<c>kl-00020427 'Litvanca Standart'</c>
-		<c>kl-0002042b 'Ermenice Fonetik'</c>
-		<c>kl-0002042e 'Sorb Dili Standart'</c>
-		<c>kl-00020437 'Gürcüce (Ergonomik)'</c>
-		<c>kl-00020445 'Bangla - INSCRIPT'</c>
-		<c>kl-0002083b 'Sami Genişletilmiş Finlandiya-İsveç'</c>
-		<c>kl-00020c00 'Yeni Day Lü'</c>
-		<c>kl-00030402 'Bulgarca'</c>
-		<c>kl-00030408 'Yunanca (220) Latin'</c>
-		<c>kl-00030409 'Amerika Birleşik Devletleri-Dvorak sol el için'</c>
-		<c>kl-0003041e 'Tay Pattachote (non-ShiftLock)'</c>
-		<c>kl-0003042b 'Ermenice Daktilo'</c>
-		<c>kl-00030437 'Gürcüce (MES)'</c>
-		<c>kl-00030c00 'Day Le'</c>
-		<c>kl-00040402 'Bulgarca (Geleneksel Fonetik)'</c>
-		<c>kl-00040408 'Yunanca (319) Latin'</c>
-		<c>kl-00040409 'Amerika Birleşik Devletleri-Dvorak sağ el için'</c>
-		<c>kl-00040437 'Gürcüce (Eski Alfabeler)'</c>
-		<c>kl-00040c00 'Ogham'</c>
-		<c>kl-00050408 'Yunan Latincesi'</c>
-		<c>kl-00050409 'IBM Arapça 238_L için US İngilizce Tablosu'</c>
-		<c>kl-00050429 'Farsça (Standart)'</c>
-		<c>kl-00060408 'Yunanca Politonik'</c>
-		<c>kl-00070c00 'Lisu (Temel)'</c>
-		<c>kl-00080c00 'Lisu (Standart)'</c>
-		<c>kl-00090c00 'N’Ko'</c>
-		<c>kl-000a0c00 'Phags-pa'</c>
-		<c>kl-000b0c00 'Bugi yazısı'</c>
-		<c>kl-000c0c00 'Gotik'</c>
-		<c>kl-000d0c00 'Ol Chiki'</c>
-		<c>kl-000e0c00 'Somali alfabesi'</c>
-		<c>kl-000f0c00 'Eski İtalyanca'</c>
-		<c>kl-00100c00 'Sora'</c>
-		<c>kl-00110c00 'Java dili'</c>
-		<c>kl-00120c00 'Futhark alfabesi'</c>
-		<c>langarabic 'Arapça'</c>
-		<c>langbulgarian 'Bulgarca'</c>
-		<c>langchineses 'Chinese Simplified'</c>
-		<c>langchineset 'Chinese Traditional'</c>
-		<c>langcroatian 'Croatian'</c>
-		<c>langczech 'Czech'</c>
-		<c>langdanish 'Danish'</c>
-		<c>langdutch 'Dutch'</c>
-		<c>langenglishgb 'English (GB)'</c>
-		<c>langenglishus 'English (US)'</c>
-		<c>langestonian 'Estonian'</c>
-		<c>langfinnish 'Finnish'</c>
-		<c>langfrench 'French'</c>
-		<c>langgerman 'German'</c>
-		<c>langgreek 'Greek'</c>
-		<c>langhebrew 'Hebrew'</c>
-		<c>langhungarian 'Hungarian'</c>
 		<c>langime 'Giriş Yöntemi Düzenleyicisi (IME)'</c>
 		<c>langimejp 'Japanese (IME)'</c>
 		<c>langimeko 'Korean (IME)'</c>
 		<c>langimetc 'Chinese Traditional (IME)'</c>
-		<c>langitalian 'Italian'</c>
-		<c>langjapanese 'Japanese'</c>
-		<c>langkorean 'Korean'</c>
-		<c>langlatvian 'Latvian'</c>
-		<c>langlithuanian 'Lithuanian'</c>
-		<c>langnorwegian 'Norwegian'</c>
-		<c>langpolish 'Polish'</c>
-		<c>langportuguesebr 'Portuguese (Brazilian)'</c>
-		<c>langportuguesept 'Portuguese'</c>
-		<c>langpseudolocale 'Pseudo-locale'</c>
-		<c>langromanian 'Romanian'</c>
-		<c>langrussian 'Russian'</c>
-		<c>langserbian 'Serbian'</c>
-		<c>langslovak 'Slovak'</c>
-		<c>langslovenian 'Slovenian'</c>
-		<c>langspanish 'Spanish'</c>
-		<c>langswedish 'Swedish'</c>
-		<c>langthai 'Thai'</c>
-		<c>langukrainian 'Ukrainian'</c>
 		<c>location 'Konum Hizmeti'</c>
 		<c>lockdownmanager 'Yerleşik Kilitleme Yöneticisi'</c>
 		<c>lockscreens 'Kilit Ekranı arka planları'</c>
@@ -544,11 +297,7 @@
 		<c>manifestbackup 'Manifest Backup (WinSxS\Backup)'</c>
 		<c>manualsetup 'Manuel Kurulum'</c>
 		<c>mediacenter 'Medya Merkezi'</c>
-		<c>mediacodec32 'Windows Medya Kodekleri - 32 bit'</c>
-		<c>mediafoundation32 'Medya Vakfı - 32 bit'</c>
 		<c>mediaplayernetworksharing 'WMP Ağ Paylaşım Hizmeti'</c>
-		<c>mediastreaming 'Medya Akışı'</c>
-		<c>mediaviewer 'Medya Görüntüleyici'</c>
 		<c>microsoft.bingfinance 'MSN Money'</c>
 		<c>microsoft.bingfoodanddrink 'MSN Food &amp; Drink'</c>
 		<c>microsoft.binghealthandfitness 'MSN Health &amp; Fitness'</c>
@@ -572,7 +321,6 @@
 		<c>microsoft.windowsscan 'Windows Scan'</c>
 		<c>microsoft.windowssoundrecorder 'Windows Sound Recorder'</c>
 		<c>microsoft.windowsstore 'Windows Mağazası'</c>
-		<c>microsoft.winjs.2.0 'JavaScript için Microsoft Windows Kitaplığı'</c>
 		<c>microsoft.xboxlivegames 'Games'</c>
 		<c>microsoft.zunemusic 'Music'</c>
 		<c>microsoft.zunevideo 'Video'</c>
@@ -580,24 +328,17 @@
 		<c>migwiz 'Kolay Aktarım'</c>
 		<c>mmc32 'Microsoft Yönetim Konsolu (MMC) - 32 bit'</c>
 		<c>mobiledevicemanagement 'Mobil Aygıt Yönetimi (MDM)'</c>
-		<c>mobilepc 'MobilPC'</c>
 		<c>mobilepc_location 'Konum bildirimleri'</c>
 		<c>mobilepc_networkprojection 'Ağ Projeksiyonu'</c>
-		<c>mobilepc_sensors 'Sensörler'</c>
 		<c>mpeg2splitter 'MPEG-2 Ayırıcı'</c>
 		<c>msdtc 'Dağıtılmış İşlem Koordinatörü (DTC)'</c>
 		<c>msmq 'Microsoft Mesaj Kuyruğu (MSMQ)'</c>
 		<c>naturallanguage 'Natural Language'</c>
 		<c>naturallanguage32 'Natural Language - 32 bit'</c>
-		<c>ncdauto 'Ağa Bağlı Aygıtların Otomatik Kurulumu'</c>
 		<c>ndiscap 'NDIS Paket Yakalama (NDISCAP)'</c>
-		<c>ndisimplat 'Ağ Bağdaştırıcısı Çoklayıcı Protokolü'</c>
 		<c>ndu 'Ağ Veri Kullanımı İzleme Sürücüsü'</c>
-		<c>netbios 'TCP aktarımı üzerinden NetBIOS'</c>
-		<c>netcenter 'Ağ ve Paylaşım Merkezi'</c>
 		<c>networkaccessprotection 'Ağ Erişim Koruması (NAP)'</c>
 		<c>offlinefiles 'Çevrimdışı Dosyalar.'</c>
-		<c>optionalfeatures 'İsteğe Bağlı Özellikler'</c>
 		<c>otherthemes 'Windows Kişiselleştirme temaları'</c>
 		<c>paint32 'Paint - 32 bit'</c>
 		<c>parentalcontrols 'Ebeveyn Kontrolleri'</c>
@@ -605,18 +346,14 @@
 		<c>peertopeer 'Peer Networking'</c>
 		<c>perfmon 'Performans Monitörü'</c>
 		<c>perftools 'Performans Takibi için CMD Araçları'</c>
-		<c>photocodec32 'Fotoğraf kodeki - 32 bit'</c>
 		<c>pickerhost32 'Dosya Seçici UI Ana Bilgisayarı - 32 bit'</c>
 		<c>pla 'Performans Günlükleri ve Uyarılar'</c>
 		<c>pos 'Hizmet Noktası (POS)'</c>
 		<c>powershell32 'PowerShell - 32 bit'</c>
-		<c>powershelldsc 'İstenilen Durum Yapılandırması (DSC)'</c>
 		<c>powershellise32 'PowerShell ISE - 32 bit'</c>
-		<c>proximity 'Yakınlık'</c>
 		<c>rasauto 'Uzaktan Erişim Otomatik Bağlantı Yöneticisi'</c>
 		<c>rascmak 'RAS Bağlantı Yöneticisi Yönetim Kiti (CMAK)'</c>
 		<c>rascmd 'Uzaktan Erişim Hizmeti İstemci Araçları'</c>
-		<c>rasmans 'Uzaktan Erişim Bağlantı Yöneticisi'</c>
 		<c>rdc 'Uzak Diferansiyel Sıkıştırma (RDC)'</c>
 		<c>rdpclient 'Uzak Masaüstü İstemcisi'</c>
 		<c>rdpclient32 'Uzak Masaüstü İstemcisi - 32 bit'</c>
@@ -624,15 +361,12 @@
 		<c>regedit32 'Kayıt Defteri Editörü - 32 bit'</c>
 		<c>reliabilityanalysis 'Güvenilirlik Analizi Hizmetleri'</c>
 		<c>remoteaccessservice 'Yönlendirme ve Uzaktan Erişim Hizmeti'</c>
-		<c>remoteaccesssupport 'Yönlendirme ve Uzaktan Erişim desteği'</c>
-		<c>remoteactivex 'Uzak Masaüstü Hizmetleri ActiveX İstemcisi'</c>
 		<c>remoteactivex32 'Uzak Masaüstü Hizmetleri ActiveX İstemcisi - 32 bit'</c>
 		<c>remoteassistance 'Uzaktan Yardım'</c>
 		<c>remotefx</c>
 		<c>remoteportredirector 'Uzak Masaüstü Hizmetleri Port Yönlendiricisi'</c>
 		<c>remoteregistry 'Uzak Kayıt Defteri'</c>
 		<c>rightsmanagement 'Hak Yönetimi desteği'</c>
-		<c>rotationmanager 'Otomatik Döndürme Yöneticisi'</c>
 		<c>rpclocator 'Uzaktan Yordam Çağrısı (RPC) Bulucu'</c>
 		<c>screensavers 'Ekran Koruyucuları'</c>
 		<c>search 'Windows Search'</c>
@@ -642,20 +376,17 @@
 		<c>sendmail 'Send To Mail and Desktop'</c>
 		<c>sens 'Sistem Olay Bildirim Hizmeti (SENS)'</c>
 		<c>servicesmmc32 'Hizmetler (yönetim konsolu) - 32 bit'</c>
-		<c>settingsync 'Ayar Senkronizasyonu'</c>
-		<c>sharedaccess 'İnternet Bağlantı Paylaşımı (ICS)'</c>
 		<c>sharemediacpl 'Medya Kontrol Panelini Paylaş'</c>
 		<c>simpletcp 'Basit TCP/IP hizmetleri'</c>
-		<c>smbv1 'SMB v1'</c>
-		<c>smbwitnessclientapi 'SMB Witness İstemci API'si'</c>
+		<c>snippingtool 'Ekran Alıntısı Aracı'</c>
 		<c>sonicwall.mobileconnect 'SonicWALL Mobile Connect'</c>
 		<c>sorting 'Natural Language - Sıralama'</c>
 		<c>soundrec 'Ses Kaydedici'</c>
+		<c>soundthemes 'Ses Temaları'</c>
 		<c>sourcessxsdir 'Manuel özellik deposu'</c>
 		<c>speechapi 'Konuşma API'si'</c>
 		<c>speechcommon 'Konuşma Tanıma'</c>
 		<c>speechtts 'Konuşma TTS'</c>
-		<c>spellchecking 'Yazım Denetimi'</c>
 		<c>sstackwow64 'Hizmet Yığını - 32 bit'</c>
 		<c>stepsrecorder 'Adım Kaydedici'</c>
 		<c>stickynotes 'Yapışkan Notlar'</c>
@@ -666,28 +397,21 @@
 		<c>systemreset 'Windows için Sistem Sıfırlama'</c>
 		<c>systemrestore 'Sistem Geri Yükleme'</c>
 		<c>tabletextservice 'Tablo Metin Hizmeti'</c>
-		<c>tabletpc 'Tablet Bilgisayar'</c>
 		<c>taskmanager32 'Görev Yöneticisi - 32 bit'</c>
 		<c>taskschdmsc32 'Görev Zamanlayıcısı (yönetim konsolu) - 32 bit'</c>
-		<c>telnetclient 'Telnet İstemcisi'</c>
 		<c>telnetserver 'Telnet Sunucusu'</c>
 		<c>tempcache 'Önbellek ve geçici dosyalar'</c>
-		<c>textprediction 'Metin tahmini'</c>
 		<c>tftpclient 'TFTP istemcisi'</c>
 		<c>tpmmmc32 'Güvenilir Platform Modülü (TPM) (yönetim konsolu) - 32 bit'</c>
 		<c>tpmvsc 'Sanal Akıllı Kart'</c>
-		<c>trkwks 'Dağıtılmış Bağlantı İzleme İstemcisi'</c>
 		<c>tzautoupdate 'Otomatik Saat Dilimi Güncelleyici'</c>
 		<c>ui0detect 'Etkileşimli Hizmetler Tespiti'</c>
-		<c>upnp 'UPnP Aygıt Ana Bilgisayarı'</c>
 		<c>virtualpc 'Sanal PC lisanslama (eski)'</c>
-		<c>vpn 'Sanal Özel Ağ (VPN) desteği'</c>
 		<c>vss 'Birim Gölge Kopya'</c>
 		<c>vwifi 'Sanal WiFi'</c>
 		<c>wallpapers 'Duvar Kağıtları (Temalar)'</c>
 		<c>wcn 'Windows Şimdi Bağlan (WCN)'</c>
 		<c>webcamexperience 'Web Kamerası Deneyimi'</c>
-		<c>webclient 'Web İstemcisi'</c>
 		<c>wfmmc32 'Windows Güvenlik Duvarı (yönetim konsolu) - 32 bit'</c>
 		<c>windows.immersivecontrolpanel 'Bilgisayar ayarları'</c>
 		<c>windowstogo 'Windows To Go'</c>
@@ -702,33 +426,32 @@
 		<c>wordpad32 'Wordpad - 32 bit'</c>
 		<c>wpdbusenum 'Taşınabilir Cihaz Numaralandırıcı Hizmeti'</c>
 		<c>wwahost32 'Windows Web Uygulaması (WWA) Ana Bilgisayarı - 32 bit'</c>
-		<c>wwanautoconfig 'WWAN Otomatik Yapılandırma'</c>
 		<c>zipfolder 'Zip &amp; Cab folder'</c>
 	</RemoveComponents>
 	<Compatibility protectHidden="true">
 		<ComponentFeatures>
-			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="yes">NetworkDiscovery</Feature>
 			<Feature enabled="no">VSS</Feature>
 			<Feature enabled="no">YubiKey</Feature>
 			<Feature enabled="yes">Bluetooth</Feature>
-			<Feature enabled="no">CapFrameX</Feature>
+			<Feature enabled="yes">CapFrameX</Feature>
 			<Feature enabled="yes">Discord</Feature>
-			<Feature enabled="no">Recommended-Tablet</Feature>
-			<Feature enabled="no">FileSharing</Feature>
+			<Feature enabled="yes">Recommended-Tablet</Feature>
+			<Feature enabled="yes">FileSharing</Feature>
 			<Feature enabled="no">ServicingStack</Feature>
-			<Feature enabled="no">Hyper-V</Feature>
-			<Feature enabled="no">Kaspersky</Feature>
+			<Feature enabled="yes">Hyper-V</Feature>
+			<Feature enabled="yes">Kaspersky</Feature>
 			<Feature enabled="yes">OOBE</Feature>
 			<Feature enabled="no">ManualSetup</Feature>
 			<Feature enabled="yes">OfficeSupport</Feature>
 			<Feature enabled="no">AppxSupport</Feature>
 			<Feature enabled="yes">NvidiaSetup</Feature>
 			<Feature enabled="no">SamsungSwitch</Feature>
-			<Feature enabled="no">VPN</Feature>
+			<Feature enabled="yes">VPN</Feature>
 			<Feature enabled="yes">ShellSearchSupport</Feature>
 			<Feature enabled="yes">SFC</Feature>
 			<Feature enabled="yes">DefaultFonts</Feature>
-			<Feature enabled="yes">Scanning</Feature>
+			<Feature enabled="no">Scanning</Feature>
 			<Feature enabled="yes">TeamViewer</Feature>
 			<Feature enabled="no">USBModem</Feature>
 			<Feature enabled="yes">USB</Feature>
@@ -746,17 +469,18 @@
 		</ComponentFeatures>
 		<MachineDrivers>
 			<Machine enabled="yes">HostMachine</Machine>
-			<Machine enabled="no">Hyper-V VM</Machine>
-			<Machine enabled="no">Parallels VM</Machine>
-			<Machine enabled="no">Virtual Box VM</Machine>
-			<Machine enabled="no">VMware VM</Machine>
+			<Machine enabled="yes">Hyper-V VM</Machine>
+			<Machine enabled="yes">Parallels VM</Machine>
+			<Machine enabled="yes">Virtual Box VM</Machine>
+			<Machine enabled="yes">VMware VM</Machine>
 		</MachineDrivers>
 	</Compatibility>
 	<Features>
 		<Feature name="NetFx3">true</Feature>
-		<Feature name="WCF-HTTP-Activation">true</Feature>
+		<Feature name="DirectPlay">true</Feature>
+		<Feature name="LegacyComponents">true</Feature>
 		<Feature name="Printing-XPSServices-Features">false</Feature>
-		<Feature name="WCF-NonHTTP-Activation">true</Feature>
+		<Feature name="Microsoft-Windows-MobilePC-LocationProvider-INF">false</Feature>
 		<Feature name="Xps-Foundation-Xps-Viewer">false</Feature>
 	</Features>
 	<Packages></Packages>
@@ -932,13 +656,6 @@
 				<Tweak name="AUSessionConnect\AUSessionConnect">remove</Tweak>
 				<Tweak name="Scheduled Start With Network\Scheduled Start With Network">remove</Tweak>
 			</TweakGroup>
-			<TweakGroup name="Tree\Microsoft\Windows\WS">
-				<Tweak name="Badge Update\Badge Update">remove</Tweak>
-				<Tweak name="License Validation\License Validation">remove</Tweak>
-				<Tweak name="Sync Licenses\Sync Licenses">remove</Tweak>
-				<Tweak name="WSRefreshBannedAppsListTask\WSRefreshBannedAppsListTask">remove</Tweak>
-				<Tweak name="WSTask\WSTask">remove</Tweak>
-			</TweakGroup>
 		</ScheduledTasks>
 	</Tweaks>
 	<ApplyOptions>
@@ -959,18 +676,28 @@
 		<Remove></Remove>
 		<Change></Change>
 		<Add>
+			<Item type="File">
+				<Path>D:\chickOS\2-Presets\NTLite XML\silent_install\calculatorsetup.exe</Path>
+				<Params>/VERYSILENT</Params>
+				<Index>1</Index>
+			</Item>
 			<Item type="Command">
 				<Path>net</Path>
 				<Params>accounts /maxpwage:unlimited</Params>
-				<Index>1</Index>
+				<Index>2</Index>
+			</Item>
+			<Item type="Command">
+				<Path>del</Path>
+				<Params>C:\Users\Public\Desktop\Calculator (classic).lnk"</Params>
+				<Index>3</Index>
 			</Item>
 		</Add>
 	</Execution>
 	<Registry>
-		<File>D:\.chickOS\2-Presets\Mix.reg</File>
-		<File>D:\.chickOS\2-Presets\Postpone.reg</File>
-		<File>D:\.chickOS\2-Presets\Power.reg</File>
-		<File>D:\.chickOS\2-Presets\Security.reg</File>
-		<File>D:\.chickOS\2-Presets\Tweak Services.reg</File>
+		<File>D:\chickOS\2-Presets\Mix.reg</File>
+		<File>D:\chickOS\2-Presets\Postpone.reg</File>
+		<File>D:\chickOS\2-Presets\Power.reg</File>
+		<File>D:\chickOS\2-Presets\Security.reg</File>
+		<File>D:\chickOS\2-Presets\Tweak Services.reg</File>
 	</Registry>
 </Preset>
