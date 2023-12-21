@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>12/17/2023 20:58:23</Date>
+	<Date>12/21/2023 04:53:51</Date>
 	<AppInfo>
 		<Version>2023.11.9515</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 11 Pro 23H2 x64 - 10.0.22631.2792 (tr-TR)</Host>
+		<Host>Windows 11 Pro 23H2 x64 - 10.0.22631.2861 (tr-TR)</Host>
 	</AppInfo>
 	<ImageInfo>
 		<Version mode="offline">Windows 11 Professional 23H2 x64 - 10.0.22631.2792 (tr-TR)</Version>
@@ -17,6 +17,7 @@
 		<c>aarsvc 'Agent Activation Runtime'</c>
 		<c>aclui32 'Erişim Kontrol Listesi (ACL) UI - 32 bit'</c>
 		<c>actioncenter 'Hareket Merkezi'</c>
+		<c>afunix 'Unix soketi (AF_UNIX)'</c>
 		<c>alljoyn 'AllJoyn Yönlendirici Hizmeti'</c>
 		<c>asimov 'Telemetri İstemcisi'</c>
 		<c>assembly.net '.NET derleme önbelleği'</c>
@@ -27,9 +28,11 @@
 		<c>azuread 'Azure Active Directory'</c>
 		<c>backup 'Yedekle ve Geri Yükle'</c>
 		<c>branchcacheclient 'BranchCache İstemcisi'</c>
+		<c>cdosys 'Windows için Collaboration Data Objects (CDOSYS)'</c>
 		<c>ceip 'CEIP (SQM)'</c>
 		<c>cellulartime 'Hücresel Zaman'</c>
 		<c>certmgr32 'Sertifika Yöneticisi - 32 bit'</c>
+		<c>charmap 'Karakter Haritası'</c>
 		<c>clipchamp.clipchamp 'Clipchamp'</c>
 		<c>clouddownload 'Windows Kurtarma (WinRE) - Bulut indirme'</c>
 		<c>cloudnotifications 'Bulut Bildirimleri'</c>
@@ -41,6 +44,7 @@
 		<c>devicesync 'Microsoft Sync Framework'</c>
 		<c>devmgmt32 'Aygıt Yöneticisi - 32 bit'</c>
 		<c>directaccess 'Doğrudan Erişim Bağlantısı'</c>
+		<c>diskdiagnosis 'Disk arıza tanılama'</c>
 		<c>diskmgmt32 'Disk Yönetimi - 32 bit'</c>
 		<c>domainclientssvc 'IPsec İlke Aracısı'</c>
 		<c>driver_athw8x.inf</c>
@@ -80,6 +84,7 @@
 		<c>driver_hidir.inf</c>
 		<c>driver_hidirkbd.inf</c>
 		<c>driver_hidscanner.inf</c>
+		<c>driver_hidtelephonydriver.inf</c>
 		<c>driver_idtsec.inf</c>
 		<c>driver_ipoib6x.inf</c>
 		<c>driver_mdm3com.inf</c>
@@ -297,14 +302,17 @@
 		<c>driver_ykinx64.inf</c>
 		<c>dvdplay 'DVD Oynatma'</c>
 		<c>edgehtml32 'HTML Görüntüleyici - 32 bit'</c>
+		<c>edgewebviewlegacy 'WebView2 Runtime (Legacy)'</c>
 		<c>embeddedexperience 'Cihaz Kilitleme (Yerleşik Deneyim)'</c>
 		<c>embeddedmode 'Yerleşik Mod'</c>
+		<c>enterprisedataprotection 'Kurumsal Veri Koruma (EDP/WIP)'</c>
 		<c>errorreporting 'Windows Hata Raporlama'</c>
 		<c>eudcedit 'Özel Karakter Düzenleyici'</c>
 		<c>eventviewer32 'Olay Görüntüleyicisi - 32 bit'</c>
 		<c>f46d4000-fd22-4db4-ac8e-4e1ddde828fe 'Klasör Önerileri iletişim kutusu ekle'</c>
 		<c>facerecognition 'Yüz Tanıma'</c>
 		<c>fciclient 'Dosya Sunucusu Kaynak Yöneticisi'</c>
+		<c>fclip 'Microsoft İstemci Lisansı Esnek Platform'</c>
 		<c>filerevocationmanager 'File Revocation Manager - 32 bit'</c>
 		<c>folderredirection 'Klasör Yeniden Yönlendirme'</c>
 		<c>font_holomd2 'Holo MDL2 Assets'</c>
@@ -324,12 +332,13 @@
 		<c>fontpreviewer32 'Yazı tipi önizleyici - 32 bit'</c>
 		<c>fsmgmt32 'Paylaşılan Klasörler Kullanıcı Arayüzü - 32 bit'</c>
 		<c>hbaapi 'Ana Bilgisayar Veri Yolu Bağdaştırıcısı (HBA) API'si'</c>
+		<c>help 'Windows Yardım içeriği'</c>
+		<c>helpsupport 'Yardım dosyası desteği (CHM)'</c>
 		<c>hwreqchk 'Donanım Gereksinimleri Kontrol kütüphanesi'</c>
 		<c>hwsupport_floppy 'Disket'</c>
 		<c>hwsupport_infrared 'Kızılötesi cihazlar'</c>
 		<c>hwsupport_modemsettings 'Paylaşılan modem ayarları (mdmgl*.inf)'</c>
 		<c>hwsupport_smartcard 'Akıllı Kart'</c>
-		<c>hwsupport_telephony 'Telefon'</c>
 		<c>hwsupport_tv 'TV Tuner kodekleri ve desteği'</c>
 		<c>ias 'İnternet Kimlik Doğrulama Hizmeti (IAS)'</c>
 		<c>iis 'İnternet Bilgi Sunucusu (IIS)'</c>
@@ -399,7 +408,6 @@
 		<c>microsoft.windowsfeedbackhub 'Feedback Hub'</c>
 		<c>microsoft.windowsmaps 'Windows Maps'</c>
 		<c>microsoft.windowssoundrecorder 'Windows Voice Recorder'</c>
-		<c>microsoft.yourphone 'Your Phone'</c>
 		<c>microsoft.zunemusic 'Windows Media Player'</c>
 		<c>microsoftcorporationii.microsoftfamily 'Microsoft Family'</c>
 		<c>microsoftcorporationii.quickassist 'Hızlı Yardım'</c>
@@ -415,6 +423,7 @@
 		<c>naturalauthentication 'Doğal Kimlik Doğrulama'</c>
 		<c>ndisimplat 'Ağ Bağdaştırıcısı Çoklayıcı Protokolü'</c>
 		<c>nfc 'Yakın Alan İletişimi (NFC)'</c>
+		<c>nfsclient 'NFS Yönetimsel Araçları'</c>
 		<c>notepad 'Notepad (Legacy)'</c>
 		<c>offlinefiles 'Çevrimdışı Dosyalar.'</c>
 		<c>onedrive</c>
@@ -423,15 +432,14 @@
 		<c>pdfreader 'Windows Okuyucu (PDF)'</c>
 		<c>peertopeer 'Peer Networking'</c>
 		<c>penservice 'Kalem Hizmeti'</c>
-		<c>phonesvc 'Telefon Hizmeti'</c>
 		<c>pimindexmaintenancesvc 'İletişim Verileri'</c>
 		<c>pktmon 'Paket İzleyici (PktMon)'</c>
 		<c>pos 'Hizmet Noktası (POS)'</c>
 		<c>pushnotificationssvc 'Windows Anlık Bildirim Hizmeti (Sistem)'</c>
 		<c>pushtoinstall 'Windows PushToInstall Hizmeti'</c>
-		<c>rasauto 'Uzaktan Erişim Otomatik Bağlantı Yöneticisi'</c>
 		<c>rascmd 'Uzaktan Erişim Hizmeti İstemci Araçları'</c>
 		<c>rdc 'Uzak Diferansiyel Sıkıştırma (RDC)'</c>
+		<c>rdmaping 'Uzaktan Doğrudan Bellek Erişimi (RDMA) ping aracı'</c>
 		<c>rdpclient 'Uzak Masaüstü İstemcisi'</c>
 		<c>rdpclient32 'Uzak Masaüstü İstemcisi - 32 bit'</c>
 		<c>rdpserver 'Uzak Masaüstü Sunucusu'</c>
@@ -461,10 +469,10 @@
 		<c>sorting 'Natural Language - Sıralama'</c>
 		<c>sourcessxsdir 'Manuel özellik deposu'</c>
 		<c>sstackwow64 'Hizmet Yığını - 32 bit'</c>
+		<c>stepsrecorder 'Adım Kaydedici'</c>
 		<c>supportdir 'Support dizini'</c>
 		<c>symboliclinks 'Eski sembolik bağlantılar'</c>
 		<c>synccenter 'Senkronizasyon Merkezi'</c>
-		<c>systemguard 'Sistem Koruma'</c>
 		<c>systemreset 'Windows için Sistem Sıfırlama'</c>
 		<c>systemrestore 'Sistem Geri Yükleme'</c>
 		<c>tabletextservice 'Tablo Metin Hizmeti'</c>
@@ -473,7 +481,9 @@
 		<c>taskschdmsc32 'Görev Zamanlayıcısı (yönetim konsolu) - 32 bit'</c>
 		<c>tempcache 'Önbellek ve geçici dosyalar'</c>
 		<c>tftpclient 'TFTP istemcisi'</c>
+		<c>timetraveldebugger 'Zaman Yolculuğu Hata Ayıklayıcısı (TTD)'</c>
 		<c>tpmmmc32 'Güvenilir Platform Modülü (TPM) (yönetim konsolu) - 32 bit'</c>
+		<c>troubleshootingsvc 'Önerilen Sorun Giderme hizmeti'</c>
 		<c>tzautoupdate 'Otomatik Saat Dilimi Güncelleyici'</c>
 		<c>unistoresvc 'Kullanıcı Veri Depolama'</c>
 		<c>unp 'Evrensel Bildirim Platformu (UNP)'</c>
@@ -485,11 +495,14 @@
 		<c>warpjitsvc 'DirectX WARP JIT Hizmeti'</c>
 		<c>webthreatdefense 'Web Tehdit Savunma Hizmeti'</c>
 		<c>wfmmc32 'Windows Güvenlik Duvarı (yönetim konsolu) - 32 bit'</c>
+		<c>winai 'Windows Yapay Zeka Makine Öğrenimi'</c>
 		<c>windows.cbspreview 'Windows Barkod Önizlemesi'</c>
 		<c>windows.devicesflow32 'Devices Flow - 32 bit'</c>
+		<c>windowstogo 'Windows To Go'</c>
 		<c>winocr 'Windows TIFF IFilter (OCR)'</c>
 		<c>winre 'Windows Kurtarma (WinRE)'</c>
 		<c>winrm 'Windows Uzaktan Yönetimi (WS-Management)'</c>
+		<c>winsat 'Windows Sistem Değerlendirme Aracı (WinSAT)'</c>
 		<c>wordpad32 'Wordpad - 32 bit'</c>
 		<c>wpdbusenum 'Taşınabilir Cihaz Numaralandırıcı Hizmeti'</c>
 		<c>wwanautoconfig 'WWAN Otomatik Yapılandırma'</c>
@@ -560,7 +573,6 @@
 		<Feature name="Printing-PrintToPDFServices-Features">false</Feature>
 		<Feature name="Printing-Foundation-Features">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Ralink.Netr28x~~~~0.0.1.0">false</Feature>
-		<Feature name="Media.WindowsMediaPlayer~~~~0.0.12.0">false</Feature>
 		<Feature name="MicrosoftWindowsPowerShellV2">false</Feature>
 		<Feature name="MicrosoftWindowsPowerShellV2Root">false</Feature>
 	</Features>
