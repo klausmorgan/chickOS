@@ -1,6 +1,8 @@
 # chickOS 
 
-![chickOS Debloated Windows](https://i.imgur.com/nDYQHyd.png)
+<p align="center">
+  <img width="460" height="300" src="https://i.imgur.com/nDYQHyd.png">
+</p>
 
 chickOS 7 : https://bit.ly/47UI14P
 
