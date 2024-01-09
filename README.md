@@ -1,8 +1,16 @@
-# chickOS 10 - 11
+# chickOS 
 
-chickOS 10 Forum Konusu - > https://bit.ly/3ZVJPY3
+![chickOS Debloated Windows](https://i.imgur.com/nDYQHyd.png)
 
-chickOS 11 Forum Konusu - > https://bit.ly/3ZQASiI
+chickOS 7 : https://bit.ly/47UI14P
+
+chickOS 8.1 : https://bit.ly/3SY2eCd
+
+chickOS 10 : https://bit.ly/3ZVJPY3
+
+chickOS 10 LTSC : https://bit.ly/3GLJTRH
+
+chickOS 11 : https://bit.ly/3ZQASiI
                                        
-Discord Sunucusu - > https://discord.gg/Z2SuyaqYfA
+Discord Sunucusu : https://discord.gg/gayZTErQzM
 
