@@ -1,4 +1,4 @@
-# chickOS 
+# chickOS Debloated Windows
 
 <p align="center">
   <img width="460" height="300" src="https://i.imgur.com/nDYQHyd.png">
@@ -14,5 +14,5 @@ chickOS 10 LTSC : https://bit.ly/3GLJTRH
 
 chickOS 11 : https://bit.ly/3ZQASiI
                                        
-Discord Sunucusu : https://discord.gg/gayZTErQzM
+Discord : https://discord.gg/gayZTErQzM
 
