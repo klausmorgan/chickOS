@@ -1,16 +1,5 @@
 Windows Registry Editor Version 5.00
 
-; disable file system mitigations
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager]
-"ProtectionMode"=dword:00000000
-
-; Disable Process Mitigations
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\kernel]
-"MitigationOptions"=hex:22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22
-
-[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\kernel]
-"MitigationOptions"=hex:22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22
-
 ; Disable Data Execution Prevention
 [HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Internet Explorer\Main]
 "DEPOff"=dword:00000001
@@ -20,13 +9,3 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\System]
 "DisableHHDEP"=dword:00000001
-
-; Disable Dma Memory Protection
-[HKEY_LOCAL_MACHINE\Software\Microsoft\PolicyManager\default\DmaGuard\DeviceEnumerationPolicy]
-"value"=dword:00000002
-
-[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\FVE]
-"DisableExternalDMAUnderLock"=dword:00000000
-
-[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\DeviceGuard]
-"HVCIMATRequired"=dword:00000000
