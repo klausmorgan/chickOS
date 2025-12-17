@@ -6,11 +6,11 @@
 
 chickOS Helper : https://github.com/klausmorgan/chickOS_Helper
 
-chickOS 10 : https://bit.ly/3WNFaX2
+chickOS 10 : https://bit.ly/chickOS-10-Home
 
-chickOS 11 23H2 : https://bit.ly/4dCMETE
+chickOS 11 24H2 : https://bit.ly/chickOS-11-Home-24H2
 
-chickOS 11 24H2 : https://bit.ly/40BqSMM
+chickOS 11 25H2 : https://bit.ly/chickOS-11-Home-25H2
                                        
 Discord : https://discord.gg/gayZTErQzM
 
