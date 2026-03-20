@@ -6,11 +6,9 @@
 
 chickOS Helper : https://github.com/klausmorgan/chickOS_Helper
 
-chickOS 10 : https://bit.ly/chickOS-10-Home
+chickOS 10 : https://bit.ly/utkuos-10
 
-chickOS 11 24H2 : https://bit.ly/chickOS-11-Home-24H2
-
-chickOS 11 25H2 : https://bit.ly/chickOS-11-Home-25H2
+chickOS 11 25H2 : https://bit.ly/utkuos-11
 
 UtkuOS Special : https://bit.ly/UtkuOS-11-Special
                                        
